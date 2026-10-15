@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## 5.2 — 15/10/2026 · Estudio de Candidatura
+- Se incorporaron seis herramientas de candidatura accesibles desde **cada vacante**: guía por oficio, CV profesional imprimible, entrevista STAR, carta de presentación, plan de postulación y acompañamiento motivacional general.
+- Agente Python `career_advisor` integrado al recolector: 172 fichas enriquecidas con consejos **generales por profesión**, diferenciados de los requisitos oficiales.
+- CV inspirado en estructura de Harvard (no oficial), con vista previa, impresión A4, almacenamiento local opcional y auditoría de cinco campos sin predicciones de contratación.
+- Agenda editorial de recursos, formación y eventos anunciados con fuente oficial; eventos vencidos se ocultan y `agent.bulletin` valida fechas y dominios.
+- Filtros de última consulta, diferenciación de vacantes conservadas y exportación local de favoritas a CSV.
+- GitHub Actions ahora valida los tres JavaScript, 47 pruebas Python y recorridos automatizados con Chromium en Android simulado y escritorio.
+- Se corrigió una condición de carrera entre el robot de actualización y otros cambios en `main` usando reintentos con rebase, nunca force-push.
+- No se ha afirmado que las herramientas equivalgan a orientación laboral profesional ni que una fuente externa garantice contratación.
+
 ## 5.0 — 14/10/2026 (hora de Nicaragua)
 - Cambio de marca visible a **TotalChanba** manteniendo URL del repositorio `totalchamba`.
 - 12 fotografías temáticas originales de distintos oficios, comprimidas como WebP local; aviso de generación con IA.
