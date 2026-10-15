@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 5.3 — 15/10/2026 · Asistencia verificable y accesibilidad
+- Competencias documentadas con procedencia desde requisitos y formación, y autochequeo voluntario por vacante sin predicciones laborales.
+- Respaldo de CV en JSON, importación validada y consentimiento antes de reemplazar datos.
+- Parser salarial JSON-LD que conserva moneda y período explícitos; limpieza de tipos de contrato internos.
+- Mapas normalizados y regenerados, sin duplicados geográficos ni sedes falsas para remoto.
+- Auditorías WCAG 2.1 A/AA con axe-core y mejoras de contraste, además de Chromium.
+- Ampliación de pruebas para competencias, salarios, importación y ubicación.
+
 ## 5.2 — 15/10/2026 · Estudio de Candidatura
 - Se incorporaron seis herramientas de candidatura accesibles desde **cada vacante**: guía por oficio, CV profesional imprimible, entrevista STAR, carta de presentación, plan de postulación y acompañamiento motivacional general.
 - Agente Python `career_advisor` integrado al recolector: 172 fichas enriquecidas con consejos **generales por profesión**, diferenciados de los requisitos oficiales.
