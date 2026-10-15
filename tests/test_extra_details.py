@@ -25,3 +25,28 @@ def test_jsonld_detail_fields():
     assert parsed['requirements']=='Excel'
     assert parsed['benefits']=='Seguro médico'
     assert parsed['education']=='Secundaria'
+
+
+def test_jsonld_salary_never_guesses_currency_or_period():
+    from agent.collector import salary_from_jsonld
+    value={'@type':'MonetaryAmount','currency':'USD','value':{'@type':'QuantitativeValue',
+           'minValue':650,'maxValue':1000,'unitText':'MONTH'}}
+    assert salary_from_jsonld(value)=='USD 650–1000 / mes'
+    assert salary_from_jsonld({'currency':'NIO','value':12500})=='NIO 12500'
+    assert salary_from_jsonld({'value':{'value':14000,'unitText':'MONTH'}})==''
+    assert salary_from_jsonld({'currency':'USD','value':'contactar'})==''
+    assert salary_from_jsonld(None)==''
+    assert salary_from_jsonld({'currency':'USD','value':{'value':True}})==''
+
+
+def test_jsonld_retains_salary_source_details():
+    entry={'title':'Cajero','baseSalary':{'currency':'NIO','value':{'value':12000,'unitText':'MONTH'}}}
+    parsed=from_jsonld(entry,URL)
+    assert parsed['salary']=='NIO 12000 / mes'
+    assert normalise(parsed,SOURCE,NOW)['salary']=='NIO 12000 / mes'
+
+
+def test_employment_type_placeholder_not_published_as_real_contract():
+    row=normalise({'url':URL,'title':'Vendedor de tienda','type':'Default'},SOURCE,NOW)
+    assert row['type']=='No especificado'
+    assert normalise({'url':URL,'title':'Vendedor','type':'Tiempo completo'},SOURCE,NOW)['type']=='Tiempo completo'
