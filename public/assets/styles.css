@@ -196,3 +196,16 @@
 .tc-agenda-empty p{color:#688078;font-size:12px}
 @media(max-width:800px){.tc-studio-inner{flex-wrap:wrap}.tc-studio-inner>a{width:100%;text-align:center}.tc-studio-badge{width:64px;height:64px;flex-basis:64px;font-size:37px}.tc-agenda{padding:55px 0}.tc-agenda-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.tc-kit-bridge{gap:9px;padding:12px;flex-wrap:wrap}.tc-kit-bridge>div:nth-child(2){flex:1 1 calc(100% - 60px)}.tc-kit-bridge>a{width:100%;text-align:center}.tc-kit-icon{width:39px;height:39px;flex-basis:39px;font-size:21px}.tc-studio-promo{padding:26px 0}.tc-studio-inner{gap:11px}.tc-studio-inner>div:nth-child(2){flex:1 1 calc(100% - 80px)}.tc-studio-inner h2{font-size:20px}.tc-agenda-heading{display:block}.tc-agenda-seal{display:none}.tc-agenda-tabs{gap:7px}.tc-agenda-tabs button{font-size:11px;padding:9px 12px}.tc-agenda-card{padding:19px}.tc-agenda-card h3{font-size:18px}}
+
+/* TotalChanba 5.3 · WCAG: microtextos legibles sobre superficies claras. */
+.stat>div>span{color:#475b4b}
+.section-kicker{color:#356e35}
+.tc-agenda-card-tag{color:#1b6956}
+.tc-agenda-bottom{color:#405956}
+.tc-health-intro p,.tc-health-metrics span{color:#365a51}
+.tc-company-sub,.tc-company-sub span{color:#4b6175}
+.tc-fact small{color:#435d74}
+.tc-specs dt{color:#506479}
+.tc-specs dd{color:#1d3547}
+.tc-review-status.is-older{color:#6b4816}
+.tc-agenda-meta{color:#456566}
