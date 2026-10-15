@@ -65,6 +65,7 @@ def test_facets_count_index_not_external_platforms():
 def test_missing_reliefweb_credentials_marked_not_connected(tmp_path,monkeypatch):
     monkeypatch.delenv('RELIEFWEB_APPNAME',raising=False)
     from agent import collector
+    monkeypatch.setattr(collector,'boards',lambda *_:[])
     monkeypatch.setattr(collector,'collect_source',lambda *a,**k:None)
     result=update_data(today=NOW, destination=tmp_path/'jobs.json')
     assert next(s for s in result['sources'] if s['id']=='reliefweb')['status']=='requiere_configuracion'
@@ -74,6 +75,7 @@ def test_missing_reliefweb_credentials_marked_not_connected(tmp_path,monkeypatch
 
 def test_on_failure_preserve_at_most_7_days_not_reverify(tmp_path,monkeypatch):
     from agent import collector
+    monkeypatch.setattr(collector,'boards',lambda *_:[])
     monkeypatch.setattr(collector,'collect_source',lambda *a,**k:None)
     old=make_job(E,'https://www.encuentra24.com/oferta')
     path=tmp_path/'jobs.json'
