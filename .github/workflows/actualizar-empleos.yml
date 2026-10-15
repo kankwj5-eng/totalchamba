@@ -43,5 +43,20 @@ jobs:
           git add public/data/jobs.json
           if ! git diff --cached --quiet; then
             git commit -m 'data: actualizar índice de empleos'
-            git push
+            # La interfaz puede recibir commits mientras dura el recolector.
+            # Reintentar de forma fast-forward/rebase, nunca hacer force-push.
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "::notice::Rama main cambió durante la recopilación (intento $attempt)"
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                echo "::warning::Otro cambio de datos produjo conflicto; se conserva el índice publicado y se intentará en la próxima corrida."
+                exit 0
+              fi
+            done
+            echo "::error::No fue posible publicar el índice después de tres intentos"
+            exit 1
           fi
