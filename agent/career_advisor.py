@@ -69,6 +69,51 @@ SPECIFIC = (
     (r'venta|comercial|cajer|promotor|cliente', 'Ventas'),
 )
 
+
+# Sólo se muestran términos hallados literalmente en texto proporcionado por la fuente.
+# No se usan como una evaluación automática de aptitud ni se recomiendan inventar.
+SKILL_TERMS = (
+    ('Excel', (r'excel', r'microsoft excel')),
+    ('Word', (r'word', r'microsoft word')),
+    ('Power BI', (r'power\s*bi',)),
+    ('SAP', (r'sap',)),
+    ('SQL', (r'sql',)),
+    ('Python', (r'python',)),
+    ('JavaScript', (r'javascript',)),
+    ('Inglés', (r'ingles', r'english')),
+    ('Atención al cliente', (r'atencion al cliente', r'servicio al cliente')),
+    ('Inventarios', (r'inventario', r'inventarios')),
+    ('Licencia de conducir', (r'licencia de conducir', r'licencia de conducir vigente')),
+    ('Primeros auxilios', (r'primeros auxilios',)),
+    ('Bachillerato', (r'bachillerato', r'bachiller',)),
+    ('Trabajo en equipo', (r'trabajo en equipo',)),
+    ('Contabilidad', (r'contabilidad', r'contable')),
+    ('Soldadura', (r'soldadura',)),
+    ('Manejo de caja', (r'manejo de caja',)),
+    ('Seguridad industrial', (r'seguridad industrial',)),
+)
+
+def documented_terms(job):
+    """Señales de preparación basadas únicamente en requisitos/estudios literales.
+    
+    No afirma que un término sea obligatorio: podría figurar como deseable.
+    El candidato debe leer el texto original y demostrar sólo experiencia real.
+    """
+    found = []
+    for field, source_label in (('requirements', 'requisitos'), ('education', 'formación')):
+        raw = job.get(field)
+        if not isinstance(raw, str) or not raw.strip():
+            continue
+        folded = norm(raw)
+        for label, alternatives in SKILL_TERMS:
+            if any(re.search(r'(?<!\\w)(?:' + pattern + r')(?!\\w)', folded)
+                   for pattern in alternatives):
+                if label not in [x['label'] for x in found]:
+                    found.append({'label': label, 'source': source_label})
+                if len(found) >= 8:
+                    return found
+    return found
+
 def advise(job):
     title = norm(job.get('title'))
     category = str(job.get('category') or '')
@@ -99,6 +144,7 @@ def advise(job):
         'interview': tips['interview'][:3],
         'ask_employer': questions[:4],
         'published_fields': published_fields,
+        'documented_terms': documented_terms(job),
         'notice': 'Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos.',
     }
 
