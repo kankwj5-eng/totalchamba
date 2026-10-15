@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-15T05:50:47Z",
+  "generated_at": "2026-10-15T05:52:51Z",
   "jobs": [
     {
       "id": "45088df082a3b93b",
@@ -25,7 +25,7 @@
       "expires": "2026-11-12",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117678/auxiliar-contable.aspx",
-      "verified_at": "2026-10-15T05:51:35Z",
+      "verified_at": "2026-10-15T05:53:27Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -97,7 +97,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117677/administrativo-de-ventas-soporte-de-ventas.aspx",
-      "verified_at": "2026-10-15T05:51:33Z",
+      "verified_at": "2026-10-15T05:53:25Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -169,7 +169,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117685/otros-empleos.aspx",
-      "verified_at": "2026-10-15T05:51:31Z",
+      "verified_at": "2026-10-15T05:53:23Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -241,7 +241,7 @@
       "expires": "2026-11-27",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117589/auxiliar-de-bodega.aspx",
-      "verified_at": "2026-10-15T05:51:29Z",
+      "verified_at": "2026-10-15T05:53:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -313,7 +313,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117687/despachador.aspx",
-      "verified_at": "2026-10-15T05:51:27Z",
+      "verified_at": "2026-10-15T05:53:19Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -385,7 +385,7 @@
       "expires": "2026-11-24",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117696/asistente-de-recursos-humanos.aspx",
-      "verified_at": "2026-10-15T05:51:26Z",
+      "verified_at": "2026-10-15T05:53:17Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -457,7 +457,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117699/supervisor-de-mantenimiento.aspx",
-      "verified_at": "2026-10-15T05:51:23Z",
+      "verified_at": "2026-10-15T05:53:15Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -529,7 +529,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117715/veterinario.aspx",
-      "verified_at": "2026-10-15T05:51:21Z",
+      "verified_at": "2026-10-15T05:53:13Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -601,7 +601,79 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117714/promotora-de-ventas.aspx",
-      "verified_at": "2026-10-15T05:51:20Z",
+      "verified_at": "2026-10-15T05:53:11Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6b66cba0542e76af",
+      "title": "Jefe de Sucursal",
+      "company": "FETESA",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Objetivo: Garantizar el funcionamiento eficiente, rentable y exitoso de la sucursal, alineando la operación diaria con las metas estratégicas, comerciales y financieras establecidas por la empresa. Experiencia Laboral: Tres años Conocimiento Indispensable -Ferretería y Materiales",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117717/jefe-de-ventas.aspx",
+      "verified_at": "2026-10-15T05:53:09Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -673,7 +745,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117724/ejecutivo-de-cuenta.aspx",
-      "verified_at": "2026-10-15T05:51:03Z",
+      "verified_at": "2026-10-15T05:53:07Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -745,7 +817,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117734/gestor-de-cobros.aspx",
-      "verified_at": "2026-10-15T05:51:01Z",
+      "verified_at": "2026-10-15T05:53:05Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -817,7 +889,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117745/jefe-de-impulsadoras-display.aspx",
-      "verified_at": "2026-10-15T05:50:59Z",
+      "verified_at": "2026-10-15T05:53:03Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -889,7 +961,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117749/arquitecto.aspx",
-      "verified_at": "2026-10-15T05:50:57Z",
+      "verified_at": "2026-10-15T05:53:01Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -961,7 +1033,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117758/coordinador-de-contabilidad.aspx",
-      "verified_at": "2026-10-15T05:50:55Z",
+      "verified_at": "2026-10-15T05:52:59Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -1033,7 +1105,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117761/ejecutivo-de-ventas.aspx",
-      "verified_at": "2026-10-15T05:50:54Z",
+      "verified_at": "2026-10-15T05:52:57Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -1105,7 +1177,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117391/jefe-de-credito-y-cobro.aspx",
-      "verified_at": "2026-10-15T05:50:51Z",
+      "verified_at": "2026-10-15T05:52:55Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -1177,7 +1249,7 @@
       "expires": "2026-11-28",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1117712/ejecutivo-de-servicio-al-cliente.aspx",
-      "verified_at": "2026-10-15T05:50:50Z",
+      "verified_at": "2026-10-15T05:52:53Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -1249,7 +1321,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000155589247-shopper-store-management-supervisor",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "requirements": "Experiencia en puestos similares liderando equipos de trabajo. Conocimientos de herramientas paquete Office (Excel, Word, Powerpoint) y Google. Orientación a la acción y capacidad para resolver problemas. Fuertes habilidades interpersonales, autonomía, capacidad para construir relaciones positivas y generar confianza. Compromiso, proactividad y buenas formas de comunicación.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -1885,7 +1957,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/8d8321a8-4ecb-4d63-a399-aacff45813dd",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -1954,7 +2026,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/87c749b0-502c-481d-a38a-8a57a8d063e7",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2023,7 +2095,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c291550a-05f1-4ceb-bd4d-24da37a71132",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2092,7 +2164,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/fff426af-2769-49f7-b068-1afcbd0b729e",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2161,7 +2233,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/1c7d21e4-f85b-4f3c-99bb-050c6ac5cc9b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2303,7 +2375,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000151478839-sales-executive-senior",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "requirements": "Experiencia previa de 4-5 años en ventas B2B de ciclo corto o medio en compañías de Consumo Masivo, Fintech, Software (SaaS) o rubro gastronómico/proveedores. Historial comprobable superando metas de adquisición de cuentas nuevas. Capacidad para trabajar de manera autónoma, capacidad de organización, planificación y orientación a resultados. Sólidas habilidades de comunicación y negociación. Proactividad, flexibilidad y orientación al trabajo en equipo. Dominio de G-Suit y MS Office. Vehículo propio y disponibilidad para viajar dentro de la ciudad o región según sea necesario.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -2375,7 +2447,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/41d7c17e-eb36-41d6-9f41-f6beea9e8ac9",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2444,7 +2516,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/23ad2c58-c94e-4bc4-ab93-869e9f9903d6",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2513,7 +2585,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/1b602c36-02df-4b25-9856-17988d4eeddf",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2584,7 +2656,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000149952749-account-executive",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "requirements": "Experiencia comercial en generación y gestión de carteras de clientes y cuentas. Perfil analítico, que pueda tener un buen entendimiento del negocio, con experiencia en seguimiento de indicadores y orientación a la toma de decisiones basada en datos. Capacidad de planificación, organización, autonomía y orientación a resultados. Excelentes habilidades interpersonales, de comunicación y de trabajo en equipo. Deseable conocimientos en Marketing y manejo de indicadores de Marketing Digital (CPO, CPA, CPC, ratios de conversión). Dominio de G-suit y MS Office. Disponibilidad para viajar dentro de la ciudad o región según sea necesario.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -2656,7 +2728,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/782400ae-7f15-4d80-ae43-87950496849b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2725,7 +2797,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c96d9285-1cda-438d-abe6-5830584c2308",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2794,7 +2866,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c51a0ff7-f51e-4f68-8ce3-417d2eb86172",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2863,7 +2935,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/9f627d98-3699-4f48-9436-b60cfb0ee763",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2934,7 +3006,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/fa226a0c-f4ce-4511-93ee-b16a05a3cb0b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -3006,7 +3078,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/43d6a87c-9cc6-4c89-ba61-d7fea5fff3d2",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -3076,7 +3148,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/3c708fbc-3ef1-437f-b45b-7277ed2e3adf",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3145,7 +3217,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/d7a0137b-aec8-42c0-a154-9ef708da4b37",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3214,7 +3286,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7e5118a2-c9f3-4ce8-bc11-b602a6036ebc",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3283,7 +3355,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/403e36ce-9e36-4c25-9d74-dbee490e725c",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3352,7 +3424,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/0e08b756-0500-4242-a223-063f4eee9e5f",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3421,7 +3493,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/ca517c92-4aaa-4316-9149-32229f24325b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3490,7 +3562,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/5948735a-7865-4eaa-8587-a1f3edd8954c",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3559,7 +3631,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/53079629-f561-4def-9e30-7049545e92be",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3628,7 +3700,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/12c49dfc-d97e-4a14-845c-b1661208b913",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3699,7 +3771,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/19b2e2d5-031f-4b30-8d1d-06f0f5f3338b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -3769,7 +3841,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/8a1cb2be-ee50-4b83-b417-046044227690",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3838,7 +3910,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/216d4f1e-abf4-4cc7-968f-9b2404291adb",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3907,7 +3979,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/fcc1e431-e5de-4490-afc5-0e312bc48d99",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3976,7 +4048,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/dc75b9eb-d486-47a8-97c0-2c00c8c85b19",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4045,7 +4117,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/bfc3aa35-b444-4f09-8f00-7926fc8dbc8b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4114,7 +4186,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/eb444092-3d75-403c-bb48-bbc1a21d22a8",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4185,7 +4257,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/bf14e7e8-88d2-4433-bbb5-ab174888de55",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -4255,7 +4327,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7021adb6-ce7f-44f0-a677-e646d17e1308",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4324,7 +4396,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/5cab9b8f-c9d0-4e97-9f29-1ce42565b896",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4393,7 +4465,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/a722f86e-ceef-470d-a941-de00394fddc3",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4462,7 +4534,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4aa08bb3-14e5-4bba-9165-64857ba4a2f8",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4532,7 +4604,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4915637d-7324-4080-8630-0dab71d57f54",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4602,7 +4674,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/5c88f66d-c7ba-4e80-81ab-cd0e04287510",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4672,7 +4744,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b37c98e8-152d-4918-a0c9-3337381d0b2e",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4742,7 +4814,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/bf4ebb5b-e483-41b3-95a7-36795634a5cb",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4812,7 +4884,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/06d0fc17-d709-4cf6-86d7-8dccd700ea4d",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4882,7 +4954,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/0f1697ba-73c3-4278-80f0-8291ba771a9d",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4952,7 +5024,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/3813b562-5d5f-4916-bd8a-5bdf3038bcb9",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5022,7 +5094,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a14a3a40-7c48-4565-9b2f-2c11e6fc3c1f",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5092,7 +5164,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/11ea4859-0d28-4adb-9fe1-3a88534c52e7",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5162,7 +5234,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/1fe279c8-83d1-4205-b5f0-4921a9eda2b5",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5232,7 +5304,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/690a00a0-c726-4336-8f44-f21d2bd63c46",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5302,7 +5374,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/f5468431-8e45-4ebb-9aa6-61b4a57c85de",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5372,7 +5444,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/74bade4c-f42d-4662-8620-fb4eaf76e38f",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5442,7 +5514,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/77defa00-4d89-44c9-9a56-1e86581e9ea4",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5512,7 +5584,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a706f672-7c30-4551-83b7-d07ef5058e82",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5582,7 +5654,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/bd8f4ae1-4b17-48ff-8342-1c68c2ac0d64",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5652,7 +5724,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/476d787d-2b7a-455e-9d5a-562279e11e0a",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5722,7 +5794,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/9ab4a6e4-5703-4273-8405-7a889723a745",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5792,7 +5864,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b48f4523-d265-483b-89cf-47c8c1018285",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5862,7 +5934,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/ee64f62b-1850-4d5c-b6bc-54c4b8b62968",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5932,7 +6004,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/5dcf33db-e57c-414c-a4f6-ff34a152f29e",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6002,7 +6074,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/7fa425ac-2882-478b-8807-cdadde3eb21b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6072,7 +6144,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a85da7c7-d21a-4ef0-9f42-045e1dce9dd9",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6142,7 +6214,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/c6108dc5-d841-4020-9a7c-7be0976c995e",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6212,7 +6284,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/9db7cfe9-e1af-401f-b4c7-9187b36c7ff4",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6282,7 +6354,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4c13712f-487d-4ad0-b94c-4b6da21d3582",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6352,7 +6424,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/52262460-4228-4d92-9e7a-d29441207605",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6422,7 +6494,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b547a965-7274-42d9-b881-f7d8618dce1e",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6492,7 +6564,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/d901dfb6-3d68-4833-9e7d-4cddacc76dd3",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6562,7 +6634,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a6fef6e5-752a-4528-87cf-b86350d5706b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6632,7 +6704,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e21e780d-0573-4c8d-87d2-fe01cf4f2b83",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6702,7 +6774,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e5b36e06-05d6-48ca-8852-f3b419eaef39",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6772,7 +6844,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/ebe5afa2-e8da-4c47-b4c4-48a82a0bc92d",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6842,7 +6914,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4d98b3f2-dccf-41c4-acea-4198bcf5ce6a",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6912,7 +6984,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a56e4b32-59ee-4672-83e4-344251cb1b12",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6982,7 +7054,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a6100701-ee24-46f9-be8a-3806bb027026",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7052,7 +7124,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/cdd43de1-d6f1-437d-8d68-171bf5d6ac76",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7122,7 +7194,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/94d0e117-0f91-493e-9e22-71f19f0cba85",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7192,7 +7264,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/c6cd2838-4d84-4116-9b33-92976b159c3b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7262,7 +7334,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e93b54d0-6183-4bac-a344-5e0c1365b9d8",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7332,7 +7404,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/eeffd76c-5058-42a4-90d6-68fb7757fd3b",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7402,7 +7474,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/0f974076-54b1-4c83-b47d-f6e2457fe562",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7472,7 +7544,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/23ced3f9-4427-4daf-8689-a0b245054896",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7542,7 +7614,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a3da35cd-c297-43d1-93e0-4b47ea3090bc",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7612,7 +7684,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b9f7082d-8ba6-42ba-8070-3dc7bcf8f30d",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7684,7 +7756,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/65d38f9c-aeca-4078-b3ea-304b9b71b0d1",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -7756,7 +7828,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/8b2bfad6-d953-43f2-acdd-dd164f3f66fb",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -7828,7 +7900,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/278fc1d7-94ec-464e-bdc7-5a459ca02e3a",
-      "verified_at": "2026-10-15T05:50:47Z",
+      "verified_at": "2026-10-15T05:52:51Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -7876,6 +7948,4136 @@
         "employer_evidence": null,
         "warning": "No representa opiniones, seguridad ni reputación de la empresa"
       }
+    },
+    {
+      "id": "3dd6fb9493294820",
+      "title": "ABM Strategist, Client Services",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5185164007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "5aa223368f33cea8",
+      "title": "B2B Marketing Account Director",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5117716007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "9ef423f2684e3df7",
+      "title": "B2B Marketing Associate Account Director",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Mexico; Remote - Nicaragua;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150679007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "2da18c2372f9dc89",
+      "title": "B2B Paid Advertising Specialist",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258965007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "f87ba8eee47f90b8",
+      "title": "B2B Paid Advertising Strategist",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258993007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "ceed686bb6e110a8",
+      "title": "Consumer Services Marketing Account Director",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150246007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "ce0e6747ea3e133b",
+      "title": "Consumer Services Senior Paid Advertising Strategist",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259033007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "239671dbc68656c4",
+      "title": "CPG Marketing Account Director",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5118072007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "06e93ca801bb313c",
+      "title": "CPG Marketing Associate Account Director",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150759007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6f14e194417f99a6",
+      "title": "CPG Paid Advertising Specialist, Client Experience",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Colombia; Remote - Costa Rica; Remote - Ecuador;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220356007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "28838a6d30343162",
+      "title": "CPG Paid Advertising Strategist, Client Experience",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259010007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6d66ee8a790a47e9",
+      "title": "CPG Paid Search Specialist, Client Experience",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Colombia; Remote - Costa Rica; Remote - Ecuador;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5225713007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "5b0c671bd101e2b8",
+      "title": "CPG Paid Social Specialist, Client Experience",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Colombia; Remote - Costa Rica; Remote - Ecuador;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5225709007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "71a7a68927bd9100",
+      "title": "CPG Senior Paid Advertising Strategist, Client Experience",
+      "company": "Power Digital",
+      "location": "Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Mexico; Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259052007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "d42262e648d9b68c",
+      "title": "Creative Director, CPG",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5218864007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "5c645f3974e037c9",
+      "title": "Creative Director, Lifestyle",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5218868007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "dfe6e6f9ae72b526",
+      "title": "Creative Quality & Compliance Specialist",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5208655007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "22ba1c9694ff0e72",
+      "title": "Data Access Manager",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-07",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5260821007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "be656bfb41fffb63",
+      "title": "Data Operations Lead, B2B",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-09",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5262550007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "0db571798f71c7d3",
+      "title": "Director of Account Based Marketing",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5185175007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "9156742d53899852",
+      "title": "Director of Paid Advertising",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5216475007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6fa7a33c685075a2",
+      "title": "Ecommerce Associate Account Director",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5228923007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "fa9f97893842fd8e",
+      "title": "Ecommerce Senior Account Manager",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5119495007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "84dbdee9c35a1630",
+      "title": "Fashion Marketing Account Director",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150186007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "93c74758c6f8d126",
+      "title": "Fashion Marketing Associate Account Director",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5119294007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "703b57f3df93e9a4",
+      "title": "Fashion Paid Advertising Strategist",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259021007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "ba9fe7c7aa1f2b30",
+      "title": "Fashion Paid Media Senior Performance Analyst",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259468007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "fd4361edc20e8274",
+      "title": "IT Analyst, Access Control",
+      "company": "Power Digital",
+      "location": "Remote - Brazil; Remote - Chile; Remote - Colombia; Remote - Costa Rica; Remote - Ecuador; Remote - Mexico; Re",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-30",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5253193007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "eef4eb83d8567980",
+      "title": "IT Project Manager, CTO's Operating Partner",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-09",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5262679007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6463a2b8fc2e5090",
+      "title": "Marketing Account Director (Start-Ups)",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150324007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "28c85fad734be3f2",
+      "title": "Media Manager, B2B",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220499007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "c463466dd09777ad",
+      "title": "Media Manager, CPG",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Colombia; Remote - Costa Rica; Remote - Ecuador;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258976007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "b78c619f8193b582",
+      "title": "Media Manager, Lifestyle",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5221803007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "b7544e0166c40362",
+      "title": "Media Supervisor, B2B",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220515007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "17d9a0a66d1a8b36",
+      "title": "Media Supervisor, Consumer Services",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220352007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "517b13f2af56e122",
+      "title": "Media Supervisor, CPG",
+      "company": "Power Digital",
+      "location": "Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Mexico; Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220391007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6939fb861c2d7b73",
+      "title": "Media Supervisor, Lifestyle",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220527007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "cadab0864c585093",
+      "title": "Paid Advertising Specialist - Ecommerce",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258986007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "3bcddae595e4d3e0",
+      "title": "Paid Advertising Strategist",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259002007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "1716afcf8d232615",
+      "title": "Paid Advertising Strategist - Ecommerce",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Canada; Remote - Chile; Remote - Ecuador; Remote - Honduras; Rem",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259029007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6619991919501c4f",
+      "title": "Paid Media Strategist, Fashion",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Colombia; Remote - Mexico; Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259446007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "ad4780d607fda5d5",
+      "title": "Paid Media Supervisor, (Healthcare)",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5005205007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "dd70a6c6cac136b8",
+      "title": "Project Manager, CPG",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Canada; Remote - Colombia; Remote - Mexico; Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220392007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "cfadee6c82eaf6da",
+      "title": "Project Manager, Digital Marketing",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5093540007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "fe96b7cdd4a85bbe",
+      "title": "Recruiter - Contract Position",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5177557007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "2f3806378a957827",
+      "title": "Security Analyst",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Canada; Remote - Chile; Remote - Colombia; Remote - Costa Rica; ",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-30",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5253252007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "e6cf4a4ecfdef42f",
+      "title": "Senior ABM Strategist",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5170368007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "cd446b1358f921ec",
+      "title": "Senior Integrated Content Marketing Strategist",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5189944007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "13150f2012956d83",
+      "title": "Senior Marketing Ops Strategist",
+      "company": "Power Digital",
+      "location": "Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras; Remote - Nicaragua; Remote - Peru",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5208680007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "d6fed3b2c524d815",
+      "title": "Senior Media Manager, B2B",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220390007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "4308d7ad7310ed83",
+      "title": "Senior Media Manager, Core",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5224763007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "d917b2ef5bff3d82",
+      "title": "Senior Media Manager, CPG",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220360007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "63e4f9088b5005a8",
+      "title": "Senior Media Manager, Fashion",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5136563007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "83cc5b2a05f7ef47",
+      "title": "Senior Media Manager, Lifestyle",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Canada; Remote - Chile; Remote - Ecuador; Remote - Honduras; Rem",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220617007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "c85d804f95fb0839",
+      "title": "Senior Paid Advertising Strategist, B2B",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259031007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "bd81d3254bc36eca",
+      "title": "Senior Paid Advertising Strategist - Ecommerce",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Costa Rica; Remote - Ecuador; Remote - Honduras;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-06",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259057007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "4838f7823279aef1",
+      "title": "Senior Paid Advertising Strategist, Fashion",
+      "company": "Power Digital",
+      "location": "Remote - Argentina; Remote - Brazil; Remote - Chile; Remote - Colombia; Remote - Costa Rica; Remote - Ecuador;",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-14",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220676007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "af6db0330db2a0a8",
+      "title": "Senior Strategist, Programmatic",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-09-29",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5219595007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "879a3680fac77cf1",
+      "title": "TikTok Shop Growth Strategist",
+      "company": "Power Digital",
+      "location": "Remote - Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "No especificado",
+      "salary": null,
+      "summary": "<div class=\"content-intro\"><h1>Who We Are:</h1> <p>Power Digital is an AI-Native Growth Firm built at the intersection of world-class talent and proprietary technology. We help leading and emerging brands grow by combining deep vertical expertise, strategic thinking, and enterpri",
+      "published_at": null,
+      "last_modified_at": "2026-10-05",
+      "expires": null,
+      "source": "ats-greenhouse-powerdigitalmarketing",
+      "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5257406007",
+      "verified_at": "2026-10-15T05:52:51Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
     }
   ],
   "sources": [
@@ -7888,7 +12090,7 @@
       "focus": "Oficios y empleo local",
       "color": "#fbbf7a",
       "last_success": null,
-      "last_attempt": "2026-10-15T05:50:47Z",
+      "last_attempt": "2026-10-15T05:52:51Z",
       "status": "no_disponible",
       "jobs_count": 9
     },
@@ -7900,10 +12102,10 @@
       "collection": "crawler",
       "focus": "Empresas y profesionales",
       "color": "#b8b5ff",
-      "last_success": "2026-10-15T05:50:47Z",
-      "last_attempt": "2026-10-15T05:50:47Z",
+      "last_success": "2026-10-15T05:52:51Z",
+      "last_attempt": "2026-10-15T05:52:51Z",
       "status": "actualizada",
-      "jobs_count": 17
+      "jobs_count": 18
     },
     {
       "id": "computrabajo",
@@ -8058,7 +12260,7 @@
       "focus": "ONG y cooperación humanitaria",
       "color": "#f3a7a7",
       "last_success": null,
-      "last_attempt": "2026-10-15T05:50:47Z",
+      "last_attempt": "2026-10-15T05:52:51Z",
       "status": "requiere_configuracion",
       "jobs_count": 0
     },
@@ -8094,8 +12296,8 @@
         "Granada, Nicaragua",
         "Masaya, Nicaragua"
       ],
-      "last_success": "2026-10-15T05:50:47Z",
-      "last_attempt": "2026-10-15T05:50:47Z",
+      "last_success": "2026-10-15T05:52:51Z",
+      "last_attempt": "2026-10-15T05:52:51Z",
       "status": "actualizada",
       "jobs_count": 46
     },
@@ -8116,8 +12318,8 @@
       "locations": [
         "Managua, Nicaragua"
       ],
-      "last_success": "2026-10-15T05:50:47Z",
-      "last_attempt": "2026-10-15T05:50:47Z",
+      "last_success": "2026-10-15T05:52:51Z",
+      "last_attempt": "2026-10-15T05:52:51Z",
       "status": "actualizada",
       "jobs_count": 3
     },
@@ -8139,10 +12341,10 @@
       "locations": [
         "Remote - Nicaragua"
       ],
-      "last_success": null,
-      "last_attempt": "2026-10-15T05:50:47Z",
-      "status": "no_disponible",
-      "jobs_count": 0
+      "last_success": "2026-10-15T05:52:51Z",
+      "last_attempt": "2026-10-15T05:52:51Z",
+      "status": "actualizada",
+      "jobs_count": 59
     },
     {
       "id": "ats-ashby-hirehangar",
@@ -8161,8 +12363,8 @@
       "locations": [
         "Nicaragua - Managua"
       ],
-      "last_success": "2026-10-15T05:50:47Z",
-      "last_attempt": "2026-10-15T05:50:47Z",
+      "last_success": "2026-10-15T05:52:51Z",
+      "last_attempt": "2026-10-15T05:52:51Z",
       "status": "actualizada",
       "jobs_count": 34
     },
@@ -8183,15 +12385,16 @@
       "locations": [
         "Managua, Nicaragua"
       ],
-      "last_success": "2026-10-15T05:50:47Z",
-      "last_attempt": "2026-10-15T05:50:47Z",
+      "last_success": "2026-10-15T05:52:51Z",
+      "last_attempt": "2026-10-15T05:52:51Z",
       "status": "actualizada",
       "jobs_count": 3
     }
   ],
   "facets": {
     "department": {
-      "Managua": 72,
+      "Managua": 73,
+      "Nicaragua": 59,
       "Masaya": 15,
       "León": 12,
       "Granada": 11,
@@ -8199,23 +12402,24 @@
       "Matagalpa": 1
     },
     "category": {
-      "Otros": 71,
+      "Otros": 119,
       "Tecnología": 23,
-      "Ventas": 7,
+      "Ventas": 19,
       "Servicios": 5,
       "Administración": 3,
       "Industria": 2,
       "Logística": 1
     },
     "modality": {
-      "Remoto": 77,
-      "No especificada": 27,
+      "Remoto": 136,
+      "No especificada": 28,
       "Presencial": 8
     },
     "source": {
+      "ats-greenhouse-powerdigitalmarketing": 59,
       "ats-lever-bluelightconsulting": 46,
       "ats-ashby-hirehangar": 34,
-      "tecoloco": 17,
+      "tecoloco": 18,
       "encuentra24": 9,
       "ats-lever-freebalance.com": 3,
       "ats-smartrecruiters-deliveryhero": 3
@@ -8242,11 +12446,11 @@
       "unjobs": "directorio",
       "ats-lever-bluelightconsulting": "actualizada",
       "ats-lever-freebalance.com": "actualizada",
-      "ats-greenhouse-powerdigitalmarketing": "no_disponible",
+      "ats-greenhouse-powerdigitalmarketing": "actualizada",
       "ats-ashby-hirehangar": "actualizada",
       "ats-smartrecruiters-deliveryhero": "actualizada"
     },
-    "indexed_count": 112,
+    "indexed_count": 172,
     "methodology": "Solo ofertas individuales. Estrellas = claridad del anuncio, no prestigio ni identidad confirmada del empleador. La ubicación puede ser aproximada."
   }
 }
