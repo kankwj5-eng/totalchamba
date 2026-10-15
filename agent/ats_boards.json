@@ -1,0 +1,16 @@
+[
+  {
+    "provider": "lever",
+    "board": "bluelightconsulting",
+    "company": "Bluelight Consulting",
+    "locations": ["Managua, Nicaragua", "León, Nicaragua", "Granada, Nicaragua", "Masaya, Nicaragua"],
+    "enabled": true
+  },
+  {
+    "provider": "lever",
+    "board": "freebalance.com",
+    "company": "FreeBalance",
+    "locations": ["Managua, Nicaragua"],
+    "enabled": true
+  }
+]

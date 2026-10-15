@@ -1,0 +1,862 @@
+{
+  "schema_version": 3,
+  "generated_at": "2026-10-14T22:47:00Z",
+  "jobs": [
+    {
+      "id": "5f9232d866d0213f",
+      "title": "Guardia de seguridad Altamira",
+      "company": "Centro Médico Altamira",
+      "location": "Managua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Servicios",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Seguridad de pacientes, personal e instalaciones en centro médico. Solicitan disponibilidad inmediata.",
+      "published_at": "2026-10-14",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/guardia-de-seguridad-altamira/33126835",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "4830bd98cca0cd88",
+      "title": "Conserje / limpieza para restaurante",
+      "company": "A. Cifuentes",
+      "location": "Managua, Carretera a Masaya",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Carretera a Masaya, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Servicios",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": "C$11,350 + propinas",
+      "summary": "Limpieza y apoyo en restaurante de hamburguesas. Solicitan experiencia en restaurantes.",
+      "published_at": "2026-10-13",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/conserje-limpieza-para-restaurante/33089570",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 100,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "119401c4e98a8ab6",
+      "title": "Asesor de ventas",
+      "company": "Sierras de Paz",
+      "location": "Managua, Bolonia",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Bolonia, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Ventas",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Asesoría comercial con comisiones y capacitación; buscan personas con buena comunicación.",
+      "published_at": "2026-10-13",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/asesor-de-ventas/24649745",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "0e9141da1e9ccc89",
+      "title": "Oficial de atención al cliente",
+      "company": "Ultra de Nicaragua S.A.",
+      "location": "Managua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Servicios",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Coordinar servicios técnicos y dar seguimiento a solicitudes y consultas de clientes.",
+      "published_at": "2026-10-08",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/oficial-de-atencion-al-cliente/33017090",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "1f8868a2920e6b0d",
+      "title": "Cocinero/a de línea caliente y pizzero/a",
+      "company": "Enmanuel Paramo",
+      "location": "Managua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Servicios",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Preparación de pastas, pizzas y platos de cocina italiana; experiencia previa requerida.",
+      "published_at": "2026-10-06",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/cocinero-a-de-linea-caliente-y-pizzero-a/33094128",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6916d6a6f69c106d",
+      "title": "Tornero",
+      "company": "Douglas Hanon",
+      "location": "Masaya, Tisma",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Masaya, Tisma, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Industria",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Fabricación y rectificación de piezas mediante torno.",
+      "published_at": "2026-10-13",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/tornero/33120722",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 60,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "54eb03b3aaa555dc",
+      "title": "Agentes de cobro / call center",
+      "company": "CCG Comunicaciones",
+      "location": "Managua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Servicios",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": "US$285 base + comisiones",
+      "summary": "Gestión de cobranza telefónica y por redes sociales con capacitación inicial.",
+      "published_at": "2026-10-10",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/agentes-de-cobro-call-center/33040989",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 100,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "bca7eed97a22b4f3",
+      "title": "Asesor comercial remoto / call center",
+      "company": "Svitlana Kriv",
+      "location": "León / Remoto",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Atención y asesoramiento comercial por teléfono. Solicitan computadora propia e internet estable.",
+      "published_at": "2026-10-12",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/asesor-comercial-remoto-call-center-remoto/33117703",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "c5815e1af97b0b2f",
+      "title": "Auxiliar contable de digitación",
+      "company": "Empleos Nicaragua",
+      "location": "Managua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Administración",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Digitación y revisión de documentos contables y de comercio exterior. Solicitan formación en Contabilidad.",
+      "published_at": "2026-10-13",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/auxiliar-contable-de-digitacion/33053908",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "encuentra24",
+      "name": "Encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos",
+      "kind": "portal",
+      "collection": "crawler",
+      "focus": "Oficios y empleo local",
+      "color": "#fbbf7a",
+      "status": "muestra_inicial",
+      "jobs_count": 9,
+      "last_success": null
+    },
+    {
+      "id": "tecoloco",
+      "name": "Tecoloco",
+      "url": "https://www.tecoloco.com.ni/empleos?Keywords=+&PerPage=100",
+      "kind": "portal",
+      "collection": "crawler",
+      "focus": "Empresas y profesionales",
+      "color": "#b8b5ff",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "computrabajo",
+      "name": "Computrabajo",
+      "url": "https://ni.computrabajo.com/offersgrid/search",
+      "kind": "portal",
+      "collection": "directorio",
+      "focus": "Empleo formal",
+      "color": "#8fd9f5",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn Jobs",
+      "url": "https://ni.linkedin.com/jobs/empleos-en-nicaragua",
+      "kind": "portal",
+      "collection": "directorio",
+      "focus": "Profesionales y remoto",
+      "color": "#83b9ff",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "opcionempleo",
+      "name": "Opcionempleo",
+      "url": "https://www.opcionempleo.com.ni/",
+      "kind": "agregador",
+      "collection": "directorio",
+      "focus": "Varias industrias",
+      "color": "#fbcb7a",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "vacantes",
+      "name": "Vacantes.com",
+      "url": "https://vacantes.com/es/",
+      "kind": "remoto",
+      "collection": "directorio",
+      "focus": "Trabajo remoto",
+      "color": "#d2aaff",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "empleosnicaragua",
+      "name": "Empleos Nicaragua",
+      "url": "https://empleosnicaragua.net/",
+      "kind": "local",
+      "collection": "directorio",
+      "focus": "Talento nicaragüense",
+      "color": "#98efc2",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "trabajosnica",
+      "name": "Trabajosnica",
+      "url": "https://trabajosnica.com/",
+      "kind": "local",
+      "collection": "directorio",
+      "focus": "Ofertas locales y empresas verificadas",
+      "color": "#c1e89f",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "uno",
+      "name": "UNO Nicaragua",
+      "url": "https://empleos.uno-ca.com/ni/",
+      "kind": "empresa",
+      "collection": "directorio",
+      "focus": "Vacantes directas de empresa",
+      "color": "#f3bc9e",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "unicef",
+      "name": "UNICEF Nicaragua",
+      "url": "https://www.unicef.org/nicaragua/trabaja-con-unicef",
+      "kind": "ong",
+      "collection": "directorio",
+      "focus": "Convocatorias y consultorías",
+      "color": "#a7daf8",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "undp",
+      "name": "PNUD",
+      "url": "https://www.undp.org/es/careers",
+      "kind": "ong",
+      "collection": "directorio",
+      "focus": "Empleo y cooperación internacional",
+      "color": "#9dbaff",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "inide",
+      "name": "INIDE",
+      "url": "https://sarh.inide.gob.ni/convocatoria/",
+      "kind": "publico",
+      "collection": "directorio",
+      "focus": "Convocatorias de institución pública",
+      "color": "#c3d5ea",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "mined",
+      "name": "MINED",
+      "url": "https://www.mined.gob.ni/vacantes-2026/",
+      "kind": "publico",
+      "collection": "directorio",
+      "focus": "Vacantes del sector educativo",
+      "color": "#afccec",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "conami",
+      "name": "CONAMI",
+      "url": "https://www.conami.gob.ni/oportunidades-de-empleo/",
+      "kind": "publico",
+      "collection": "directorio",
+      "focus": "Oportunidades de empleo y pasantías",
+      "color": "#c5d6aa",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "reliefweb",
+      "name": "ReliefWeb",
+      "url": "https://reliefweb.int/jobs",
+      "kind": "ong",
+      "collection": "api",
+      "focus": "ONG y cooperación humanitaria",
+      "color": "#f3a7a7",
+      "status": "requiere_configuracion",
+      "jobs_count": 0,
+      "last_success": null
+    },
+    {
+      "id": "unjobs",
+      "name": "UNjobs",
+      "url": "https://unjobs.org/duty_stations/nicaragua",
+      "kind": "ong",
+      "collection": "directorio",
+      "focus": "Organismos y proyectos",
+      "color": "#83c2ff",
+      "status": "directorio",
+      "jobs_count": 0,
+      "last_success": null
+    }
+  ],
+  "facets": {
+    "department": {
+      "Managua": 7,
+      "León": 1,
+      "Masaya": 1
+    },
+    "category": {
+      "Servicios": 5,
+      "Ventas": 2,
+      "Administración": 1,
+      "Industria": 1
+    },
+    "modality": {
+      "Presencial": 8,
+      "Remoto": 1
+    },
+    "source": {
+      "encuentra24": 9
+    }
+  },
+  "metadata": {
+    "disclaimer": "Datos de vacantes externas consultados el 14/10/2026; confirmá su vigencia en el portal original.",
+    "collection_status": {
+      "encuentra24": "muestra_inicial"
+    },
+    "indexed_count": 9
+  }
+}
