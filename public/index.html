@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/assets/styles.css" />
   <script src="/assets/app.js" defer></script>
+  <script src="/assets/bulletin.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#empleos">Ir a las ofertas</a>
@@ -27,7 +28,7 @@
         <span class="brand-type">total<span>chanba</span></span>
         <span class="brand-line"></span><span class="brand-caption">NICARAGUA EN UN SOLO LUGAR</span>
       </a>
-      <nav class="nav-links" aria-label="Navegación principal"><a href="#empleos">Encontrar trabajo</a><a href="#fuentes">Plataformas</a><a href="#como-funciona">Cómo funciona</a></nav>
+      <nav class="nav-links" aria-label="Navegación principal"><a href="#empleos">Encontrar trabajo</a><a href="/herramientas.html">Herramientas</a><a href="#agenda">Agenda</a><a href="#fuentes">Plataformas</a></nav>
       <button class="reading-toggle" id="readable-mode" type="button" aria-pressed="false" title="Aumentar legibilidad">Aa Lectura clara</button><a class="nav-cta" href="#empleos">Explorar vacantes <span aria-hidden="true">↗</span></a>
     </div>
   </header>
@@ -40,7 +41,7 @@
           <div class="eyebrow"><span class="eyebrow-line"></span> TODAS TUS OPORTUNIDADES · UN SOLO LUGAR</div>
           <h1 id="hero-title">Todos los trabajos.<br /><span>Una sola búsqueda<span class="hero-period">.</span></span></h1>
           <p>Descubrí empleos con fichas que explican lo importante: salario, modalidad, requisitos disponibles, ubicación, procedencia y claridad de la publicación. Siempre con el enlace original.</p>
-          <div class="hero-actions"><a class="button button-primary" href="#empleos">Encontrar oportunidades <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h13M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="hero-link" href="#fuentes">Explorar directorio de fuentes <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-actions"><a class="button button-primary" href="#empleos">Encontrar oportunidades <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h13M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="hero-link" href="/herramientas.html">Preparar mi candidatura <span aria-hidden="true">↗</span></a></div>
           <div class="hero-proof"><span class="proof-icons" aria-hidden="true"><span>NI</span><span>+</span><span>↗</span></span><span>Para quienes quieren avanzar.<br /><strong>Sin cobros por buscar.</strong></span></div>
         </div>
         <div class="hero-visual" aria-label="Representación gráfica de oportunidades conectadas en Nicaragua">
@@ -111,6 +112,25 @@
       </div></div>
     </div></section>
 
+
+    <section class="tc-studio-promo" aria-labelledby="studio-promo-title">
+      <div class="shell tc-studio-inner">
+        <div class="tc-studio-badge" aria-hidden="true">✳</div>
+        <div><span>UN PASO MÁS ALLÁ DEL BUSCADOR</span><h2 id="studio-promo-title">No solo encontrés un trabajo. <em>Prepará tu oportunidad.</em></h2><p>Un estudio gratuito con CV profesional, guía por oficio, simulador de entrevistas, cartas y seguimiento personal.</p></div>
+        <a href="/herramientas.html">Explorar herramientas ↗</a>
+      </div>
+    </section>
+    <section class="tc-agenda" id="agenda" aria-labelledby="agenda-heading"><div class="shell">
+      <div class="tc-agenda-heading"><div><span class="section-kicker">✳ AGENDA Y RECURSOS</span><h2 id="agenda-heading">Oportunidades también <em>fuera del anuncio.</em></h2><p>Capacitaciones, actividades anunciadas y canales de convocatorias con enlaces oficiales. Las fechas se muestran solo cuando están publicadas.</p></div><span class="tc-agenda-seal">FUENTES<br>OFICIALES ↗</span></div>
+      <div class="tc-agenda-tabs" role="group" aria-label="Filtrar anuncios">
+        <button type="button" data-bulletin-filter="" class="active" aria-pressed="true">Todo el tablón</button>
+        <button type="button" data-bulletin-filter="evento" aria-pressed="false">Eventos</button>
+        <button type="button" data-bulletin-filter="formacion" aria-pressed="false">Formación</button>
+        <button type="button" data-bulletin-filter="convocatorias" aria-pressed="false">Convocatorias</button>
+      </div>
+      <div id="bulletin-grid" class="tc-agenda-grid" aria-live="polite"><div class="tc-agenda-loading">Cargando información editorial…</div></div>
+      <div class="tc-agenda-bottom"><p id="bulletin-status" aria-live="polite">Comprobando el tablón de anuncios…</p><p>Un anuncio de actividad no implica inscripción disponible. No se publican ferias, becas ni fechas sin fuente verificable.</p></div>
+    </div></section>
     <section class="method-section" id="metodologia" aria-labelledby="method-title"><div class="shell method-layout"><div><span class="section-kicker">✳ SEÑALES COMPROBABLES</span><h2 id="method-title">Estrellas, sí.<br><em>Reputación inventada, no.</em></h2><p>De 1 a 5 estrellas calificamos la <strong>claridad del anuncio</strong>, no la honestidad de una empresa. Cada ficha explica qué campos están publicados y cuáles faltan. Un anuncio con 5 estrellas no está validado como seguro ni demuestra que el salario sea justo.</p><p><strong>La identidad del empleador no está verificada</strong> hasta que exista una revisión documental independiente. Y el mapa distingue una zona indicada de una dirección declarada.</p></div><div class="method-lenses"><div><span>01 · ANUNCIO</span><strong>Claridad medible</strong><p>Puesto, empresa, zona, salario, modalidad, fecha y contrato. Sin datos ficticios.</p></div><div><span>02 · EMPLEADOR</span><strong>Identidad con pruebas</strong><p>Una plataforma conocida no convierte automáticamente a sus anunciantes en empresas verificadas.</p></div><div><span>03 · UBICACIÓN</span><strong>Sin direcciones falsas</strong><p>Google Maps abre la zona o dirección proporcionada. La sede exacta requiere evidencia adicional.</p></div></div></div></section>
     <section class="safety-section" aria-labelledby="safety-title"><div class="shell safety-inner"><div><span class="section-kicker"><span class="kicker-dot"></span> POSTULÁ CON SEGURIDAD</span><h2 id="safety-title">Tu trabajo sí.<br/><em>Las estafas no.</em></h2><p>TotalChanba no cobra, no solicita CV ni recibe pagos. Confirmá el anunciante y las condiciones directamente en la fuente.</p></div><ul><li><strong>01</strong> Nunca pagués para reservar una plaza o entrevista.</li><li><strong>02</strong> Evitá enviar claves o datos bancarios a desconocidos.</li><li><strong>03</strong> Verificá la empresa y la URL antes de postular.</li></ul></div></section>
 
@@ -123,7 +143,7 @@
 
     <section class="cta-section"><div class="shell cta-inner"><div><span>LA PRÓXIMA OPORTUNIDAD PODRÍA ESTAR CERCA</span><h2>Las buenas oportunidades<br/>no siempre esperan.</h2></div><a href="#empleos">Volver a las vacantes <span>↗</span></a><span class="cta-sun" aria-hidden="true">✳</span></div></section>
   </main>
-  <footer class="footer"><div class="shell footer-content"><div><div class="brand footer-brand"><span class="brand-symbol" aria-hidden="true">✳</span><span class="brand-type">total<span>chanba</span></span></div><p>Empleos de Nicaragua en un solo lugar.<br/>Una iniciativa independiente, no afiliada a los portales listados.</p></div><div class="footer-links"><a href="#empleos">Buscar empleo</a><a href="#fuentes">Fuentes</a><a href="#como-funciona">Cómo funciona</a></div></div><div class="shell footer-bottom"><span>© 2026 TotalChanba · Hecho pensando en Nicaragua 🇳🇮</span><span>Unimos enlaces. Las oportunidades siguen siendo de sus anunciantes.</span></div></footer>
+  <footer class="footer"><div class="shell footer-content"><div><div class="brand footer-brand"><span class="brand-symbol" aria-hidden="true">✳</span><span class="brand-type">total<span>chanba</span></span></div><p>Empleos de Nicaragua en un solo lugar.<br/>Una iniciativa independiente, no afiliada a los portales listados.</p></div><div class="footer-links"><a href="#empleos">Buscar empleo</a><a href="/herramientas.html">Mi kit profesional</a><a href="#agenda">Agenda</a><a href="#fuentes">Fuentes</a><a href="#como-funciona">Cómo funciona</a></div></div><div class="shell footer-bottom"><span>© 2026 TotalChanba · Hecho pensando en Nicaragua 🇳🇮</span><span>Unimos enlaces. Las oportunidades siguen siendo de sus anunciantes.</span></div></footer>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
