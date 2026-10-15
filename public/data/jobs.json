@@ -1,7 +1,1303 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-14T22:47:00Z",
+  "generated_at": "2026-10-15T05:45:15Z",
   "jobs": [
+    {
+      "id": "45088df082a3b93b",
+      "title": "Auxiliar Contable",
+      "company": "Hermoso y Vigil S.A",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Administración",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Manejo sistema SAP Businees One Elaborar Registro de facturas en sistema Preparar propuesta de pago según los vencimientos y la liquidez para ser revisada por contador Aplicar pago a los proveedores en plataforma de banca en linea Subir la información bancaria diaria en sistema R",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-12",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117678/auxiliar-contable.aspx",
+      "verified_at": "2026-10-15T05:45:51Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "c0922b09c45fb8ae",
+      "title": "OFICIAL DE RIESGO MANAGUA",
+      "company": "CrediFácil",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Planificar y ejecutar las actividades de conformidad con el plan de trabajo semanal. Considerar las orientaciones de la Gerencia de Crédito para ser incluidas dentro del plan semanal. Revisar expedientes de crédito conforme la lista de verificación contenida en el Manual. Verific",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117677/administrativo-de-ventas-soporte-de-ventas.aspx",
+      "verified_at": "2026-10-15T05:45:49Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "653810f9e6478ffd",
+      "title": "Analista de Monitoreo",
+      "company": "BANCO DE LA PRODUCCION",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Determinar mediante las alertas recibidas los presuntos fraudes confirmando con los tarjetahabientes analizando el comportamiento de ellos en los movimientos del cliente. *Disponibilidad para realizar turnos nocturnos. *Comunicacion asertiva. *Trabajo en equipo. *Gestion del tiem",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117685/otros-empleos.aspx",
+      "verified_at": "2026-10-15T05:45:47Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "b4058de5a76fbaac",
+      "title": "Auxiliar de Bodega",
+      "company": "REMASA REPUESTOS MANAGUA S.A",
+      "location": "Matagalpa, Nicaragua",
+      "department": "Matagalpa",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Matagalpa, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Logística",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Sobre el puesto Auxiliar de Bodega responsable y proactivo para apoyar las operaciones de almacenamiento, despacho de mercancía. Ubicación : Matagalpa Responsabilidades Recibir y verificar mercancía según documentos de entrada. Apoyar en inventario y en la rotación de mercancías.",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-27",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117589/auxiliar-de-bodega.aspx",
+      "verified_at": "2026-10-15T05:45:45Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "9f83a805d7a6bad4",
+      "title": "Despachador",
+      "company": "LA CASA DEL PERNO",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Vacante: Despachador en Managua Objetivo del puesto: Preparar, verificar y despachar correctamente los productos solicitados por los clientes, asegurando el orden, control y entrega eficiente de mercadería en el área de almacén. Requisitos: -Manejo de Microsoft Office. -Habilidad",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117687/despachador.aspx",
+      "verified_at": "2026-10-15T05:45:43Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "e446eaf99e5347fd",
+      "title": "Asistente de RH (Nomina)",
+      "company": "Confidencial",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Brindar apoyo operativo y administrativo integral al departamento de Recursos Humanos, gestionando el control de viáticos, la administración de uniformes, el seguimiento al presupuesto del área, la emisión de constancias laborales y el soporte en las acciones de personal y nómina",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-24",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117696/asistente-de-recursos-humanos.aspx",
+      "verified_at": "2026-10-15T05:45:41Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "74dfb8d23d5bcebb",
+      "title": "PLANER MANTENIMIENTO",
+      "company": "Confidencial",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Industria",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "ESTE SERÁ TU OBJETIVO PRINCIPAL Programar los mantenimientos de los equipos acorde a las rutinas definidas, validando su ejecución, garantizando el perfecto funcionamiento de los equipos, máxima eficiencia del personal y el costo optimo. ESTAS SERAN TUS RESPONSABILIDADES Programa",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117699/supervisor-de-mantenimiento.aspx",
+      "verified_at": "2026-10-15T05:45:39Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "461d55df8246ff6b",
+      "title": "Zootecnista",
+      "company": "Confidencial",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Masaya, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Persona con Experiencia en Veterinaria o Zootecnia Experiencia en Porcinos Buena comunicación Moto (Preferible) Habitar en zonas aledañas a Masaya",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117715/veterinario.aspx",
+      "verified_at": "2026-10-15T05:45:37Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "1b659404cc6cec46",
+      "title": "Promotora de Ventas Temporal",
+      "company": "Distribuidora Internacional S.A.",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Ventas",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Propósito del puesto Ejecutar actividades de promoción, exhibición e impulso de productos en los puntos de venta asignados, verificando inventarios y fechas de vencimiento, con el fin de asegurar la correcta presencia de las marcas, apoyar la rotación de productos y contribuir al",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117714/promotora-de-ventas.aspx",
+      "verified_at": "2026-10-15T05:45:35Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6b66cba0542e76af",
+      "title": "Jefe de Sucursal",
+      "company": "FETESA",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Objetivo: Garantizar el funcionamiento eficiente, rentable y exitoso de la sucursal, alineando la operación diaria con las metas estratégicas, comerciales y financieras establecidas por la empresa. Experiencia Laboral: Tres años Conocimiento Indispensable -Ferretería y Materiales",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117717/jefe-de-ventas.aspx",
+      "verified_at": "2026-10-15T05:45:33Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "7fe0f00f4936faf4",
+      "title": "Ejecutivo de Cuentas Claves (KAM)",
+      "company": "MERCONICA",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Requisitos: Ingeniero Industrial, Licenciado en Marketing y Publicidad o Administración de empresas. Residente de Managua. Experiencia o conocimiento de Retail link. Negociaciones con compradores de las distintas cadenas de Supermercado y tiendas independientes. Manejo de diferen",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117724/ejecutivo-de-cuenta.aspx",
+      "verified_at": "2026-10-15T05:45:31Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "a961b3a83c5fae60",
+      "title": "Gestor de Cobro Campo Masaya",
+      "company": "INSTACREDIT",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Masaya, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Requisitos Experiencia mínima de 1 a 2 años en recuperación de cartera. Conocimiento de técnicas de negociación. Experiencia trabajando bajo metas. Licencia de conducir vigente y documentos en regla. Poseer Moto.",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117734/gestor-de-cobros.aspx",
+      "verified_at": "2026-10-15T05:45:29Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "f58bdda9e959586f",
+      "title": "Supervisora de Impulsadora Multimarca Managua",
+      "company": "MERCONICA",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Requisitos: Residente de Managua Deseable: Licenciatura de la carrera de Administración de Empresas, Ingeniera Industrial, Mercadeo, Marketing o carreras a fines. Experiencia comprobable mínimo de 1 a 3 años en manejo y supervisión de personal. Orientado en ventas y servicio al c",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117745/jefe-de-impulsadoras-display.aspx",
+      "verified_at": "2026-10-15T05:45:27Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "3d933a672627e0d3",
+      "title": "Arquitecto (a)",
+      "company": "Confidencial",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Responsabilidades Realizar levantamiento de medidas de espacios y verificar dimensiones. Elaborar planos 2D y modelos tridimensionales (SketchUp, Vray/Enscape). Diseñar propuestas creativas de display y activaciones alineadas a brief y marca. Preparar presentaciones ejecutivas en",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117749/arquitecto.aspx",
+      "verified_at": "2026-10-15T05:45:25Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "f579d951973cb8b1",
+      "title": "Coordinador Contable (Managua)",
+      "company": "ACEITERA EL REAL",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Administración",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Requisitos: Lic. Contabilidad Pública y Finanzas. Al menos 2 años en puestos similares. Experiencia en Cuentas por cobrar, cuentas por pagar. Normas Contables, tributaria y fiscales, Office (Excel avanzado, Word, Power Point) Supervisar, planificar, ejecutar y evaluar los proceso",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117758/coordinador-de-contabilidad.aspx",
+      "verified_at": "2026-10-15T05:45:23Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "008f29a7abd010d7",
+      "title": "ASESOR DE VENTAS (Sucursal Esteli)",
+      "company": "Confidencial",
+      "location": "Estelí, Nicaragua",
+      "department": "Estelí",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Estelí, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Ventas",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Asesorar al cliente en los artículos exhibidos en nuestra tienda Realizar transacciones de cala Montaje y exhibición de los articulo, mantener su área de trabajo limpia y ordenada Crear cartera de clientes y darle seguimiento. Se requiere: Residir en ESTELI (Requisito indispensab",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117761/ejecutivo-de-ventas.aspx",
+      "verified_at": "2026-10-15T05:45:21Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "7cd906b20b0294a7",
+      "title": "Responsable de Crédito y Cobranzas",
+      "company": "Hotel Crowne Plaza",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Ventas",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "¿Tienes experiencia en el sector hotelero y turístico gestionando crédito y cobranzas? Perfil que buscamos: Experiencia de 4 a 5 años en crédito y cobranzas. Experiencia indispensable en hoteles o empresas del sector turismo. Formación técnica o universitaria en Administración, C",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117391/jefe-de-credito-y-cobro.aspx",
+      "verified_at": "2026-10-15T05:45:19Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "bc16a4d1c0d47d3d",
+      "title": "Auxiliar de Servicio al Cliente",
+      "company": "Confidencial",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Masaya, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Default",
+      "salary": null,
+      "summary": "Persona con experiencia Mínima de 1 año Habitar en zonas aledañas a Masaya Tener experiencia en uso de Herramientas de Computo Excel Intermedio Uso Básico de SAP",
+      "published_at": "2026-10-14",
+      "last_modified_at": null,
+      "expires": "2026-11-28",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117712/ejecutivo-de-servicio-al-cliente.aspx",
+      "verified_at": "2026-10-15T05:45:17Z",
+      "clarity": {
+        "score": 55,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
     {
       "id": "5f9232d866d0213f",
       "title": "Guardia de seguridad Altamira",
@@ -215,6 +1511,287 @@
       }
     },
     {
+      "id": "6916d6a6f69c106d",
+      "title": "Tornero",
+      "company": "Douglas Hanon",
+      "location": "Masaya, Tisma",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Masaya, Tisma, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Industria",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Fabricación y rectificación de piezas mediante torno.",
+      "published_at": "2026-10-13",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/tornero/33120722",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 60,
+        "stars": 3,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "c5815e1af97b0b2f",
+      "title": "Auxiliar contable de digitación",
+      "company": "Empleos Nicaragua",
+      "location": "Managua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Administración",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Digitación y revisión de documentos contables y de comercio exterior. Solicitan formación en Contabilidad.",
+      "published_at": "2026-10-13",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/auxiliar-contable-de-digitacion/33053908",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "bca7eed97a22b4f3",
+      "title": "Asesor comercial remoto / call center",
+      "company": "Svitlana Kriv",
+      "location": "León / Remoto",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Ventas",
+      "modality": "Remoto",
+      "type": "Tiempo completo",
+      "salary": null,
+      "summary": "Atención y asesoramiento comercial por teléfono. Solicitan computadora propia e internet estable.",
+      "published_at": "2026-10-12",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/asesor-comercial-remoto-call-center-remoto/33117703",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "54eb03b3aaa555dc",
+      "title": "Agentes de cobro / call center",
+      "company": "CCG Comunicaciones",
+      "location": "Managua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Servicios",
+      "modality": "Presencial",
+      "type": "Tiempo completo",
+      "salary": "US$285 base + comisiones",
+      "summary": "Gestión de cobranza telefónica y por redes sociales con capacitación inicial.",
+      "published_at": "2026-10-10",
+      "expires": null,
+      "source": "encuentra24",
+      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/agentes-de-cobro-call-center/33040989",
+      "verified_at": "2026-10-14T22:47:00Z",
+      "clarity": {
+        "score": 100,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
       "id": "0e9141da1e9ccc89",
       "title": "Oficial de atención al cliente",
       "company": "Ultra de Nicaragua S.A.",
@@ -357,33 +1934,37 @@
       }
     },
     {
-      "id": "6916d6a6f69c106d",
-      "title": "Tornero",
-      "company": "Douglas Hanon",
-      "location": "Masaya, Tisma",
-      "department": "Masaya",
+      "id": "e5f5b3dc92d1af79",
+      "title": "Data Engineer, Azure - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
       "address": null,
       "maps": {
-        "precision": "region",
-        "query": "Masaya, Tisma, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
       },
-      "category": "Industria",
-      "modality": "Presencial",
-      "type": "Tiempo completo",
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
       "salary": null,
-      "summary": "Fabricación y rectificación de piezas mediante torno.",
-      "published_at": "2026-10-13",
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
       "expires": null,
-      "source": "encuentra24",
-      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/tornero/33120722",
-      "verified_at": "2026-10-14T22:47:00Z",
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/4aa08bb3-14e5-4bba-9165-64857ba4a2f8",
+      "verified_at": "2026-10-15T05:45:15Z",
       "clarity": {
-        "score": 60,
-        "stars": 3,
+        "score": 75,
+        "stars": 4,
         "basis": "claridad_del_anuncio",
         "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
           {
             "key": "empresa",
             "label": "Nombre del empleador",
@@ -397,11 +1978,6 @@
           {
             "key": "modalidad",
             "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
             "points": 10
           },
           {
@@ -412,14 +1988,14 @@
         ],
         "missing": [
           {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
             "key": "salario",
             "label": "Remuneración publicada",
             "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
           }
         ],
         "employer_verified": false,
@@ -428,31 +2004,30 @@
       }
     },
     {
-      "id": "54eb03b3aaa555dc",
-      "title": "Agentes de cobro / call center",
-      "company": "CCG Comunicaciones",
-      "location": "Managua",
+      "id": "71db26eab3ee63da",
+      "title": "DevOps / SRE / DevSecOps Engineer (AWS) - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
       "department": "Managua",
       "address": null,
       "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
       },
-      "category": "Servicios",
-      "modality": "Presencial",
-      "type": "Tiempo completo",
-      "salary": "US$285 base + comisiones",
-      "summary": "Gestión de cobranza telefónica y por redes sociales con capacitación inicial.",
-      "published_at": "2026-10-10",
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
       "expires": null,
-      "source": "encuentra24",
-      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/agentes-de-cobro-call-center/33040989",
-      "verified_at": "2026-10-14T22:47:00Z",
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/4915637d-7324-4080-8630-0dab71d57f54",
+      "verified_at": "2026-10-15T05:45:15Z",
       "clarity": {
-        "score": 100,
-        "stars": 5,
+        "score": 75,
+        "stars": 4,
         "basis": "claridad_del_anuncio",
         "present": [
           {
@@ -471,18 +2046,8 @@
             "points": 15
           },
           {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
             "key": "modalidad",
             "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
             "points": 10
           },
           {
@@ -491,36 +2056,188 @@
             "points": 5
           }
         ],
-        "missing": [],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
         "employer_verified": false,
         "employer_evidence": null,
         "warning": "No representa opiniones, seguridad ni reputación de la empresa"
       }
     },
     {
-      "id": "bca7eed97a22b4f3",
-      "title": "Asesor comercial remoto / call center",
-      "company": "Svitlana Kriv",
-      "location": "León / Remoto",
+      "id": "6554f3e1271202c0",
+      "title": "DevOps / SRE / DevSecOps Engineer (AWS) - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/5c88f66d-c7ba-4e80-81ab-cd0e04287510",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "2b7f3f1348d61171",
+      "title": "DevOps / SRE / DevSecOps Engineer (AWS) - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/b37c98e8-152d-4918-a0c9-3337381d0b2e",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "f5bdab16fb78fca4",
+      "title": "DevOps / SRE / DevSecOps Engineer (AWS) - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
       "department": "León",
       "address": null,
       "maps": {
         "precision": "none",
         "reason": "Trabajo remoto: no se publica sede presencial"
       },
-      "category": "Ventas",
+      "category": "Otros",
       "modality": "Remoto",
-      "type": "Tiempo completo",
+      "type": "Full-Time",
       "salary": null,
-      "summary": "Atención y asesoramiento comercial por teléfono. Solicitan computadora propia e internet estable.",
-      "published_at": "2026-10-12",
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
       "expires": null,
-      "source": "encuentra24",
-      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/asesor-comercial-remoto-call-center-remoto/33117703",
-      "verified_at": "2026-10-14T22:47:00Z",
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/bf4ebb5b-e483-41b3-95a7-36795634a5cb",
+      "verified_at": "2026-10-15T05:45:15Z",
       "clarity": {
-        "score": 85,
-        "stars": 5,
+        "score": 75,
+        "stars": 4,
         "basis": "claridad_del_anuncio",
         "present": [
           {
@@ -544,11 +2261,6 @@
             "points": 10
           },
           {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          },
-          {
             "key": "contrato",
             "label": "Tipo de contrato",
             "points": 5
@@ -559,6 +2271,11 @@
             "key": "salario",
             "label": "Remuneración publicada",
             "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
           }
         ],
         "employer_verified": false,
@@ -567,31 +2284,30 @@
       }
     },
     {
-      "id": "c5815e1af97b0b2f",
-      "title": "Auxiliar contable de digitación",
-      "company": "Empleos Nicaragua",
-      "location": "Managua",
-      "department": "Managua",
+      "id": "6da3cf118b298441",
+      "title": "DevOps / SRE / DevSecOps Engineer (AWS) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
       "address": null,
       "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
       },
-      "category": "Administración",
-      "modality": "Presencial",
-      "type": "Tiempo completo",
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
       "salary": null,
-      "summary": "Digitación y revisión de documentos contables y de comercio exterior. Solicitan formación en Contabilidad.",
-      "published_at": "2026-10-13",
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
       "expires": null,
-      "source": "encuentra24",
-      "url": "https://www.encuentra24.com/nicaragua-es/empleos-ofertas-de-trabajos/auxiliar-contable-de-digitacion/33053908",
-      "verified_at": "2026-10-14T22:47:00Z",
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/06d0fc17-d709-4cf6-86d7-8dccd700ea4d",
+      "verified_at": "2026-10-15T05:45:15Z",
       "clarity": {
-        "score": 85,
-        "stars": 5,
+        "score": 75,
+        "stars": 4,
         "basis": "claridad_del_anuncio",
         "present": [
           {
@@ -615,8 +2331,73 @@
             "points": 10
           },
           {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
             "key": "fecha",
             "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "775ab98578d57954",
+      "title": "DevOps / SRE / DevSecOps Engineer (AWS) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/0f1697ba-73c3-4278-80f0-8291ba771a9d",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
             "points": 10
           },
           {
@@ -630,6 +2411,2957 @@
             "key": "salario",
             "label": "Remuneración publicada",
             "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "47f10c843b2bb586",
+      "title": "DevOps / SRE / DevSecOps Engineer (AWS) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/3813b562-5d5f-4916-bd8a-5bdf3038bcb9",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "79b89be603ba445f",
+      "title": "DevOps / SRE / DevSecOps Engineer (AWS) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/a14a3a40-7c48-4565-9b2f-2c11e6fc3c1f",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "1b50b8b84eb09c21",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/11ea4859-0d28-4adb-9fe1-3a88534c52e7",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "13b4eba6ec725957",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/1fe279c8-83d1-4205-b5f0-4921a9eda2b5",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "62cd331112248b42",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/690a00a0-c726-4336-8f44-f21d2bd63c46",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "46b0edc148710d78",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/f5468431-8e45-4ebb-9aa6-61b4a57c85de",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "f75901aa6e10ba9b",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/74bade4c-f42d-4662-8620-fb4eaf76e38f",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "87e9f3d27f9ae38e",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/77defa00-4d89-44c9-9a56-1e86581e9ea4",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "0fb3180658574e93",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/a706f672-7c30-4551-83b7-d07ef5058e82",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "1a0e8c9bdd32b538",
+      "title": "Full Stack and Backend NodeJS TypeScript/JavaScript Engineer (Senior) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/bd8f4ae1-4b17-48ff-8342-1c68c2ac0d64",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "7f3046b59f8dc859",
+      "title": "Full Stack Laravel + React Developer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight Consulting is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satis",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/476d787d-2b7a-455e-9d5a-562279e11e0a",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "44f00a716d8bc7d8",
+      "title": "Full Stack Laravel + React Developer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight Consulting is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satis",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/9ab4a6e4-5703-4273-8405-7a889723a745",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "e57ffb4f61d7ea91",
+      "title": "Full Stack Laravel + React Developer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight Consulting is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satis",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/b48f4523-d265-483b-89cf-47c8c1018285",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "e4b7c54c48fe8ddc",
+      "title": "Full Stack Laravel + React Developer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight Consulting is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satis",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/ee64f62b-1850-4d5c-b6bc-54c4b8b62968",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "2fc8ec98c026787f",
+      "title": "Laravel Developer + React - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight Consulting is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satis",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/5dcf33db-e57c-414c-a4f6-ff34a152f29e",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "19857faeceba9a84",
+      "title": "Laravel Developer + React - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight Consulting is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satis",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/7fa425ac-2882-478b-8807-cdadde3eb21b",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "6deefbe46c6ce160",
+      "title": "Laravel Developer + React - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight Consulting is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satis",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/a85da7c7-d21a-4ef0-9f42-045e1dce9dd9",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "00e8e32a67560f62",
+      "title": "Laravel Developer + React - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight Consulting is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satis",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/c6108dc5-d841-4020-9a7c-7be0976c995e",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "b1d6bf56650cf124",
+      "title": "Product Analyst - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/9db7cfe9-e1af-401f-b4c7-9187b36c7ff4",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "459253fd292e15fb",
+      "title": "React Engineer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/4c13712f-487d-4ad0-b94c-4b6da21d3582",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "9cf840c2fc288f49",
+      "title": "React Engineer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/52262460-4228-4d92-9e7a-d29441207605",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "4e621e3c789c5b5e",
+      "title": "React Engineer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/b547a965-7274-42d9-b881-f7d8618dce1e",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "571c474f16a3a651",
+      "title": "React Engineer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/d901dfb6-3d68-4833-9e7d-4cddacc76dd3",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "efdd0270bbcdc8de",
+      "title": "Senior Business Analyst - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/a6fef6e5-752a-4528-87cf-b86350d5706b",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "47ece042d2fd3c99",
+      "title": "Senior Business Analyst - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/e21e780d-0573-4c8d-87d2-fe01cf4f2b83",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "c9078f5c630ef648",
+      "title": "Senior Business Analyst - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/e5b36e06-05d6-48ca-8852-f3b419eaef39",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "8c4982e1af3f328d",
+      "title": "Senior Business Analyst - Latin America, Remote",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/ebe5afa2-e8da-4c47-b4c4-48a82a0bc92d",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "fe4271d3098c98e1",
+      "title": "Senior Business Analyst - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/4d98b3f2-dccf-41c4-acea-4198bcf5ce6a",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "d53b0c0d0752807c",
+      "title": "Senior Business Analyst - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/a56e4b32-59ee-4672-83e4-344251cb1b12",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "74bd423b776ee226",
+      "title": "Senior Business Analyst - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/a6100701-ee24-46f9-be8a-3806bb027026",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "974d6fab3956b86b",
+      "title": "Senior Business Analyst - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/cdd43de1-d6f1-437d-8d68-171bf5d6ac76",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "4243abc119624f78",
+      "title": "Senior Python/Flask+React Fullstack Engineer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/94d0e117-0f91-493e-9e22-71f19f0cba85",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "2d6a8ed2ff80bc6b",
+      "title": "Senior Python/Flask+React Fullstack Engineer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/c6cd2838-4d84-4116-9b33-92976b159c3b",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "027ed496dc67f8ac",
+      "title": "Senior Python/Flask+React Fullstack Engineer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/e93b54d0-6183-4bac-a344-5e0c1365b9d8",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "13e9ff193571bdd7",
+      "title": "Senior Python/Flask+React Fullstack Engineer - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Otros",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/eeffd76c-5058-42a4-90d6-68fb7757fd3b",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "4815d735811798a1",
+      "title": "Senior Software Engineer (Python/Flask+React) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Masaya, Nicaragua",
+      "department": "Masaya",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/0f974076-54b1-4c83-b47d-f6e2457fe562",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "9fb28fe953562690",
+      "title": "Senior Software Engineer (Python/Flask+React) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "León, Nicaragua",
+      "department": "León",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/23ced3f9-4427-4daf-8689-a0b245054896",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "ef9db7d0a0c3d2c9",
+      "title": "Senior Software Engineer (Python/Flask+React) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/a3da35cd-c297-43d1-93e0-4b47ea3090bc",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "3b13da2775475d86",
+      "title": "Senior Software Engineer (Python/Flask+React) - Remote, Latin America",
+      "company": "Bluelight Consulting",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "none",
+        "reason": "Trabajo remoto: no se publica sede presencial"
+      },
+      "category": "Tecnología",
+      "modality": "Remoto",
+      "type": "Full-Time",
+      "salary": null,
+      "summary": "Bluelight is a leading software consultancy dedicated to designing and developing innovative technology that enhances users' lives. With a steadfast commitment to delivering exceptional service to our clients, Bluelight excels in its focus on quality and customer satisfaction. Ou",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-bluelightconsulting",
+      "url": "https://jobs.lever.co/bluelightconsulting/b9f7082d-8ba6-42ba-8070-3dc7bcf8f30d",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 75,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "5d8af51c958d0971",
+      "title": "Senior Java Software Developer",
+      "company": "FreeBalance",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Tecnología",
+      "modality": "No especificada",
+      "type": "Full-time",
+      "salary": null,
+      "summary": "About FreeBalance FreeBalance is a purpose-led global technology company empowering governments to achieve transparent, accountable, and effective public financial management through its proprietary FreeBalance Accountability Suite™, a comprehensive Government Resource Planning (",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-freebalance.com",
+      "url": "https://jobs.lever.co/freebalance.com/65d38f9c-aeca-4078-b3ea-304b9b71b0d1",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 65,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "89472c600be0bea1",
+      "title": "Senior Front-End Developer",
+      "company": "FreeBalance",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Tecnología",
+      "modality": "No especificada",
+      "type": "Full-time",
+      "salary": null,
+      "summary": "About FreeBalance FreeBalance is a purpose-led global technology company empowering governments to achieve transparent, accountable, and effective public financial management through its proprietary FreeBalance Accountability Suite™, a comprehensive Government Resource Planning (",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-freebalance.com",
+      "url": "https://jobs.lever.co/freebalance.com/8b2bfad6-d953-43f2-acdd-dd164f3f66fb",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 65,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      }
+    },
+    {
+      "id": "2e086d6433f45563",
+      "title": "Senior Functional Analyst",
+      "company": "FreeBalance",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "Full-time",
+      "salary": null,
+      "summary": "About FreeBalance FreeBalance is a purpose-led global technology company empowering governments to achieve transparent, accountable, and effective public financial management through its proprietary FreeBalance Accountability Suite™, a comprehensive Government Resource Planning (",
+      "published_at": null,
+      "last_modified_at": null,
+      "expires": null,
+      "source": "ats-lever-freebalance.com",
+      "url": "https://jobs.lever.co/freebalance.com/278fc1d7-94ec-464e-bdc7-5a459ca02e3a",
+      "verified_at": "2026-10-15T05:45:15Z",
+      "clarity": {
+        "score": 65,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "missing": [
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
           }
         ],
         "employer_verified": false,
@@ -647,9 +5379,10 @@
       "collection": "crawler",
       "focus": "Oficios y empleo local",
       "color": "#fbbf7a",
-      "status": "muestra_inicial",
-      "jobs_count": 9,
-      "last_success": null
+      "last_success": null,
+      "last_attempt": "2026-10-15T05:45:15Z",
+      "status": "no_disponible",
+      "jobs_count": 9
     },
     {
       "id": "tecoloco",
@@ -659,9 +5392,10 @@
       "collection": "crawler",
       "focus": "Empresas y profesionales",
       "color": "#b8b5ff",
-      "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "last_success": "2026-10-15T05:45:15Z",
+      "last_attempt": "2026-10-15T05:45:15Z",
+      "status": "actualizada",
+      "jobs_count": 18
     },
     {
       "id": "computrabajo",
@@ -671,9 +5405,9 @@
       "collection": "directorio",
       "focus": "Empleo formal",
       "color": "#8fd9f5",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "linkedin",
@@ -683,9 +5417,9 @@
       "collection": "directorio",
       "focus": "Profesionales y remoto",
       "color": "#83b9ff",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "opcionempleo",
@@ -695,9 +5429,9 @@
       "collection": "directorio",
       "focus": "Varias industrias",
       "color": "#fbcb7a",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "vacantes",
@@ -707,9 +5441,9 @@
       "collection": "directorio",
       "focus": "Trabajo remoto",
       "color": "#d2aaff",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "empleosnicaragua",
@@ -719,9 +5453,9 @@
       "collection": "directorio",
       "focus": "Talento nicaragüense",
       "color": "#98efc2",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "trabajosnica",
@@ -731,9 +5465,9 @@
       "collection": "directorio",
       "focus": "Ofertas locales y empresas verificadas",
       "color": "#c1e89f",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "uno",
@@ -743,9 +5477,9 @@
       "collection": "directorio",
       "focus": "Vacantes directas de empresa",
       "color": "#f3bc9e",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "unicef",
@@ -755,9 +5489,9 @@
       "collection": "directorio",
       "focus": "Convocatorias y consultorías",
       "color": "#a7daf8",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "undp",
@@ -767,9 +5501,9 @@
       "collection": "directorio",
       "focus": "Empleo y cooperación internacional",
       "color": "#9dbaff",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "inide",
@@ -779,9 +5513,9 @@
       "collection": "directorio",
       "focus": "Convocatorias de institución pública",
       "color": "#c3d5ea",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "mined",
@@ -791,9 +5525,9 @@
       "collection": "directorio",
       "focus": "Vacantes del sector educativo",
       "color": "#afccec",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "conami",
@@ -803,9 +5537,9 @@
       "collection": "directorio",
       "focus": "Oportunidades de empleo y pasantías",
       "color": "#c5d6aa",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "reliefweb",
@@ -815,9 +5549,10 @@
       "collection": "api",
       "focus": "ONG y cooperación humanitaria",
       "color": "#f3a7a7",
+      "last_success": null,
+      "last_attempt": "2026-10-15T05:45:15Z",
       "status": "requiere_configuracion",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
     },
     {
       "id": "unjobs",
@@ -827,36 +5562,111 @@
       "collection": "directorio",
       "focus": "Organismos y proyectos",
       "color": "#83c2ff",
+      "last_success": null,
       "status": "directorio",
-      "jobs_count": 0,
-      "last_success": null
+      "jobs_count": 0
+    },
+    {
+      "id": "ats-lever-bluelightconsulting",
+      "name": "Bluelight Consulting · Lever",
+      "url": "https://jobs.lever.co/bluelightconsulting",
+      "kind": "empresa",
+      "collection": "ats",
+      "focus": "Ofertas publicadas en la web de la empresa",
+      "color": "#a8dfd2",
+      "allowed_hosts": [
+        "jobs.lever.co"
+      ],
+      "company": "Bluelight Consulting",
+      "board": "bluelightconsulting",
+      "provider": "lever",
+      "locations": [
+        "Managua, Nicaragua",
+        "León, Nicaragua",
+        "Granada, Nicaragua",
+        "Masaya, Nicaragua"
+      ],
+      "last_success": "2026-10-15T05:45:15Z",
+      "last_attempt": "2026-10-15T05:45:15Z",
+      "status": "actualizada",
+      "jobs_count": 46
+    },
+    {
+      "id": "ats-lever-freebalance.com",
+      "name": "FreeBalance · Lever",
+      "url": "https://jobs.lever.co/freebalance.com",
+      "kind": "empresa",
+      "collection": "ats",
+      "focus": "Ofertas publicadas en la web de la empresa",
+      "color": "#a8dfd2",
+      "allowed_hosts": [
+        "jobs.lever.co"
+      ],
+      "company": "FreeBalance",
+      "board": "freebalance.com",
+      "provider": "lever",
+      "locations": [
+        "Managua, Nicaragua"
+      ],
+      "last_success": "2026-10-15T05:45:15Z",
+      "last_attempt": "2026-10-15T05:45:15Z",
+      "status": "actualizada",
+      "jobs_count": 3
     }
   ],
   "facets": {
     "department": {
-      "Managua": 7,
-      "León": 1,
-      "Masaya": 1
+      "Managua": 36,
+      "Masaya": 15,
+      "León": 12,
+      "Granada": 11,
+      "Estelí": 1,
+      "Matagalpa": 1
     },
     "category": {
+      "Otros": 38,
+      "Tecnología": 22,
       "Servicios": 5,
-      "Ventas": 2,
-      "Administración": 1,
-      "Industria": 1
+      "Ventas": 5,
+      "Administración": 3,
+      "Industria": 2,
+      "Logística": 1
     },
     "modality": {
-      "Presencial": 8,
-      "Remoto": 1
+      "Remoto": 47,
+      "No especificada": 21,
+      "Presencial": 8
     },
     "source": {
-      "encuentra24": 9
+      "ats-lever-bluelightconsulting": 46,
+      "tecoloco": 18,
+      "encuentra24": 9,
+      "ats-lever-freebalance.com": 3
     }
   },
   "metadata": {
-    "disclaimer": "Datos de vacantes externas consultados el 14/10/2026; confirmá su vigencia en el portal original.",
+    "disclaimer": "Ofertas de terceros; comprobá la vigencia y postulá en la fuente original.",
     "collection_status": {
-      "encuentra24": "muestra_inicial"
+      "encuentra24": "no_disponible",
+      "tecoloco": "actualizada",
+      "computrabajo": "directorio",
+      "linkedin": "directorio",
+      "opcionempleo": "directorio",
+      "vacantes": "directorio",
+      "empleosnicaragua": "directorio",
+      "trabajosnica": "directorio",
+      "uno": "directorio",
+      "unicef": "directorio",
+      "undp": "directorio",
+      "inide": "directorio",
+      "mined": "directorio",
+      "conami": "directorio",
+      "reliefweb": "requiere_configuracion",
+      "unjobs": "directorio",
+      "ats-lever-bluelightconsulting": "actualizada",
+      "ats-lever-freebalance.com": "actualizada"
     },
-    "indexed_count": 9
+    "indexed_count": 76,
+    "methodology": "Solo ofertas individuales. Estrellas = claridad del anuncio, no prestigio ni identidad confirmada del empleador. La ubicación puede ser aproximada."
   }
 }
