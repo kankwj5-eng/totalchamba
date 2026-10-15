@@ -15,7 +15,9 @@ transformar una vacante encontrada en pasos concretos de preparación**.
    - **Guía**: consejos por oficio, campos realmente publicados y preguntas
      recomendadas para el empleador.
    - **CV profesional**: diseño sobrio inspirado en modelos de CV universitarios
-     y comúnmente llamados «estilo Harvard». **No es una plantilla oficial
+     y comúnmente llamados «estilo Harvard», más un revisor local de cinco campos
+   básicos de claridad del CV. Esa lista no predice empleabilidad ni aprobación
+   por sistemas de selección. **No es una plantilla oficial
      de Harvard ni está avalada por esa universidad**. Vista previa, impresión
      A4 y la opción «Guardar como PDF» del navegador.
    - **Entrevista**: preguntas orientativas por profesión, cronómetro local de
