@@ -99,3 +99,10 @@ def test_geocoding_does_not_invent_regional_nicaraguan_office():
     assert map_metadata("Empresa", "LATAM", "No especificada")['precision'] == 'none'
     assert map_metadata("Empresa", "Worldwide", "")['precision'] == 'none'
     assert map_metadata("Empresa", "Managua, Nicaragua", "Presencial")['precision'] == 'region'
+
+
+def test_maps_do_not_duplicate_country_or_pin_remote_locations():
+    assert map_metadata('Empresa','Managua, Nicaragua','Presencial')['query']=='Managua, Nicaragua'
+    exact=map_metadata('Empresa','Estelí, Nicaragua','Presencial','Calle central')
+    assert exact['query']=='Calle central, Estelí, Nicaragua'
+    assert map_metadata('Empresa','Remote - Nicaragua','','')['precision']=='none'
