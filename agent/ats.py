@@ -82,7 +82,12 @@ def fetch_json(url, opener=urlopen):
     with opener(req, timeout=18) as response:
         if response.status != 200 or 'json' not in response.headers.get('Content-Type', '').lower():
             raise ValueError('Respuesta no JSON')
-        return json.loads(response.read(3_000_000))
+        # Greenhouse puede incluir cientos de fichas HTML: límite explícito por proveedor.
+        limit = 20_000_000 if url.startswith('https://boards-api.greenhouse.io/') else 3_000_000
+        content = response.read(limit + 1)
+        if len(content) > limit:
+            raise ValueError('Respuesta ATS demasiado grande; no publicar datos parciales')
+        return json.loads(content)
 
 
 def parse_greenhouse(payload, source):
