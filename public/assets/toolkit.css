@@ -70,5 +70,6 @@ label>textarea::placeholder,label>input::placeholder{color:#91a3a3}
   body.print-cv .cv-preview-wrap{position:static!important;padding:0!important;margin:0!important;background:none!important}
   body.print-cv .cv-paper{padding:0!important;border:0!important;box-shadow:none!important;min-height:0!important;max-width:none!important;overflow:visible!important;font-size:11pt!important}
   body.print-cv .cv-paper section{page-break-inside:avoid}
+  body.print-cv .cv-paper section.is-empty,body.print-cv .cv-paper .is-empty{display:none!important}
   body.print-cv #cv-paper *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
