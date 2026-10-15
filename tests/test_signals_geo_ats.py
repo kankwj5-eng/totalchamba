@@ -83,3 +83,19 @@ def test_jsonld_street_address_extracted_only_when_present():
     extracted=from_jsonld(entry,'https://example.com/job/1')
     assert extracted['address']=='De la iglesia 1 c al norte'
     assert 'Estelí' in extracted['location']
+
+def test_regional_ats_is_not_mistaken_for_ni_job():
+    from agent.ats import likely_ni
+    assert not likely_ni("Remote, Latin America")
+    assert not likely_ni("Worldwide")
+    assert not likely_ni("LATAM")
+    assert not likely_ni("Madrid, España")
+    assert likely_ni("Remote, Nicaragua")
+    assert likely_ni("Costa Rica, México, Nicaragua")
+    assert likely_ni("Managua, Nicaragua")
+
+
+def test_geocoding_does_not_invent_regional_nicaraguan_office():
+    assert map_metadata("Empresa", "LATAM", "No especificada")['precision'] == 'none'
+    assert map_metadata("Empresa", "Worldwide", "")['precision'] == 'none'
+    assert map_metadata("Empresa", "Managua, Nicaragua", "Presencial")['precision'] == 'region'
