@@ -433,8 +433,16 @@ def update_data(today=None, client=None, destination=None):
         unique[job['id']] = job
     rows = merge_exact_reposts(unique.values())
     for job in rows:
-        if not isinstance(job.get('maps'), dict):
-            job['maps'] = map_metadata(job.get('company'),job.get('location'),job.get('modality'),job.get('address'))
+        # Recalcular siempre la precisión. Un anuncio conservado no debe
+        # heredar un mapa viejo más preciso ni búsquedas con país duplicado.
+        old_map = job.get('maps') if isinstance(job.get('maps'), dict) else {}
+        fresh_map = map_metadata(job.get('company'),job.get('location'),job.get('modality'),job.get('address'))
+        if (fresh_map.get('precision') == 'address' and old_map.get('precision') == 'address'
+                and old_map.get('place_id') and old_map.get('evidence') == 'google_places_match'):
+            fresh_map['place_id'] = old_map['place_id']
+            fresh_map['evidence'] = 'google_places_match'
+            fresh_map['label'] = 'Coincidencia de establecimiento; comprobar sede laboral'
+        job['maps'] = fresh_map
     try:
         from .google_places import enrich_jobs
         enrich_jobs(rows, previous.get('jobs', []))
