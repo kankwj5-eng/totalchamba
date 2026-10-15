@@ -14,7 +14,8 @@ async function check(viewport){
   await page.locator('#cv-name').fill('Persona de Prueba');
   await page.locator('#cv-city').fill('Estelí, Nicaragua');
   await page.locator('#cv-experience').fill('Atención al cliente y organización');
-  assert((await page.locator('#paper-name').innerText()).includes('Persona de Prueba'),'La vista previa del CV no se actualiza');
+  const preview=await page.locator('#paper-name').innerText();
+  assert(preview.includes('Persona de Prueba'),'La vista previa del CV no se actualiza: preview='+JSON.stringify(preview)+', input='+JSON.stringify(await page.locator('#cv-name').inputValue())+', errores='+JSON.stringify(errors));
   await page.locator('#cv-save').click();
   await page.reload({waitUntil:'domcontentloaded'});
   await page.locator('[data-tab="cv"]').click();
