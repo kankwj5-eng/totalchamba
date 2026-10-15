@@ -41,6 +41,6 @@ def test_forms_are_local_and_printable():
 def test_bulletin_has_no_live_event_fabrication():
     html=(ROOT/'public/index.html').read_text(encoding='utf-8')
     code=(ROOT/'public/assets/bulletin.js').read_text(encoding='utf-8')
-    assert 'publicar' in html.lower()
+    assert 'no se publican ferias' in html.lower()
     assert "item.expires_at<localDate()" in code
     assert "official.has(u.hostname)" in code
