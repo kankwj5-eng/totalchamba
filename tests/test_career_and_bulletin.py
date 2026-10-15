@@ -77,3 +77,42 @@ def test_bulletin_rejects_unverified_status(tmp_path):
     file.write_text(json.dumps(feed))
     with pytest.raises(ValueError,match='estado desconocido'):
         check_bulletin(file)
+
+
+def test_documented_skills_are_literal_and_provenanced():
+    from agent.career_advisor import documented_terms
+    original={'title':'Desarrollador Python', 'category':'Tecnología',
+              'requirements':'Experiencia con Excel, SQL e inglés para reportes. Deseable Power BI.',
+              'education':'Bachillerato aprobado', 'summary':'Se capacita en SAP.'}
+    found=documented_terms(original)
+    pairs={(x['label'],x['source']) for x in found}
+    assert ('Excel','requisitos') in pairs
+    assert ('SQL','requisitos') in pairs
+    assert ('Inglés','requisitos') in pairs
+    assert ('Power BI','requisitos') in pairs
+    assert ('Bachillerato','formación') in pairs
+    assert ('SAP','requisitos') not in pairs
+    assert ('Python','requisitos') not in pairs
+    assert all(x['source'] in ('requisitos','formación') for x in found)
+
+def test_documented_skills_skip_substring_false_positive():
+    from agent.career_advisor import documented_terms
+    row={'requirements':'Estamos buscando un consultor de NoSQL para un equipo JavaScript.',
+         'title':'JavaScript', 'summary':'Experiencia Excel'}
+    found=documented_terms(row)
+    names=[x['label'] for x in found]
+    assert 'SQL' not in names
+    assert 'Excel' not in names
+    assert names==['JavaScript']
+
+def test_documented_skills_omit_missing_requirements():
+    from agent.career_advisor import documented_terms
+    found=documented_terms({'requirements':None,'education':None,'title':'Excel Analyst'})
+    assert found==[]
+
+def test_advisor_exposes_documented_terms_separate_from_suggestions():
+    job={'title':'Analista','category':'Administración','requirements':'Dominio de Excel y manejo de inventarios'}
+    guide=advise(job)
+    assert guide['documented_terms']
+    assert guide['basis']=='recomendaciones_generales_por_oficio'
+    assert job['requirements']=='Dominio de Excel y manejo de inventarios'
