@@ -1,8 +1,29 @@
-# TotalChanba 5.2 🇳🇮 — Portal nacional de oportunidades
+# TotalChanba 5.3 🇳🇮 — Portal nacional de oportunidades
 
-Portal web en español (HTML/CSS/JS estático), recolector Python y actualización mediante GitHub Actions. Despliegue preparado para Vercel. **No está desplegado**. Es un proyecto independiente de los portales que enlaza y no almacena CVs ni datos de candidatos.
+Portal web en español (HTML/CSS/JS estático), recolector Python y actualización mediante GitHub Actions. Despliegue preparado para Vercel. **No está desplegado**. Es un proyecto independiente de los portales que enlaza y no recibe CVs ni datos de candidatos en sus servidores; el navegador puede guardar información local solo por decisión del usuario.
 
 > **Cobertura y verificabilidad (15/10/2026).** GitHub Actions generó un índice con **172 anuncios**, de los cuales **163 se obtuvieron en la última ejecución** (18 Tecoloco, 46 Bluelight Consulting, 3 FreeBalance, 59 Power Digital, 34 Hire Hangar y 3 Delivery Hero/PedidosYa); **9 anuncios anteriores fueron conservados temporalmente** y no se consideran revalidados. El directorio de 16 fuentes no implica extracción de todos esos portales. Hay 5 tableros ATS empresariales configurados; los cinco tableros empresariales ya devolvieron ofertas durante una ejecución conectada. Ninguna empresa recibe automáticamente insignia de verificación.
+
+## Mejoras de agentes y herramientas (5.3)
+
+- **Agente de competencias documentadas**: detecta términos literalmente en requisitos
+  o formación y señala su procedencia. No interpreta que sean obligatorios ni
+  estima probabilidades de contratación.
+- **Autochequeo del candidato**: marcas voluntarias por vacante sobre lo que
+  puede demostrar, guardadas únicamente en su propio dispositivo.
+- **Respaldo del CV**: exportación JSON e importación con validación, tamaño máximo
+  de 30 KB y confirmación para reemplazar el formulario. El respaldo descargado
+  **no está cifrado**; debe almacenarse con cuidado.
+- **Salarios y contratos más fiables**: el indexador muestra moneda y período
+  solo cuando aparecen declarados en el origen. No interpreta «Default» como
+  un contrato real.
+- **Mapas más precisos**: sin repetir Nicaragua, sin sedes ficticias para
+  puestos remotos y con regeneración del mapa de anuncios conservados.
+- **Pruebas de accesibilidad**: Chromium verifica flujos móviles y de escritorio.
+  axe-core revisa WCAG 2.1 A/AA en las pantallas principales; consultar
+  los resultados en [GitHub Actions](https://github.com/kankwj5-eng/totalchamba/actions).
+
+Más información en [calidad y accesibilidad](docs/CALIDAD_53.md).
 
 ## Estudio de Candidatura (5.2)
 
