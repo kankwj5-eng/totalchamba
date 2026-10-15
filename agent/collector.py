@@ -98,6 +98,7 @@ def normalise(job, source, now=None):
         if parsed.hostname not in source.get('allowed_hosts', []): return None
         if parsed.hostname == 'jobs.lever.co' and not parsed.path.startswith('/' + source['board'] + '/'): return None
         if parsed.hostname in ('boards.greenhouse.io', 'job-boards.greenhouse.io') and not parsed.path.startswith('/' + source['board'] + '/'): return None
+        if parsed.hostname in ('jobs.ashbyhq.com','jobs.smartrecruiters.com') and not parsed.path.startswith('/' + source['board'] + '/'): return None
     elif parsed.hostname != urlparse(source['url']).hostname: return None
     location = plain(job.get('location'))[:110] or 'Nicaragua'
     expires = date_clean(job.get('expires'))
