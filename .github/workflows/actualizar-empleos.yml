@@ -1,5 +1,11 @@
 name: Actualizar vacantes de Nicaragua
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'agent/**'
+      - 'requirements.txt'
+      - '.github/workflows/actualizar-empleos.yml'
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
@@ -28,8 +34,8 @@ jobs:
           CHAMBANI_GOOGLE_PLACES_ENABLED: ${{ vars.CHAMBANI_GOOGLE_PLACES_ENABLED || '0' }}
           CHAMBANI_PLACES_MAX_CALLS: ${{ vars.CHAMBANI_PLACES_MAX_CALLS || '8' }}
         run: python -m agent.collector
-      - name: Validar JSON generado
-        run: python -m json.tool public/data/jobs.json > /dev/null
+      - name: Validar integridad, evidencias y éxito de recopilación
+        run: python -m agent.consistency public/data/jobs.json
       - name: Publicar solo cuando haya cambios
         run: |
           git config user.name 'totalchanba-bot'
