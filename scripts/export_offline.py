@@ -46,7 +46,7 @@ def prepare(name,css_file,js_files,images):
         if count!=1: raise ValueError('No se encontró script '+js_file)
         js=(PUBLIC/js_file).read_text(encoding='utf-8')
         if js_file.endswith('/app.js'):
-            marker='const thumb='+chr(96)+'/assets/occupations/function () { [native code] }.webp'+chr(96)+';'
+            marker='const thumb='+chr(96)+'/assets/occupations/${image}.webp'+chr(96)+';'
             if marker not in js: raise ValueError('No se encontró la miniatura para incrustar')
             js=js.replace(marker,"const thumb=window.__TC_IMAGES__[image]||'';")
             js=js.replace('href="/herramientas.html?vacante=', 'href="./herramientas.html?vacante=')
