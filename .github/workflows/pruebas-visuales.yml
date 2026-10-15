@@ -1,0 +1,42 @@
+name: Pruebas visuales TotalChanba
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - 'tests/browser_studio.mjs'
+      - '.github/workflows/pruebas-visuales.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visual-main
+  cancel-in-progress: true
+jobs:
+  chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar navegador de prueba
+        run: |
+          npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.0
+          npx playwright install chromium --with-deps
+      - name: Levantar web estática de TotalChanba
+        run: |
+          python -m http.server 4173 --directory public > /tmp/totalchanba-server.log 2>&1 &
+          for n in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:4173/herramientas.html > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          echo "El servidor no respondió" >&2
+          cat /tmp/totalchanba-server.log
+          exit 1
+      - name: Comprobar interacciones reales móvil y escritorio
+        run: node tests/browser_studio.mjs
