@@ -2,7 +2,7 @@
 
 Portal web en español (HTML/CSS/JS estático), recolector Python y actualización mediante GitHub Actions. Despliegue preparado para Vercel. **No está desplegado**. Es un proyecto independiente de los portales que enlaza y no almacena CVs ni datos de candidatos.
 
-> **Cobertura real y verificabilidad.** El paquete incluye **nueve publicaciones de muestra** consultadas originalmente el **14/10/2026**, y **16 fuentes en el directorio**, no nueve ofertas nuevamente comprobadas hoy. Al activar el recolector, las ofertas se reemplazan por lo efectivamente recopilado. El directorio NO significa recolección de todas sus fuentes. No hay actualmente empresas registradas como verificadas. Hay **dos tableros Lever identificados** para el próximo run (Bluelight Consulting y FreeBalance), pero todavía **no se ha comprobado en vivo el extractor del API** ni se han añadido ofertas de ellos al índice inicial.
+> **Cobertura y verificabilidad (15/10/2026).** GitHub Actions generó un índice con **76 anuncios**, de los cuales **67 se obtuvieron en la última ejecución** (18 Tecoloco, 46 Bluelight Consulting y 3 FreeBalance); **9 anuncios anteriores fueron conservados temporalmente** y no se consideran revalidados. El directorio de 16 fuentes no implica extracción de todos esos portales. Hay 5 tableros ATS empresariales configurados; los tres incorporados más recientemente requieren comprobar el primer run. Ninguna empresa recibe automáticamente insignia de verificación.
 
 ## Nuevas mejoras visuales (5.0)
 
@@ -13,7 +13,7 @@ Portal web en español (HTML/CSS/JS estático), recolector Python y actualizaci�
 - Preguntas útiles y contextualizadas para candidatos según los datos que faltan: horario, salario, dirección o requisitos. Son sugerencias, no respuestas reales.
 - Aviso visible cuando el índice es histórico/de muestra o está desactualizado. Nunca se presentan revisiones antiguas como nuevas.
 - Reparado el diseño en pantallas pequeñas: las tarjetas ya no compiten con una barra lateral fija de 248 píxeles.
-- **26 pruebas automatizadas de Python aprobadas**; verificación offline en Chromium para escritorio y móvil de búsqueda, imágenes, mapas, favoritos, filtros, estrellas y comparador. Esto no sustituye una auditoría de accesibilidad externa.
+- **34 pruebas automatizadas de Python aprobadas**; verificación offline en Chromium para escritorio y móvil de búsqueda, imágenes, mapas, favoritos, filtros, estrellas y comparador. Esto no sustituye una auditoría de accesibilidad externa.
 
 ## Funciones heredadas
 
@@ -22,7 +22,7 @@ Portal web en español (HTML/CSS/JS estático), recolector Python y actualizaci�
 - **Comprobación empresarial**: código listo para registrar evidencia editorial con fecha y enlace oficial; ninguna ficha se autoverifica. Las revisiones caducan a los 180 días y requieren coincidencia del tablero autorizado y una prueba en el sitio oficial. Registro vacío por seguridad (`agent/verified_employers.json`).
 - **Google Maps sin clave**: enlace de búsqueda por región si solo se conoce ciudad, por dirección si la vacante declara calle; sin mapa en remoto o cuando falta ubicación. Nunca se presenta una búsqueda como pin confirmado del trabajo.
 - **Places API (New) opcional y de pago**: puede buscar `place_id` únicamente para direcciones declaradas, sin guardar resultados completos. Se desactiva por defecto, limitada a 8 consultas por corrida y 30 máximo, con secreto y revisión de costos. No garantiza sede laboral.
-- **Greenhouse + Lever**: conectores Python a APIs públicas de tableros de empresas; se habilitan tras declarar tokens reales revisados en `agent/ats_boards.json`. Esta edición incluye **2 tableros reales hallados en portales públicos**: `bluelightconsulting` y `freebalance.com`, ambos con filtro de ciudades de Nicaragua. La captura de API todavía necesita su primer run conectado. Ofertas fuera de Nicaragua y enlaces con dominios no autorizados se filtran conservadoramente.
+- **APIs empresariales (Lever, Greenhouse, Ashby y SmartRecruiters)**: cinco tableros explícitos en `agent/ats_boards.json`: Bluelight Consulting, FreeBalance, Power Digital, Hire Hangar y Delivery Hero/PedidosYa. Los dos de Lever ya devolvieron ofertas en GitHub Actions; la extracción de los demás debe verificarse en los registros de cada ejecución. Se restringen host, tablero y territorio. No se inventan enlaces, salarios ni ubicación exacta.
 - **Radar por departamento**, comparación local de hasta tres vacantes con salario tal como aparece, favoritos en este navegador, búsqueda compartible por URL, modo lectura clara, navegación con teclado y preferencia `prefers-reduced-motion`.
 - Mantenimiento anterior: deduplicación, frescura, metadata de fuentes, sanitización, directorio sin confusión con ofertas, recordatorio antifraudes y encabezados de seguridad en Vercel.
 
@@ -33,6 +33,8 @@ agent/
   collector.py          # Índice y extracción HTML/ReliefWeb
   sources.py            # Portales y directorio
   ats.py                # Greenhouse/Lever; config ats_boards.json
+  ats_extra.py          # Conectores Ashby y SmartRecruiters
+  consistency.py        # Puerta de publicación del índice
   geo.py                # Clasificación regional/dirección/remoto; URLs Google Maps
   google_places.py      # Opt-in clave Places API
   signals.py            # 7 criterios reproducibles de claridad
@@ -43,7 +45,7 @@ public/
   index.html
   assets/{app.js,styles.css,favicon.svg}
   assets/occupations/*.webp   # Doce escenas laborales IA; no son empresas
-  data/jobs.json        # Muestra inicial fechada
+  data/jobs.json        # Índice generado con fuentes y estados
 .github/workflows/actualizar-empleos.yml
 tests/
   test_*.py, browser_check.py, browser_v3.py
@@ -67,7 +69,7 @@ python -m agent.collector
 
 **Aviso:** Esto ejecuta consultas externas sujetas a robots/condiciones, y puede retirar las vacantes de muestra si ya no hay coincidencias indexadas. Para regenerar expresamente la muestra inicial, `python -m agent.seed`, **solo para demostración**; no reetiqueta nada como recién verificado. Para pruebas visuales opcionales: instalar Playwright y Chromium y ejecutar `python tests/browser_v3.py`; el script utiliza `/usr/bin/chromium` y carga HTML/CSS/JS/JSON en memoria. Las fotografías se cargan como URLs de datos solo en la prueba.
 
-## Greenhouse/Lever opt-in
+## Integraciones de portales empresariales
 
 Para nuevas empresas, añadir a `agent/ats_boards.json` elementos como este **solo después de comprobar que el token corresponde a un tablero público real que publica vacantes aptas para Nicaragua**:
 
@@ -78,7 +80,7 @@ Para nuevas empresas, añadir a `agent/ats_boards.json` elementos como este **so
 ]
 ```
 
-Son **ejemplos de configuración adicionales**, no empresas incorporadas. Los dos tableros reales ya se encuentran en el archivo de configuración; eso no equivale a haber recolectado empleos. No adivinar tokens ni sortear restricciones. Las ofertas remotas para LATAM pueden ser geográficamente elegibles, pero hay que comprobar si admiten Nicaragua.
+Estos son **ejemplos de configuración**, no nuevas empresas añadidas. La lista actual de cinco tableros autorizados se encuentra en `agent/ats_boards.json`. Los nuevos proveedores también aceptan `ashby` y `smartrecruiters`. No se adivinan tokens ni se sortean restricciones. Una oferta multinacional solo se clasifica como elegible cuando declara Nicaragua; algunas ofertas remotas regionales requieren comprobar los países admitidos. Ver `agent/README.md`.
 
 ## Google Places: únicamente opt-in presupuestado
 
@@ -96,11 +98,11 @@ Archivo `agent/verified_employers.json` = `[]` inicialmente. Una revisión indiv
 
 ## Publicar
 
-1. Importar todos los archivos de este paquete en el repositorio `https://github.com/kankwj5-eng/totalchamba` (ya inicializado con el proyecto completo) **manteniendo la estructura de carpetas**. El nombre visible de la página es TotalChanba.
-2. Importar a Vercel (framework Other; `outputDirectory=public` según `vercel.json`). El sitio será estático; no introducir claves secretas en el frontend.
-3. Activar el workflow de GitHub Actions y revisar permisos `contents: write` o cambiar el mecanismo a un PR si existe protección de rama. Se ejecuta aproximadamente cada seis horas, sin garantía de puntualidad.
-4. Revisar las condiciones y permisos de cada fuente y comprobar el primer run real antes de promocionar el portal como actualizado.
+1. El código **ya está publicado** en `https://github.com/kankwj5-eng/totalchamba` (rama `main`). El nombre visible es TotalChanba.
+2. Autorizar en Vercel la cuenta y el alcance de GitHub que pueden acceder a `kankwj5-eng/totalchamba` y vincular el repositorio en el proyecto **TotalChanba** (Framework Other; Output Directory `public`). Los intentos desde ChatGPT recibieron **403 por alcance Vercel**, por lo que todavía no se ha publicado en Vercel. No introducir claves en el frontend.
+3. El workflow de GitHub Actions ya se ejecutó con éxito y publica el índice tras superar las pruebas. Sigue programado aproximadamente cada seis horas. Revisar permisos `contents: write` y los resultados de ejecución.
+4. Verificar en los registros que cada nuevo tablero responde con ofertas antes de presentarlo como conectado, y revisar robots/términos de los portales de directorio.
 
-Pruebas offline de esta entrega: **26 casos de Python aprobados, JavaScript con sintaxis validada, e interacciones en móvil/escritorio comprobadas**. No equivalen a cobertura legal de las fuentes, geocodificación exacta general ni auditoría de accesibilidad WCAG completa.
+Pruebas offline de esta entrega: **34 casos de Python aprobados, JavaScript con sintaxis validada, e interacciones en móvil/escritorio comprobadas**. No equivalen a cobertura legal de las fuentes, geocodificación exacta general ni auditoría de accesibilidad WCAG completa.
 
 Documentación adicional: `docs/INVESTIGACION.md`, `docs/ARQUITECTURA.md`, `docs/FUENTES.md`, `CHANGELOG.md`, `docs/DISEÑO_TOTALCHANBA.md`.
