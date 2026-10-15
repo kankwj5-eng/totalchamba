@@ -131,7 +131,7 @@
     const d=cvSnapshot();
     const criteria=[
       ['Nombre identificable',d['cv-name'].trim().length>=5],
-      ['Un medio de contacto',d['cv-email'].includes('@')||d['cv-phone'].replace(/\\D/g,'').length>=7],
+      ['Un medio de contacto',d['cv-email'].includes('@')||d['cv-phone'].replace(/\D/g,'').length>=7],
       ['Perfil escrito por vos',d['cv-profile'].trim().length>=25],
       ['Experiencia o formación auténtica',d['cv-experience'].trim().length>=15||d['cv-education'].trim().length>=15],
       ['Habilidades concretas',d['cv-skills'].trim().length>=6]
