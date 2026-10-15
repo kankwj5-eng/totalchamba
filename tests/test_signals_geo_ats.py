@@ -47,7 +47,7 @@ def test_ats_opt_in_empty_and_strict(tmp_path):
 
 def test_real_board_config_is_explicit_and_bounded():
     rows=boards(Path(__file__).resolve().parents[1]/'agent/ats_boards.json')
-    assert sorted(x['board'] for x in rows)==['bluelightconsulting','freebalance.com']
+    assert sorted(x['board'] for x in rows)==sorted(['bluelightconsulting','freebalance.com','powerdigitalmarketing','hirehangar','DeliveryHero'])
     assert all(x['locations'] for x in rows)
 
 def test_parse_ats_location_and_normalization():
