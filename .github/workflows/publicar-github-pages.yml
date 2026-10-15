@@ -1,0 +1,65 @@
+name: Publicar TotalChanba en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - 'scripts/build_github_pages.py'
+      - '.github/workflows/publicar-github-pages.yml'
+  workflow_run:
+    workflows: ["Actualizar vacantes de Nicaragua"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages-totalchanba
+  cancel-in-progress: false
+
+jobs:
+  preparar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Descargar versión más reciente de main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preparar sitio para Pages
+        run: python scripts/build_github_pages.py
+      - name: Validar rutas y datos públicos
+        run: |
+          python -m json.tool _site/data/jobs.json > /dev/null
+          python -m json.tool _site/data/bulletin.json > /dev/null
+          test -f _site/index.html
+          test -f _site/herramientas.html
+          ! grep -q 'href="/assets/' _site/index.html
+          ! grep -q "fetch('/data/jobs.json'" _site/assets/app.js
+      - name: Subir paquete de GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publicar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    needs: preparar
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Publicar página
+        id: deployment
+        uses: actions/deploy-pages@v4
