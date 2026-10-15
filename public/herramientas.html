@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es-NI">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0c1c2f">
+<meta name="description" content="Kit gratuito de TotalChanba: consejos por empleo, CV profesional imprimible, entrevistas, cartas y seguimiento de postulaciones.">
+<title>Tu kit de candidatura · TotalChanba</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="/assets/toolkit.css" rel="stylesheet">
+<script src="/assets/toolkit.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#tool-main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="TotalChanba, volver al buscador"><span class="brand-mark">✳</span><span>Total<span>Chanba</span></span></a>
+  <a class="back" href="/#empleos">← Volver a empleos</a>
+</header>
+<main id="tool-main">
+<section class="tool-hero">
+  <div class="hero-orbit" aria-hidden="true"><span>✳</span></div>
+  <div class="wrapper hero-layout">
+    <div>
+      <span class="eyebrow">TU PRÓXIMA OPORTUNIDAD EMPIEZA AQUÍ</span>
+      <h1>Del anuncio a tu <em>próximo paso.</em></h1>
+      <p>Una caja de herramientas para prepararte mejor: CV, entrevistas, carta, guía del oficio y una ruta de postulación. Gratis y sin enviar tus datos personales a nuestros servidores.</p>
+      <div class="hero-pills"><span>✳ Orientación por oficio</span><span>▧ CV imprimible</span><span>◎ Privacidad local</span></div>
+    </div>
+    <aside class="current-job" aria-live="polite">
+      <span class="current-tag">VACANTE SELECCIONADA</span>
+      <h2 id="selected-title">Prepará tu próxima candidatura</h2>
+      <p id="selected-company">Elegí una vacante desde TotalChanba para personalizar estas herramientas.</p>
+      <div id="job-context" class="context-meta"></div>
+      <a id="source-original" href="/#empleos">Explorar empleos originales ↗</a>
+    </aside>
+  </div>
+</section>
+<div class="wrapper">
+  <div class="trust-band"><span>🔒 Privacidad: el CV y tus respuestas se procesan en tu navegador.</span><span>Las recomendaciones no reemplazan los requisitos oficiales del anuncio.</span></div>
+  <nav class="tool-tabs" aria-label="Herramientas de candidatura">
+    <button type="button" class="active" data-tab="guia" aria-current="page">✳ <span>Guía del puesto</span></button>
+    <button type="button" data-tab="cv">▤ <span>Crear CV</span></button>
+    <button type="button" data-tab="entrevista">◉ <span>Entrevista</span></button>
+    <button type="button" data-tab="carta">✉ <span>Mi carta</span></button>
+    <button type="button" data-tab="plan">✓ <span>Mi plan</span></button>
+    <button type="button" data-tab="animo">♡ <span>Ánimo</span></button>
+  </nav>
+  <section class="panel" id="panel-guia" aria-labelledby="guide-heading">
+    <div class="section-head"><span class="section-count">01 / GUÍA PERSONALIZADA</span><h2 id="guide-heading">Consejos para <em>esta vacante.</em></h2><p>Adaptados al tipo de trabajo, nunca inventados como condiciones del empleador.</p></div>
+    <div class="guide-grid">
+      <article class="module focus"><span class="module-icon">✳</span><h3>Tu enfoque</h3><p id="guide-focus">Elegí un anuncio de empleo para ver recomendaciones.</p><span class="footnote">Orientación general por profesión</span></article>
+      <article class="module"><span class="module-icon">▤</span><h3>Qué destacar en tu CV</h3><ul id="guide-cv" class="checklist"></ul></article>
+      <article class="module"><span class="module-icon">❖</span><h3>Preguntas para la empresa</h3><ul id="guide-ask" class="checklist"></ul></article>
+      <article class="module source-details"><span class="module-icon">◈</span><h3>Lo que sí publicó la fuente</h3><div id="source-facts"></div><p class="footnote">Solo datos obtenidos del anuncio. Si falta algo, te recomendamos preguntarlo.</p></article>
+    </div>
+    <div class="journey-banner"><div><b>¿Preparado para presentarte?</b><p>Convertí tu experiencia real en un CV sencillo y bien estructurado.</p></div><button type="button" data-jump="cv">Crear mi CV →</button></div>
+  </section>
+  <section class="panel" id="panel-cv" aria-labelledby="cv-heading" hidden>
+    <div class="section-head"><span class="section-count">02 / DOCUMENTOS PROFESIONALES</span><h2 id="cv-heading">Un CV claro. <em>Tu historia real.</em></h2><p>Formato sobrio inspirado en la estructura universitaria de una página. No es una plantilla oficial ni una certificación de Harvard.</p></div>
+    <div class="cv-layout">
+      <div class="module cv-form-wrap">
+        <form id="cv-form" autocomplete="on">
+          <div class="form-heading"><span>01</span><h3>Datos de contacto</h3></div>
+          <div class="form-grid">
+            <label>Nombre completo <input id="cv-name" name="name" maxlength="90" autocomplete="name" placeholder="Tu nombre y apellidos"></label>
+            <label>Ciudad o departamento <input id="cv-city" name="city" maxlength="90" placeholder="Estelí, Nicaragua"></label>
+            <label>Correo electrónico <input id="cv-email" name="email" maxlength="110" type="email" autocomplete="email" placeholder="nombre@correo.com"></label>
+            <label>Teléfono <input id="cv-phone" name="phone" maxlength="35" type="tel" autocomplete="tel" placeholder="Número de contacto"></label>
+          </div>
+          <div class="form-heading"><span>02</span><h3>Perfil profesional</h3></div>
+          <label>Resumen personal basado en hechos <textarea id="cv-profile" name="profile" maxlength="640" rows="3" placeholder="Soy una persona con experiencia en… He realizado… Busco aportar…"></textarea></label>
+          <div class="form-heading"><span>03</span><h3>Trayectoria y habilidades</h3></div>
+          <label>Experiencia (una actividad o logro real por línea) <textarea id="cv-experience" name="experience" maxlength="1800" rows="5" placeholder="Auxiliar de bodega · Empresa X · 2024–2026&#10;Control de inventario y preparación de pedidos"></textarea></label>
+          <label>Educación y cursos (una línea por elemento) <textarea id="cv-education" name="education" maxlength="1000" rows="3" placeholder="Bachillerato · Instituto X · 2023"></textarea></label>
+          <label>Habilidades comprobables (separadas por comas) <textarea id="cv-skills" name="skills" maxlength="700" rows="2" placeholder="Excel, servicio al cliente, control de inventarios"></textarea></label>
+        </form>
+        <div class="form-actions"><button id="cv-print" type="button" class="primary">▤ Guardar como PDF / imprimir</button><button id="cv-save" type="button" class="quiet">Guardar en este dispositivo</button><button id="cv-clear" type="button" class="danger">Borrar mis datos</button></div>
+        <p class="privacy-note">No guardamos tu CV en un servidor. Se mantiene en la memoria de esta página y solo se conserva en este dispositivo si tocás «Guardar». No agregamos formación ni experiencia inexistente.</p>
+      </div>
+      <aside class="cv-preview-wrap"><div class="preview-label"><span>VISTA PREVIA EN VIVO</span><span>Papel blanco · Sin foto obligatoria</span></div>
+        <article id="cv-paper" class="cv-paper" aria-label="Vista previa de tu currículum">
+          <header class="paper-top"><h3 id="paper-name">Tu nombre completo</h3><p id="paper-contact">Ciudad · Correo · Teléfono</p></header>
+          <section><h4>PERFIL PROFESIONAL</h4><p id="paper-profile">Escribí aquí un resumen auténtico de tu experiencia.</p></section>
+          <section><h4>EXPERIENCIA</h4><div id="paper-experience"><p>Tus actividades, responsabilidades y resultados demostrables.</p></div></section>
+          <section><h4>EDUCACIÓN Y FORMACIÓN</h4><div id="paper-education"><p>Tu formación, cursos y certificaciones.</p></div></section>
+          <section><h4>HABILIDADES</h4><p id="paper-skills">Herramientas y habilidades que realmente dominás.</p></section>
+        </article>
+      </aside>
+    </div>
+  </section>
+  <section class="panel" id="panel-entrevista" aria-labelledby="interview-heading" hidden>
+    <div class="section-head"><span class="section-count">03 / PRÁCTICA DE ENTREVISTAS</span><h2 id="interview-heading">Practicá antes de <em>entrar.</em></h2><p>Preguntas por profesión y método STAR para organizar una respuesta sin memorizar frases artificiales.</p></div>
+    <div class="practice-grid">
+      <article class="module question-box"><span class="module-icon">◉</span><span class="question-caption" id="question-count">PREGUNTA 1</span><h3 id="question-text">¿Qué te interesa de este puesto?</h3><div class="timer" id="timer-value" aria-live="off">01:30</div><div class="form-actions"><button class="primary" id="timer-start" type="button">▶ Comenzar práctica</button><button class="quiet" id="question-next" type="button">Otra pregunta →</button><button class="quiet" id="timer-reset" type="button">Reiniciar</button></div><p class="footnote">No grabamos audio ni enviamos tu respuesta. El tiempo es una sugerencia, no una evaluación.</p></article>
+      <article class="module"><span class="module-icon">✦</span><h3>Tu respuesta con STAR</h3><p>Situación · Tarea · Acción · Resultado. Usá solo ejemplos reales.</p><label>Situación <textarea id="star-situation" rows="2" maxlength="400" placeholder="¿Qué ocurrió?"></textarea></label><label>Tarea <textarea id="star-task" rows="2" maxlength="400" placeholder="¿Cuál era tu responsabilidad?"></textarea></label><label>Acción <textarea id="star-action" rows="2" maxlength="400" placeholder="¿Qué hiciste tú?"></textarea></label><label>Resultado <textarea id="star-result" rows="2" maxlength="400" placeholder="¿Qué mejoró o qué aprendiste?"></textarea></label><button id="star-copy" class="secondary" type="button">Copiar mi respuesta</button></article>
+    </div>
+  </section>
+  <section class="panel" id="panel-carta" aria-labelledby="letter-heading" hidden>
+    <div class="section-head"><span class="section-count">04 / PRESENTACIÓN PROFESIONAL</span><h2 id="letter-heading">Una carta con <em>tu propia voz.</em></h2><p>Un borrador personalizable vinculado al puesto. Nunca inventamos logros, títulos o experiencias.</p></div>
+    <div class="letter-grid"><div class="module">
+      <label>Cómo querés presentarte <input id="letter-name" maxlength="100" placeholder="Tu nombre"></label>
+      <label>Por qué te interesa este puesto <textarea id="letter-interest" rows="3" maxlength="450" placeholder="Me interesa este puesto porque…"></textarea></label>
+      <label>Un logro, habilidad o experiencia real <textarea id="letter-proof" rows="3" maxlength="500" placeholder="He trabajado en… / He aprendido…"></textarea></label>
+      <div class="form-actions"><button class="primary" id="letter-create" type="button">✦ Preparar borrador</button><button class="quiet" id="letter-copy" type="button">Copiar carta</button></div>
+    </div><div class="module letter-result"><span class="preview-label">BORRADOR EDITABLE</span><textarea id="letter-output" rows="17" aria-label="Texto de la carta de presentación"></textarea><p class="privacy-note">Leé y corregí la carta antes de enviarla. No se entrega automáticamente a ninguna empresa.</p></div></div>
+  </section>
+  <section class="panel" id="panel-plan" aria-labelledby="plan-heading" hidden>
+    <div class="section-head"><span class="section-count">05 / MI RUTA DE POSTULACIÓN</span><h2 id="plan-heading">De la duda al <em>siguiente paso.</em></h2><p>Un pequeño tablero para avanzar sin enviar datos al portal. Cada vacante tiene su propia lista.</p></div>
+    <div class="plan-layout"><article class="module">
+      <div class="plan-progress"><strong id="plan-completed">0 de 6 pasos</strong><span id="plan-percent">0%</span></div><div class="progress-track"><span id="plan-bar"></span></div>
+      <div id="plan-list" class="plan-list"></div>
+      <button id="plan-clear" class="quiet" type="button">Reiniciar esta lista</button>
+    </article><aside class="module">
+      <span class="module-icon">✉</span><h3>Tu seguimiento</h3>
+      <label>Estado de esta postulación <select id="application-status"><option value="explorando">Estoy explorando</option><option value="preparando">Estoy preparando documentos</option><option value="enviada">Ya me postulé</option><option value="entrevista">Me contactaron para entrevista</option><option value="respuesta">Recibí una respuesta</option></select></label>
+      <label>Nota personal <textarea id="application-notes" maxlength="1000" rows="5" placeholder="Ej. Pendiente de confirmar salario."></textarea></label>
+      <button id="application-save" class="primary" type="button">Guardar seguimiento en este dispositivo</button>
+      <p class="footnote">Solo se almacena en este navegador. No notificamos ni consultamos al empleador.</p>
+      <a class="outbound" id="plan-original" href="/#empleos">↗ Consultar anuncio original</a>
+    </aside></div>
+  </section>
+  <section class="panel" id="panel-animo" aria-labelledby="mood-heading" hidden>
+    <div class="section-head"><span class="section-count">06 / CONFIANZA Y BIENESTAR</span><h2 id="mood-heading">Buscá oportunidades <em>sin agotarte.</em></h2><p>Buscar empleo puede resultar cansado. Acá encontrarás recordatorios y ejercicios breves; no son tratamiento psicológico.</p></div>
+    <div class="mood-grid"><article class="module mood-main"><span class="module-icon">♡</span><h3>Un objetivo pequeño vale</h3><p>Elegí una tarea concreta: revisar una vacante, mejorar un párrafo del CV o practicar una respuesta. No necesitás hacerlo todo hoy.</p><div class="mood-actions"><button class="primary" id="mood-next" type="button">Dame una idea para avanzar →</button></div><p id="mood-prompt" class="mood-prompt" aria-live="polite">Hoy podés empezar por una sola acción de 10 minutos.</p></article>
+      <article class="module"><span class="module-icon">◎</span><h3>Preparación antes de entrevistar</h3><ol class="checklist"><li>Leé de nuevo la descripción y anotá preguntas.</li><li>Buscá un lugar tranquilo y prepará tus documentos.</li><li>Respirá a tu propio ritmo y respondé con ejemplos reales.</li><li>Si no sabés algo, podés decirlo y explicar cómo aprenderías.</li></ol><p class="footnote">No medimos emociones ni evaluamos tu estado mental.</p></article>
+      <article class="module"><span class="module-icon">✳</span><h3>Tu valor no depende de una respuesta</h3><p>Una vacante puede cerrarse o cambiar por razones ajenas a tu candidatura. Descansar y organizarte también son pasos útiles. Pedí apoyo a personas de confianza si lo necesitás.</p></article>
+    </div>
+  </section>
+</div>
+</main>
+<footer class="footer"><div class="wrapper"><strong>TotalChanba <span>✳</span></strong><p>Tu camino laboral, con información verificable y herramientas gratuitas.</p><a href="/#empleos">Volver a buscar trabajo ↗</a></div></footer>
+<div id="notification" role="status" aria-live="polite" class="notification" hidden></div>
+</body></html>
