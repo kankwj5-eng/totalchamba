@@ -219,7 +219,7 @@ def salary_from_jsonld(value):
     def clean_number(n):
         if isinstance(n, bool) or n is None: return ''
         raw = str(n).strip()
-        return raw if re.fullmatch(r'\\d{1,9}(?:[.,]\\d{1,2})?', raw) else ''
+        return raw if re.fullmatch(r'\d{1,9}(?:[.,]\d{1,2})?', raw) else ''
     lower = clean_number(amount.get('minValue'))
     upper = clean_number(amount.get('maxValue'))
     exact = clean_number(amount.get('value'))
