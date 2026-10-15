@@ -86,3 +86,24 @@ label>textarea::placeholder,label>input::placeholder{color:#91a3a3}
 .cv-audit-list li.complete{color:#176849;font-weight:800}.cv-audit-list li.complete span:first-child{background:#bcf0cf}
 @media(max-width:550px){.cv-audit{grid-template-columns:1fr;padding:14px}.cv-audit>strong{justify-self:start}.cv-audit-list{grid-template-columns:1fr}}
 @media print{body.print-cv .cv-audit{display:none!important}}
+
+
+/* TotalChanba 5.3: autochequeo de competencias documentadas y respaldo de CV. */
+.skill-module{background:linear-gradient(140deg,#fff,#f4fbf8);border-color:#c9e6d7}
+.skill-module>p{max-width:650px}
+.skill-terms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:15px 0}
+.skill-choice{display:flex;align-items:center;gap:10px;padding:12px;border-radius:11px;background:white;border:1px solid #d3e6e0;cursor:pointer;min-width:0}
+.skill-choice:focus-within{outline:2px solid #139c78;outline-offset:2px}
+.skill-choice input{flex:0 0 auto;width:19px;height:19px;accent-color:#0d8062;margin:0}
+.skill-choice-text{display:flex;flex-direction:column;gap:3px;min-width:0}
+.skill-choice strong{font-size:12px;color:#194b43;font-weight:900;line-height:1.3}
+.skill-choice small{font-size:10px;color:#5e7973}
+.skill-choice:has(input:checked){background:#e6f8ed;border-color:#91d7b4}
+.skill-actions{display:flex;flex-wrap:wrap;gap:8px}
+.skill-actions button{font-size:11px}
+.cv-upload-label{display:inline-flex;position:relative;align-items:center;justify-content:center;border:1px solid #c0d8d2;border-radius:10px;padding:11px 14px;background:#f0f8f4;color:#155f52;min-height:42px;font-size:12px;font-weight:850;cursor:pointer;margin:0}
+.cv-upload-label:hover{background:#e0f3e8}
+.cv-upload-label:focus-within{outline:3px solid #187da6;outline-offset:3px}
+.cv-upload-label input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;z-index:1}
+@media(max-width:610px){.skill-terms{grid-template-columns:1fr}.skill-actions button{flex:1 1 130px}.cv-upload-label{flex:1 1 170px}}
+@media print{.skill-module,.cv-upload-label{display:none!important}}
