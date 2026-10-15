@@ -22,7 +22,9 @@ def map_metadata(company, location, modality='', street_address=''):
     company, location, street_address = (str(v or '').strip()[:160] for v in (company, location, street_address))
     if 'remot' in fold(modality) or 'telecommut' in fold(modality):
         return {'precision': 'none', 'reason': 'Trabajo remoto: no se publica sede presencial'}
-    if not location or fold(location) in {'nicaragua', 'no especificada', 'por definir', 'sin especificar'}:
+    if (not location or fold(location) in {'nicaragua', 'no especificada', 'por definir', 'sin especificar'}
+            or any(v in fold(location) for v in ('latin america', 'latam', 'worldwide', 'global remote'))
+            and 'nicaragua' not in fold(location)):
         return {'precision': 'none', 'reason': 'El anuncio no indica ciudad o dirección suficiente'}
     if street_address:
         # Este texto viene exclusivamente de la ficha, no de un buscador.
