@@ -209,3 +209,21 @@
 .tc-specs dd{color:#1d3547}
 .tc-review-status.is-older{color:#6b4816}
 .tc-agenda-meta{color:#456566}
+
+
+/* Segunda pasada del auditor axe: textos secundarios siguen siendo legibles
+   sin sustituir el sistema de color principal ni alterar la marca. */
+#empleos .section-intro p{color:#3b5443}
+.section-counter>span{color:#415646}
+.quick-filters>span{color:#415748}
+#reset-filters{color:#276635}
+#visible-count{color:#3b5542}
+.results-toolbar label[for="sort"]{color:#415946}
+#search-feedback{color:#365841}
+.tc-map-missing{color:#36594f}
+.board-note>p{color:#405a45}
+.method-lenses>div>span{color:#306827}
+.safety-section li>strong,.safety-inner li>strong{color:#306726}
+.how-layout>div:first-child>p{color:#3e5544}
+.step>span{color:#3d6538}
+.step>div>p{color:#405747}
