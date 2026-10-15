@@ -1,5 +1,6 @@
 // Browser smoke tests de TotalChanba Studio; se ejecutan contra el sitio estático local.
 import { chromium } from 'playwright';
+import { readFile } from 'node:fs/promises';
 
 const origin=process.env.SITE_URL || 'http://127.0.0.1:4173';
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
@@ -17,6 +18,21 @@ async function check(viewport){
   const preview=await page.locator('#paper-name').innerText();
   assert(preview.toLocaleLowerCase('es').includes('persona de prueba'),'La vista previa del CV no se actualiza: preview='+JSON.stringify(preview)+', input='+JSON.stringify(await page.locator('#cv-name').inputValue())+', errores='+JSON.stringify(errors));
   assert((await page.locator('#cv-audit-count').innerText()).includes('de 5'),'El chequeo de CV no calcula los campos');
+  // Respaldar e importar el CV sin llamadas de red ni servicios de terceros.
+  const [download]=await Promise.all([page.waitForEvent('download'),page.locator('#cv-export').click()]);
+  assert(download.suggestedFilename()==='TotalChanba_CV_respaldo.json','Nombre del respaldo incorrecto');
+  const exported=JSON.parse(await readFile(await download.path(),'utf8'));
+  assert(exported.type==='totalchanba-cv-backup'&&exported.fields['cv-name']==='Persona de Prueba','Respaldo de CV incompleto');
+  await page.locator('#cv-name').fill('Otro nombre');
+  page.once('dialog',dialog=>dialog.accept());
+  await page.locator('#cv-import').setInputFiles({
+    name:'CV_de_respaldo.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(exported))
+  });
+  await page.waitForFunction(()=>document.getElementById('cv-name').value==='Persona de Prueba',{timeout:5000});
+  assert((await page.locator('#cv-name').inputValue())==='Persona de Prueba','La importación no restableció los datos');
+  // Un archivo incompatible jamás puede borrar o reemplazar el CV ya cargado.
+  await page.locator('#cv-import').setInputFiles({name:'no_valido.json',mimeType:'application/json',buffer:Buffer.from('{"type":"otra-app","version":1}')});
+  assert((await page.locator('#cv-name').inputValue())==='Persona de Prueba','Un archivo inválido alteró el CV');
   await page.locator('#cv-save').click();
   await page.reload({waitUntil:'domcontentloaded'});
   await page.locator('[data-tab="cv"]').click();
