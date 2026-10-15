@@ -96,7 +96,7 @@ Archivo `agent/verified_employers.json` = `[]` inicialmente. Una revisión indiv
 
 ## Publicar
 
-1. Importar todos los archivos de este paquete en el repositorio `https://github.com/kankwj5-eng/totalchamba` (actualmente vacío) **manteniendo la estructura de carpetas**. El nombre visible de la página es TotalChanba.
+1. Importar todos los archivos de este paquete en el repositorio `https://github.com/kankwj5-eng/totalchamba` (ya inicializado con el proyecto completo) **manteniendo la estructura de carpetas**. El nombre visible de la página es TotalChanba.
 2. Importar a Vercel (framework Other; `outputDirectory=public` según `vercel.json`). El sitio será estático; no introducir claves secretas en el frontend.
 3. Activar el workflow de GitHub Actions y revisar permisos `contents: write` o cambiar el mecanismo a un PR si existe protección de rama. Se ejecuta aproximadamente cada seis horas, sin garantía de puntualidad.
 4. Revisar las condiciones y permisos de cada fuente y comprobar el primer run real antes de promocionar el portal como actualizado.
