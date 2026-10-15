@@ -28,7 +28,7 @@ async function check(viewport){
   await page.locator('#cv-import').setInputFiles({
     name:'CV_de_respaldo.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(exported))
   });
-  await page.waitForFunction(()=>document.getElementById('cv-name').value==='Persona de Prueba',{timeout:5000});
+  await page.waitForFunction(()=>document.getElementById('cv-name').value==='Persona de Prueba',null,{timeout:5000});
   assert((await page.locator('#cv-name').inputValue())==='Persona de Prueba','La importación no restableció los datos');
   // Un archivo incompatible jamás puede borrar o reemplazar el CV ya cargado.
   await page.locator('#cv-import').setInputFiles({name:'no_valido.json',mimeType:'application/json',buffer:Buffer.from('{"type":"otra-app","version":1}')});
@@ -76,6 +76,26 @@ try{
   assert((await page.locator('#selected-title').innerText()).length>4,'El kit no recibió contexto de vacante');
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),'El portal excede el ancho del teléfono');
   await page.close();
+  const skillPage=await browser.newPage({viewport:{width:390,height:844}});
+  skillPage.on('pageerror',e=>errors.push(String(e)));
+  await skillPage.goto(origin+'/',{waitUntil:'domcontentloaded'});
+  const skillJob=await skillPage.evaluate(async ()=>{
+    const data=await (await fetch('/data/jobs.json')).json();
+    return data.jobs.find(j=>j.career_guide?.documented_terms?.length)?.id||null;
+  });
+  assert(Boolean(skillJob),'El agente no generó competencias documentadas para ninguna vacante');
+  await skillPage.goto(origin+'/herramientas.html?vacante='+skillJob,{waitUntil:'domcontentloaded'});
+  await skillPage.locator('#guide-terms .skill-choice input').first().waitFor({timeout:10000});
+  const competency=await skillPage.locator('#guide-terms input').first().inputValue();
+  await skillPage.locator('#guide-terms input').first().check();
+  await skillPage.locator('#skills-save').click();
+  await skillPage.reload({waitUntil:'domcontentloaded'});
+  await skillPage.locator('#guide-terms .skill-choice input').first().waitFor({timeout:10000});
+  assert(await skillPage.locator('#guide-terms input').first().isChecked(),'El autochequeo laboral no se conservó');
+  assert(await skillPage.locator('#guide-terms input').first().inputValue()===competency,'Cambiaron las competencias publicadas');
+  await skillPage.locator('#skills-clear').click();
+  assert(!(await skillPage.locator('#guide-terms input').first().isChecked()),'El autochequeo no se puede borrar');
+  await skillPage.close();
   assert(errors.length===0,'Errores JS: '+errors.join('; '));
   console.log('TotalChanba Studio: pruebas funcionales en móvil y escritorio aprobadas.');
 }finally{await browser.close();}
