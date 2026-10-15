@@ -120,6 +120,11 @@
     putText('paper-experience',fields['cv-experience']||'Tus actividades, responsabilidades y resultados demostrables.');
     putText('paper-education',fields['cv-education']||'Tu formación, cursos y certificaciones.');
     putText('paper-skills',fields['cv-skills']||'Herramientas y habilidades que realmente dominás.');
+    // En pantalla hay ayudas de escritura. Al imprimir, se omiten las secciones vacías.
+    for(const [field,id] of [['cv-profile','paper-profile'],['cv-experience','paper-experience'],
+                             ['cv-education','paper-education'],['cv-skills','paper-skills']]){
+      $(id).closest('section').classList.toggle('is-empty',!fields[field].trim());
+    }
     if(!($('letter-name').value.trim()))$('letter-name').placeholder=fields['cv-name']||'Tu nombre';
   }
   function cvRestore(){
