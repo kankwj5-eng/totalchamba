@@ -62,7 +62,16 @@
       <a class="stats-link" href="#como-funciona">¿De dónde salen las ofertas? <span>↗</span></a>
     </div></section>
 
-    <div class="shell"><div id="data-notice" class="data-notice" role="status" hidden></div></div>
+    <div class="shell"><div id="data-notice" class="data-notice" role="status" hidden></div>
+      <section class="tc-health" aria-label="Estado real de la recopilación">
+        <div class="tc-health-intro"><span class="tc-health-kicker">◉ RADAR DE ACTUALIZACIONES</span><h2>Datos claros. Búsquedas con confianza.</h2><p id="health-note">Comprobando las fuentes del índice de empleo…</p></div>
+        <div class="tc-health-metrics">
+          <div><strong id="stat-reviewed">—</strong><span>Recopiladas en la última consulta</span></div>
+          <div><strong id="stat-carried">—</strong><span>Conservadas de consultas anteriores</span></div>
+          <div><strong id="stat-collectors">—</strong><span>Fuentes que respondieron</span></div>
+        </div>
+      </section>
+    </div>
 
     <section class="jobs-section" id="empleos" aria-labelledby="jobs-title"><div class="shell">
       <div class="section-intro"><div><span class="section-kicker"><span class="kicker-dot"></span> EXPLORÁ TU SIGUIENTE PASO</span><h2 id="jobs-title">Cada vacante, <em>toda la información posible.</em></h2><p>Resultados del índice real, filtros precisos y enlaces a cada anuncio original. Los directorios externos se muestran por separado.</p></div><div class="section-counter"><strong id="matching-counter">0</strong><span>resultados en esta búsqueda</span></div></div>
@@ -82,6 +91,7 @@
         <div class="filter-group"><label for="filter-cat">Área de trabajo</label><select id="filter-cat"><option value="">Todas las áreas</option></select></div>
         <div class="filter-group"><label for="filter-mode">Modalidad</label><select id="filter-mode"><option value="">Cualquier modalidad</option><option value="Remoto">Remoto</option><option value="Presencial">Presencial</option><option value="Híbrido">Híbrido</option></select></div>
         <div class="filter-group"><label for="filter-date">Publicación</label><select id="filter-date"><option value="">Cualquier fecha</option><option value="3">Últimos 3 días</option><option value="7">Última semana</option><option value="30">Últimos 30 días</option></select></div>
+        <div class="filter-group"><label for="filter-review">Última consulta</label><select id="filter-review"><option value="">Todas las revisiones</option><option value="latest">Recopiladas en la última consulta</option><option value="earlier">Conservadas de consultas anteriores</option></select></div>
         <div class="filter-group"><label for="filter-source">Plataforma</label><select id="filter-source"><option value="">Todas las plataformas</option></select></div>
         <div class="filter-group"><label for="filter-clarity">Claridad mínima</label><select id="filter-clarity"><option value="">Todas las ofertas</option><option value="3">3 estrellas o más</option><option value="4">4 estrellas o más</option><option value="5">5 estrellas</option></select></div>
         <div class="filter-group"><label for="filter-map">Ubicación para Maps</label><select id="filter-map"><option value="">Cualquier ubicación</option><option value="region">Zona indicada</option><option value="address">Dirección declarada</option></select></div>
@@ -91,7 +101,7 @@
         <div class="filter-tip"><span class="tip-spark">✳</span><strong>Tu búsqueda, a tu manera.</strong><p>Guardá vacantes en este dispositivo y volvé a consultarlas cuando querás.</p></div>
       </aside>
 
-      <div class="results-area"><div class="results-toolbar"><div class="results-label"><span class="pulse-indicator"></span><strong id="results-heading">Últimas oportunidades</strong><span class="toolbar-count" id="visible-count"></span></div><div class="toolbar-actions"><label for="sort">Ordenar:</label><select id="sort"><option value="recent">Más recientes</option><option value="relevance">Mayor coincidencia</option><option value="title">Puesto A–Z</option><option value="source">Plataforma</option><option value="clarity">Información más completa</option></select><button id="share-search" type="button" class="share-search" title="Copiar enlace de esta búsqueda" aria-label="Compartir búsqueda">↗ Compartir</button><button class="saved-button" id="toggle-saved" type="button" aria-pressed="false" title="Mostrar favoritos">♡ <span>Guardados</span> <b id="saved-count">0</b></button></div></div>
+      <div class="results-area"><div class="results-toolbar"><div class="results-label"><span class="pulse-indicator"></span><strong id="results-heading">Últimas oportunidades</strong><span class="toolbar-count" id="visible-count"></span></div><div class="toolbar-actions"><label for="sort">Ordenar:</label><select id="sort"><option value="recent">Más recientes</option><option value="relevance">Mayor coincidencia</option><option value="title">Puesto A–Z</option><option value="source">Plataforma</option><option value="clarity">Información más completa</option></select><button id="share-search" type="button" class="share-search" title="Copiar enlace de esta búsqueda" aria-label="Compartir búsqueda">↗ Compartir</button><button id="export-saved" type="button" class="tc-export" title="Descargar tus empleos guardados en CSV">↓ Exportar guardados</button><button class="saved-button" id="toggle-saved" type="button" aria-pressed="false" title="Mostrar favoritos">♡ <span>Guardados</span> <b id="saved-count">0</b></button></div></div>
       <div class="search-feedback" id="search-feedback" aria-live="polite"></div>
       <div class="lens-strip" aria-label="Tres lentes de información"><span class="lens-title">TRES LENTES PARA DECIDIR</span><span><b>✦</b> Claridad de la oferta</span><span><b>◎</b> Procedencia</span><span><b>⌖</b> Ubicación real o aproximada</span><a href="#metodologia">¿Qué significa cada señal? ↗</a></div>
       <div id="job-grid" class="job-grid" aria-live="polite"><div class="loading-state"><span class="loading-spin"></span><p>Cargando oportunidades...</p></div></div>
