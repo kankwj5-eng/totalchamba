@@ -22,8 +22,13 @@ jobs:
         run: python -m pip install -r requirements.txt pytest
       - name: Validar Python y casos de calidad
         run: python -m pytest -q
-      - name: Validar sintaxis JavaScript
-        run: node --check public/assets/app.js
+      - name: Validar JavaScript del portal y herramientas
+        run: |
+          node --check public/assets/app.js
+          node --check public/assets/toolkit.js
+          node --check public/assets/bulletin.js
+      - name: Verificar cartelera editorial y enlaces oficiales
+        run: python -m agent.bulletin
       - name: Verificar fotografías temáticas
         run: |
           python - <<'PYCODE'
