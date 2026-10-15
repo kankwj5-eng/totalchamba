@@ -1,0 +1,43 @@
+name: Descargar TotalChanba local Android
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - 'scripts/export_offline.py'
+      - '.github/workflows/exportar-preview-local.yml'
+permissions:
+  contents: read
+concurrency:
+  group: offline-android-preview
+  cancel-in-progress: true
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Crear vista local autónoma con datos y recursos de esta versión
+        run: python scripts/export_offline.py
+      - name: Verificar que el ZIP contiene las dos pantallas
+        run: |
+          python - <<'PY'
+          import zipfile
+          z=zipfile.ZipFile('offline-export/TotalChanba_actual_offline_Android.zip')
+          assert {'index.html','herramientas.html','LEEME.txt'} <= set(z.namelist())
+          assert len(z.read('index.html')) > 300_000
+          assert b'career_guide' in z.read('herramientas.html')
+          print('Contenido local exportado y verificado.')
+          PY
+      - name: Entregar ZIP descargable para Android
+        uses: actions/upload-artifact@v4
+        with:
+          name: TotalChanba-Android-offline
+          path: offline-export/TotalChanba_actual_offline_Android.zip
+          if-no-files-found: error
+          retention-days: 30
