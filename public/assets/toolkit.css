@@ -73,3 +73,16 @@ label>textarea::placeholder,label>input::placeholder{color:#91a3a3}
   body.print-cv .cv-paper section.is-empty,body.print-cv .cv-paper .is-empty{display:none!important}
   body.print-cv #cv-paper *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
+
+
+/* Checklist de integridad editorial del CV; no representa porcentaje de contratación. */
+.cv-audit{border:1px solid #b8dfcd;border-radius:13px;padding:17px;margin-top:19px;background:linear-gradient(125deg,#eefaf0,#f5faf7);display:grid;grid-template-columns:1fr auto;gap:9px}
+.cv-audit>div>span{font-size:10px;letter-spacing:1px;font-weight:900;color:#0d765b}.cv-audit h3{font:850 15px/1.3 var(--display);color:#134c3c;margin:6px 0}
+.cv-audit p{font-size:11px;color:#49695a;line-height:1.55;margin:5px 0}
+.cv-audit>strong{padding:9px;background:#d8efe2;color:#17684d;border-radius:9px;font-size:12px;align-self:start;white-space:nowrap}
+.cv-audit-list{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:7px 0 0;padding:0;list-style:none}
+.cv-audit-list li{display:flex;align-items:center;gap:7px;font-size:11px;line-height:1.4;color:#71837b}
+.cv-audit-list li span:first-child{width:19px;height:19px;display:grid;place-items:center;border-radius:50%;background:#e3e9e7;font-size:12px;font-weight:800;flex:0 0 auto}
+.cv-audit-list li.complete{color:#176849;font-weight:800}.cv-audit-list li.complete span:first-child{background:#bcf0cf}
+@media(max-width:550px){.cv-audit{grid-template-columns:1fr;padding:14px}.cv-audit>strong{justify-self:start}.cv-audit-list{grid-template-columns:1fr}}
+@media print{body.print-cv .cv-audit{display:none!important}}
