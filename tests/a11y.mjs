@@ -26,7 +26,7 @@ try{
    console.log(screen.name+': '+audit.violations.length+' reglas con observaciones, '+serious.length+' bloqueantes');
    for(const issue of serious){
      console.error('A11Y '+screen.name+' ['+issue.impact+'] '+issue.id+': '+issue.help);
-     for(const item of issue.nodes.slice(0,4))console.error('   '+item.target.join(' ')+': '+item.failureSummary);
+     for(const item of issue.nodes.slice(0,60))console.error('   '+item.target.join(' ')+': '+item.failureSummary);
    }
    if(serious.length)blockers.push(screen.name+': '+serious.map(x=>x.id).join(', '));
    await page.close();
