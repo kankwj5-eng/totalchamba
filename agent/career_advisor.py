@@ -106,7 +106,7 @@ def documented_terms(job):
             continue
         folded = norm(raw)
         for label, alternatives in SKILL_TERMS:
-            if any(re.search(r'(?<!\\w)(?:' + pattern + r')(?!\\w)', folded)
+            if any(re.search(r'(?<!\w)(?:' + pattern + r')(?!\w)', folded)
                    for pattern in alternatives):
                 if label not in [x['label'] for x in found]:
                     found.append({'label': label, 'source': source_label})
