@@ -16,6 +16,7 @@ async function check(viewport){
   await page.locator('#cv-experience').fill('Atención al cliente y organización');
   const preview=await page.locator('#paper-name').innerText();
   assert(preview.toLocaleLowerCase('es').includes('persona de prueba'),'La vista previa del CV no se actualiza: preview='+JSON.stringify(preview)+', input='+JSON.stringify(await page.locator('#cv-name').inputValue())+', errores='+JSON.stringify(errors));
+  assert((await page.locator('#cv-audit-count').innerText()).includes('de 5'),'El chequeo de CV no calcula los campos');
   await page.locator('#cv-save').click();
   await page.reload({waitUntil:'domcontentloaded'});
   await page.locator('[data-tab="cv"]').click();
