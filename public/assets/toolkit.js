@@ -3,6 +3,8 @@
   'use strict';
   const $ = id => document.getElementById(id);
   const STORAGE_CV = 'totalchanba-cv-local-v1';
+  const CV_FIELDS=['cv-name','cv-city','cv-email','cv-phone','cv-profile','cv-experience','cv-education','cv-skills'];
+  const BACKUP_TYPE='totalchanba-cv-backup';
   const params = new URLSearchParams(location.search);
   const selectedId = /^[a-f0-9]{16}$/i.test(params.get('vacante')||'') ? params.get('vacante') : '';
   let job = null, questionIndex = 0, interviewQuestions = [];
@@ -71,11 +73,46 @@
     const category=job?.category||'';
     return {...guideDefault,...(areaGuides[category]||{})};
   }
+  function termStorageKey(){return 'totalchanba-competencias-v1-'+(selectedId||'general');}
+  function allowedTerms(){
+    const guide=job?.career_guide;
+    const entries=Array.isArray(guide?.documented_terms)?guide.documented_terms:[];
+    return entries.filter(x=>x&&typeof x.label==='string'&&x.label.length<=60&&['requisitos','formación'].includes(x.source)).slice(0,8);
+  }
+  function renderTerms(){
+    const parent=$('guide-terms');parent.replaceChildren();
+    const terms=allowedTerms();
+    if(!job){parent.append(el('p','Elegí una vacante para ver qué competencias documenta la fuente.','footnote'));return;}
+    if(!terms.length){parent.append(el('p','No hay competencias reconocidas explícitamente en los campos estructurados de esta vacante. No significa que no existan requisitos. Revisá el anuncio original.','footnote'));return;}
+    let saved=[];
+    try{const data=JSON.parse(localStorage.getItem(termStorageKey())||'[]');if(Array.isArray(data))saved=data.filter(x=>typeof x==='string').slice(0,8);}catch{}
+    terms.forEach(({label,source})=>{
+      const item=el('label',undefined,'skill-choice');
+      const check=document.createElement('input');check.type='checkbox';check.value=label;check.checked=saved.includes(label);
+      const labelBox=el('span',undefined,'skill-choice-text');
+      labelBox.append(el('strong',label),el('small','Mencionado en: '+source));
+      item.append(check,labelBox);
+      parent.append(item);
+    });
+  }
+  function setupTerms(){
+    $('skills-save').addEventListener('click',()=>{
+      const chosen=[...document.querySelectorAll('#guide-terms input:checked')].map(x=>x.value).slice(0,8);
+      try{localStorage.setItem(termStorageKey(),JSON.stringify(chosen));notice('Tu autochequeo quedó guardado en este dispositivo');}
+      catch{notice('No se pudo guardar en este navegador');}
+    });
+    $('skills-clear').addEventListener('click',()=>{
+      document.querySelectorAll('#guide-terms input:checked').forEach(x=>{x.checked=false;});
+      try{localStorage.removeItem(termStorageKey());}catch{}
+      notice('Competencias desmarcadas');
+    });
+  }
   function guideSetup(){
     const g=currentGuide();
     putText('guide-focus',g.focus||guideDefault.focus);
     listInto('guide-cv',(g.cv||guideDefault.cv).slice(0,4));
     listInto('guide-ask',(g.ask_employer||guideDefault.ask_employer).slice(0,4));
+    renderTerms();
     const facts=$('source-facts');facts.replaceChildren();
     if(!job){facts.append(el('p','No hay una vacante seleccionada. Podés usar el CV y las demás herramientas igualmente.','empty-fact'));return;}
     const mapping=[['Requisitos',job.requirements],['Experiencia',job.experience],['Formación',job.education],['Salario',job.salary],['Tipo de contrato',job.type],['Modalidad',job.modality]];
@@ -108,8 +145,45 @@
     guideSetup();setupQuestions();setupPlan();renderLetter();
   }
   function cvSnapshot(){
-    const ids=['cv-name','cv-city','cv-email','cv-phone','cv-profile','cv-experience','cv-education','cv-skills'];
-    return Object.fromEntries(ids.map(id=>[id,$(id).value.slice(0,2000)]));
+    return Object.fromEntries(CV_FIELDS.map(id=>[id,$(id).value.slice(0,2000)]));
+  }
+  function cvBackupPayload(){
+    return {type:BACKUP_TYPE,version:1,created_at:new Date().toISOString(),fields:cvSnapshot()};
+  }
+  function parseBackup(text){
+    if(typeof text!=='string'||text.length>30000)throw new Error('Archivo demasiado grande');
+    const payload=JSON.parse(text);
+    if(!payload||Array.isArray(payload)||payload.type!==BACKUP_TYPE||payload.version!==1
+       ||!payload.fields||typeof payload.fields!=='object'||Array.isArray(payload.fields)){
+      throw new Error('No es un respaldo compatible con TotalChanba');
+    }
+    const clean={};
+    for(const id of CV_FIELDS){
+      const v=payload.fields[id];
+      if(v!==undefined&&typeof v!=='string')throw new Error('Campo de texto inválido');
+      const max=Number($(id).maxLength)||2000;
+      if(typeof v==='string'&&v.length>max)throw new Error('Un campo supera la longitud permitida');
+      clean[id]=v||'';
+    }
+    return clean;
+  }
+  function downloadBackup(){
+    const payload=cvBackupPayload();
+    const data=new Blob([JSON.stringify(payload,null,2)],{type:'application/json;charset=utf-8'});
+    const url=URL.createObjectURL(data);
+    const a=el('a');a.href=url;a.download='TotalChanba_CV_respaldo.json';
+    document.body.append(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    notice('Respaldo descargado. Contiene datos personales sin cifrar.');
+  }
+  async function importBackup(file){
+    if(!file)return;
+    if(file.size>30000){notice('Archivo demasiado grande; máximo 30 KB');return;}
+    let fields;
+    try{fields=parseBackup(await file.text());}catch{notice('Respaldo inválido o incompatible. No se cambiaron tus datos.');return;}
+    if(!confirm('¿Reemplazar los campos del CV que aparecen en pantalla? El respaldo no se guardará en este navegador hasta que pulses Guardar.'))return;
+    for(const id of CV_FIELDS)$(id).value=fields[id];
+    cvPreview();cvAudit();notice('CV importado en pantalla. Revisá la información antes de guardarla.');
   }
   function cvPreview(){
     const fields=cvSnapshot();
@@ -157,6 +231,10 @@
   function setupCV(){
     cvRestore();cvPreview();cvAudit();
     $('cv-form').addEventListener('input',()=>{cvPreview();cvAudit();});
+    $('cv-export').addEventListener('click',downloadBackup);
+    $('cv-import').addEventListener('change',e=>{
+      const file=e.target.files?.[0];importBackup(file).finally(()=>{e.target.value='';});
+    });
     $('cv-save').addEventListener('click',()=>{
       try{localStorage.setItem(STORAGE_CV,JSON.stringify(cvSnapshot()));notice('CV guardado solo en este dispositivo');}
       catch{notice('No se pudo guardar; revisá los permisos del navegador');}
@@ -306,7 +384,7 @@
     activeTab(params.get('tab')||'guia');
   }
   function start(){
-    bindTabs();setupCV();setupInterview();setupLetter();bindPlan();setupMood();
+    bindTabs();setupCV();setupTerms();setupInterview();setupLetter();bindPlan();setupMood();
     loadJob();
   }
   start();
