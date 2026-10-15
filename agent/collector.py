@@ -414,6 +414,9 @@ def update_data(today=None, client=None, destination=None):
         log.warning('Enriquecimiento de ubicaciones omitido: %s', exc)
     decorate(rows)
     apply_verification(rows, load_registry(ROOT / 'agent/verified_employers.json'), now.date())
+    # Consejos personalizados y auditables; nunca reescribe requisitos de las fuentes.
+    from .career_advisor import enrich as enrich_career
+    enrich_career(rows)
     rows.sort(key=lambda j: (j.get('published_at') or '', j.get('verified_at') or ''), reverse=True)
     for source in enriched:
         source['jobs_count'] = sum(1 for j in rows if j.get('source') == source['id'] or any(a.get('source') == source['id'] for a in j.get('also_on', [])))
