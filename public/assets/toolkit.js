@@ -127,6 +127,23 @@
     }
     if(!($('letter-name').value.trim()))$('letter-name').placeholder=fields['cv-name']||'Tu nombre';
   }
+  function cvAudit(){
+    const d=cvSnapshot();
+    const criteria=[
+      ['Nombre identificable',d['cv-name'].trim().length>=5],
+      ['Un medio de contacto',d['cv-email'].includes('@')||d['cv-phone'].replace(/\\D/g,'').length>=7],
+      ['Perfil escrito por vos',d['cv-profile'].trim().length>=25],
+      ['Experiencia o formación auténtica',d['cv-experience'].trim().length>=15||d['cv-education'].trim().length>=15],
+      ['Habilidades concretas',d['cv-skills'].trim().length>=6]
+    ];
+    const complete=criteria.filter(([,yes])=>yes).length;
+    putText('cv-audit-count',complete+' de '+criteria.length);
+    $('cv-audit-list').replaceChildren(...criteria.map(([label,yes])=>{
+      const line=el('li',undefined,yes?'complete':'pending');
+      line.append(el('span',yes?'✓':'○'),el('span',label));
+      return line;
+    }));
+  }
   function cvRestore(){
     try{
       const data=JSON.parse(localStorage.getItem(STORAGE_CV)||'null');
@@ -138,8 +155,8 @@
     }catch{}
   }
   function setupCV(){
-    cvRestore();cvPreview();
-    $('cv-form').addEventListener('input',cvPreview);
+    cvRestore();cvPreview();cvAudit();
+    $('cv-form').addEventListener('input',()=>{cvPreview();cvAudit();});
     $('cv-save').addEventListener('click',()=>{
       try{localStorage.setItem(STORAGE_CV,JSON.stringify(cvSnapshot()));notice('CV guardado solo en este dispositivo');}
       catch{notice('No se pudo guardar; revisá los permisos del navegador');}
@@ -147,7 +164,7 @@
     $('cv-clear').addEventListener('click',()=>{
       if(!confirm('¿Borrar los datos del CV en pantalla y la copia guardada en este dispositivo?'))return;
       try{localStorage.removeItem(STORAGE_CV);}catch{}
-      $('cv-form').reset();cvPreview();notice('Datos del CV borrados');
+      $('cv-form').reset();cvPreview();cvAudit();notice('Datos del CV borrados');
     });
     $('cv-print').addEventListener('click',()=>{
       if(!$('cv-name').value.trim()){notice('Escribí tu nombre para identificar tu CV.');$('cv-name').focus();return;}
