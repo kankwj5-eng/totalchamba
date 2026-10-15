@@ -5,6 +5,7 @@ on:
     paths:
       - 'public/**'
       - 'tests/browser_studio.mjs'
+      - 'tests/a11y.mjs'
       - '.github/workflows/pruebas-visuales.yml'
   workflow_dispatch:
 permissions:
@@ -26,7 +27,7 @@ jobs:
           python-version: '3.12'
       - name: Instalar navegador de prueba
         run: |
-          npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.0
+          npm install --no-save --no-package-lock --ignore-scripts playwright@1.56.0 axe-core@4.10.3
           npx playwright install chromium --with-deps
       - name: Levantar web estática de TotalChanba
         run: |
@@ -40,3 +41,5 @@ jobs:
           exit 1
       - name: Comprobar interacciones reales móvil y escritorio
         run: node tests/browser_studio.mjs
+      - name: Auditar accesibilidad WCAG A/AA
+        run: node tests/a11y.mjs
