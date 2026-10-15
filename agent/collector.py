@@ -122,7 +122,7 @@ def normalise(job, source, now=None):
         'address': address or None,
         'maps': map_metadata(company, location, job.get('modality'), address),
         'category': category(title), 'modality': plain(job.get('modality')) or 'No especificada',
-        'type': plain(job.get('type')) or 'No especificado',
+        'type': (lambda v: v if fold(v) not in ('default', 'not specified', 'unknown', 'n/a', 'na') else 'No especificado')(plain(job.get('type')) or 'No especificado'),
         'salary': salary or None, 'summary': summary or 'Consultá los detalles y requisitos en la publicación original.',
         'published_at': published,
         'last_modified_at': date_clean(job.get('last_modified_at')),
@@ -206,6 +206,34 @@ def jsonld_jobs(soup):
         except (json.JSONDecodeError,ValueError,TypeError): continue
     return found
 
+def salary_from_jsonld(value):
+    """Moneda y valor del anuncio; jamás deducir moneda o frecuencia."""
+    if not isinstance(value, dict):
+        return ''
+    currency = str(value.get('currency') or '').strip().upper()
+    if not re.fullmatch(r'[A-Z]{3}', currency):
+        return ''
+    amount = value.get('value')
+    if not isinstance(amount, dict):
+        amount = {'value': amount}
+    def clean_number(n):
+        if isinstance(n, bool) or n is None: return ''
+        raw = str(n).strip()
+        return raw if re.fullmatch(r'\\d{1,9}(?:[.,]\\d{1,2})?', raw) else ''
+    lower = clean_number(amount.get('minValue'))
+    upper = clean_number(amount.get('maxValue'))
+    exact = clean_number(amount.get('value'))
+    if lower and upper:
+        shown = lower + '–' + upper
+    else:
+        shown = exact or lower or upper
+    if not shown:
+        return ''
+    unit = str(amount.get('unitText') or value.get('unitText') or '').strip().upper()
+    period = {'MONTH':'mes', 'YEAR':'año', 'WEEK':'semana',
+              'DAY':'día', 'HOUR':'hora'}.get(unit, '')
+    return f'{currency} {shown}' + (f' / {period}' if period else '')
+
 def from_jsonld(item, url):
     loc = item.get('jobLocation',{})
     if isinstance(loc,list): loc=loc[0] if loc else {}
@@ -227,7 +255,7 @@ def from_jsonld(item, url):
         'education':item.get('educationRequirements'),
         'published_at':item.get('datePosted'),
         'expires':item.get('validThrough'),
-        'salary':item.get('baseSalary',{}).get('value',{}).get('value','') if isinstance(item.get('baseSalary'),dict) and isinstance(item.get('baseSalary',{}).get('value'),dict) else '',
+        'salary': salary_from_jsonld(item.get('baseSalary')),
         'modality': 'Remoto' if item.get('jobLocationType')=='TELECOMMUTE' else 'No especificada',
     }
 
