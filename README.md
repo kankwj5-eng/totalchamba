@@ -1,10 +1,41 @@
-# TotalChanba 5.0 🇳🇮 — Portal nacional de oportunidades
+# TotalChanba 5.2 🇳🇮 — Portal nacional de oportunidades
 
 Portal web en español (HTML/CSS/JS estático), recolector Python y actualización mediante GitHub Actions. Despliegue preparado para Vercel. **No está desplegado**. Es un proyecto independiente de los portales que enlaza y no almacena CVs ni datos de candidatos.
 
 > **Cobertura y verificabilidad (15/10/2026).** GitHub Actions generó un índice con **172 anuncios**, de los cuales **163 se obtuvieron en la última ejecución** (18 Tecoloco, 46 Bluelight Consulting, 3 FreeBalance, 59 Power Digital, 34 Hire Hangar y 3 Delivery Hero/PedidosYa); **9 anuncios anteriores fueron conservados temporalmente** y no se consideran revalidados. El directorio de 16 fuentes no implica extracción de todos esos portales. Hay 5 tableros ATS empresariales configurados; los cinco tableros empresariales ya devolvieron ofertas durante una ejecución conectada. Ninguna empresa recibe automáticamente insignia de verificación.
 
-## Nuevas mejoras visuales (5.0)
+## Estudio de Candidatura (5.2)
+
+Cada vacante incorpora un botón **«Consejos para conseguir este trabajo»** que abre
+`/herramientas.html?vacante=ID`, enlazado al anuncio real.
+
+- **Orientador profesional por oficio**: módulo Python de reglas revisables con
+  orientación sobre qué destacar en el CV, preguntas de entrevista y dudas
+  importantes a resolver con el empleador. Las 172 vacantes del índice ya
+  contienen `career_guide`, separado de los requisitos publicados.
+- **Creador de CV**: formato profesional sobrio inspirado en el estilo de CV
+  universitario/Harvard; no es una plantilla oficial de Harvard. Vista previa
+  editable, impresión/PDF desde el navegador y guardado local explícito.
+- **Entrenador de entrevistas**: preguntas adaptadas por área, cronómetro y
+  método STAR para ensayar respuestas sin grabar audio.
+- **Carta de presentación**: borrador a partir del título, empresa y los
+  datos auténticos escritos por el candidato.
+- **Plan personal de postulación**: lista de seis pasos, estado y notas
+  guardables en el navegador para cada vacante.
+- **Bienestar**: recordatorios breves de organización y ánimo, no terapia ni
+  evaluación psicológica.
+- **Agenda editorial**: sección independiente de eventos anunciados,
+  formación y convocatorias con enlaces oficiales. Los eventos caducados se
+  ocultan; no se inventan ferias o matrículas.
+- **Frescura de la vacante**: la interfaz diferencia las ofertas recopiladas
+  en la última consulta de las conservadas de consultas anteriores.
+- **Pruebas**: casos de Python, validación de los tres archivos JavaScript y
+  un flujo de Chromium en móvil/escritorio. Consultar resultados en
+  [GitHub Actions](https://github.com/kankwj5-eng/totalchamba/actions).
+
+Documentación: [Estudio de Candidatura](docs/ESTUDIO_CANDIDATURA.md).
+
+## Mejoras visuales anteriores (5.0)
 
 - Tarjetas grandes tipo expediente, con empresa anunciada, fotografía ilustrativa, datos principales, sección desplegable de condiciones, claridad y mapa.
 - **12 fotografías originales generadas con IA**, almacenadas localmente en WebP (aprox. 23–67 KB) y seleccionadas automáticamente según puesto y sector. No son fotos del anunciante ni de sus instalaciones.
@@ -13,7 +44,7 @@ Portal web en español (HTML/CSS/JS estático), recolector Python y actualizaci�
 - Preguntas útiles y contextualizadas para candidatos según los datos que faltan: horario, salario, dirección o requisitos. Son sugerencias, no respuestas reales.
 - Aviso visible cuando el índice es histórico/de muestra o está desactualizado. Nunca se presentan revisiones antiguas como nuevas.
 - Reparado el diseño en pantallas pequeñas: las tarjetas ya no compiten con una barra lateral fija de 248 píxeles.
-- **34 pruebas automatizadas de Python aprobadas**; verificación offline en Chromium para escritorio y móvil de búsqueda, imágenes, mapas, favoritos, filtros, estrellas y comparador. Esto no sustituye una auditoría de accesibilidad externa.
+- **pruebas automatizadas de Python y JavaScript**; verificación offline en Chromium para escritorio y móvil de búsqueda, imágenes, mapas, favoritos, filtros, estrellas y comparador. Esto no sustituye una auditoría de accesibilidad externa.
 
 ## Funciones heredadas
 
