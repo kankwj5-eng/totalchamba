@@ -128,3 +128,25 @@
 .tc-interview-prep ul{margin:0 0 7px;padding-left:19px;color:#315b49}
 .tc-interview-prep li{padding:3px 0;line-height:1.55}
 .tc-interview-prep small{color:#4d7962;font-size:10px}
+
+
+/* TotalChanba 5.1 · Estado de consulta, lectura rápida y exportación local. */
+.tc-health{margin:21px 0 25px;padding:23px 26px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1.4fr);gap:21px;align-items:center;border:1px solid #cddfdc;border-radius:19px;background:linear-gradient(115deg,#eef8f1 0%,#f5fafb 70%,#e6f3fa 100%);box-shadow:0 10px 36px #0e504314}
+.tc-health-kicker{font-size:10px;letter-spacing:1.2px;color:#146a52;font-weight:900}
+.tc-health h2{font-family:var(--display);font-size:21px;line-height:1.27;letter-spacing:-.6px;margin:7px 0 5px;color:#17342d}
+.tc-health-intro p{font-size:11px;line-height:1.55;color:#45675e;margin:0}
+.tc-health-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.tc-health-metrics>div{min-width:0;background:#ffffffbd;border:1px solid #dceae6;border-radius:12px;padding:15px 11px;display:flex;flex-direction:column;gap:4px}
+.tc-health-metrics strong{color:#114f42;font-size:26px;letter-spacing:-1px;font-family:var(--display)}
+.tc-health-metrics span{color:#48625e;font-size:10px;line-height:1.4;font-weight:750}
+.tc-review-status{font-weight:850;font-size:10px;line-height:1.4;border:1px solid #cde9dc;padding:4px 8px;background:#edf9f2;color:#145a3c;border-radius:8px;max-width:100%;overflow-wrap:anywhere}
+.tc-review-status.is-older{background:#fff4e5;color:#895f23;border-color:#f2ddba}
+.tc-highlights{display:grid;gap:6px;margin:0 0 13px}
+.tc-highlights>div{border:1px solid #d4e8e6;border-radius:9px;background:#edf8f6;padding:9px 10px;display:flex;gap:8px;align-items:flex-start}
+.tc-highlights b{flex:0 0 auto;font-size:10px;color:#146354}
+.tc-highlights span{font-size:11px;line-height:1.45;color:#304e56;overflow-wrap:anywhere}
+.tc-export{border:1px solid #b9d8cf;background:#edf9f3;color:#096044;border-radius:9px;padding:10px 12px;min-height:37px;font-size:11px;font-weight:850;cursor:pointer}
+.tc-export:hover,.tc-export:focus-visible{background:#d5f1e3;border-color:#76bea6}
+.tc-job a:focus-visible,.tc-job button:focus-visible,.tc-export:focus-visible{outline:3px solid #146cbd;outline-offset:3px}
+@media(max-width:900px){.tc-health{grid-template-columns:1fr;gap:15px}}
+@media(max-width:550px){.tc-health{margin:14px 0 19px;padding:17px 14px;border-radius:14px}.tc-health h2{font-size:19px}.tc-health-metrics{gap:6px}.tc-health-metrics>div{padding:12px 8px}.tc-health-metrics strong{font-size:22px}.tc-health-metrics span{font-size:9px}.tc-highlights>div{flex-wrap:wrap}.tc-export{flex:1 1 100%;width:100%}}
