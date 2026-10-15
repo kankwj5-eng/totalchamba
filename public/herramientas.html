@@ -55,6 +55,11 @@
       <article class="module"><span class="module-icon">▤</span><h3>Qué destacar en tu CV</h3><ul id="guide-cv" class="checklist"></ul></article>
       <article class="module"><span class="module-icon">❖</span><h3>Preguntas para la empresa</h3><ul id="guide-ask" class="checklist"></ul></article>
       <article class="module source-details"><span class="module-icon">◈</span><h3>Lo que sí publicó la fuente</h3><div id="source-facts"></div><p class="footnote">Solo datos obtenidos del anuncio. Si falta algo, te recomendamos preguntarlo.</p></article>
+      <article class="module skill-module"><span class="module-icon">◎</span><h3>Competencias mencionadas en la oferta</h3><p>El orientador identifica términos que aparecen literalmente en requisitos o formación. Podés marcar los que <strong>realmente sabés demostrar</strong>; no es una prueba de elegibilidad.</p>
+        <div id="guide-terms" class="skill-terms" aria-live="polite"><p class="footnote">Cargando requisitos documentados…</p></div>
+        <div class="skill-actions"><button id="skills-save" class="quiet" type="button">Guardar mis marcas en este dispositivo</button><button id="skills-clear" class="quiet" type="button">Desmarcar</button></div>
+        <p class="footnote">Si el empleador solo menciona una competencia como deseable, no necesariamente es obligatoria. Consultá siempre la publicación original.</p>
+      </article>
     </div>
     <div class="journey-banner"><div><b>¿Preparado para presentarte?</b><p>Convertí tu experiencia real en un CV sencillo y bien estructurado.</p></div><button type="button" data-jump="cv">Crear mi CV →</button></div>
   </section>
@@ -78,7 +83,8 @@
           <label>Habilidades comprobables (separadas por comas) <textarea id="cv-skills" name="skills" maxlength="700" rows="2" placeholder="Excel, servicio al cliente, control de inventarios"></textarea></label>
         </form>
         <section class="cv-audit" aria-labelledby="cv-audit-heading"><div><span>✳ REVISIÓN DE CLARIDAD</span><h3 id="cv-audit-heading">Comprobá tu CV antes de enviarlo</h3><p>Solo revisa si hay información básica. No predice contrataciones ni califica tu valor profesional.</p></div><strong id="cv-audit-count" aria-live="polite">0 de 5</strong><ul id="cv-audit-list" class="cv-audit-list"></ul></section>
-        <div class="form-actions"><button id="cv-print" type="button" class="primary">▤ Guardar como PDF / imprimir</button><button id="cv-save" type="button" class="quiet">Guardar en este dispositivo</button><button id="cv-clear" type="button" class="danger">Borrar mis datos</button></div>
+        <div class="form-actions"><button id="cv-print" type="button" class="primary">▤ Guardar como PDF / imprimir</button><button id="cv-save" type="button" class="quiet">Guardar en este dispositivo</button><button id="cv-export" type="button" class="secondary">↓ Copia de respaldo</button><label class="cv-upload-label" for="cv-import">↑ Importar mi respaldo<input id="cv-import" type="file" accept="application/json,.json" aria-label="Importar archivo JSON de CV" /></label><button id="cv-clear" type="button" class="danger">Borrar mis datos</button></div>
+        <p class="privacy-note">El respaldo contiene tus datos personales <strong>sin cifrar</strong> en un archivo JSON. Guardalo en un lugar seguro y no lo compartás con desconocidos. Al importar se revisan el formato y el tamaño antes de mostrarlo; no se envía al servidor.</p>
         <p class="privacy-note">No guardamos tu CV en un servidor. Se mantiene en la memoria de esta página y solo se conserva en este dispositivo si tocás «Guardar». No agregamos formación ni experiencia inexistente.</p>
       </div>
       <aside class="cv-preview-wrap"><div class="preview-label"><span>VISTA PREVIA · ESTILO HARVARD INSPIRADO</span><span>Papel blanco · Sin foto obligatoria</span></div>
