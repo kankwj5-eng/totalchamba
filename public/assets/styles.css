@@ -150,3 +150,49 @@
 .tc-job a:focus-visible,.tc-job button:focus-visible,.tc-export:focus-visible{outline:3px solid #146cbd;outline-offset:3px}
 @media(max-width:900px){.tc-health{grid-template-columns:1fr;gap:15px}}
 @media(max-width:550px){.tc-health{margin:14px 0 19px;padding:17px 14px;border-radius:14px}.tc-health h2{font-size:19px}.tc-health-metrics{gap:6px}.tc-health-metrics>div{padding:12px 8px}.tc-health-metrics strong{font-size:22px}.tc-health-metrics span{font-size:9px}.tc-highlights>div{flex-wrap:wrap}.tc-export{flex:1 1 100%;width:100%}}
+
+
+/* TotalChanba 5.2 · Estudio de candidatura y tablón de oportunidades. */
+.tc-kit-bridge{display:flex;align-items:center;gap:12px;padding:14px 16px;margin:0 0 19px;border:1px solid #b9dfc9;border-radius:14px;background:linear-gradient(118deg,#ecf9ee,#e9f5f6 70%,#e9f2fb);box-shadow:inset 0 1px 0 #fff;min-width:0}
+.tc-kit-icon{flex:0 0 42px;width:42px;height:42px;display:grid;place-items:center;background:#156c58;color:#dcf7ac;border-radius:12px;font-size:22px}
+.tc-kit-bridge>div:nth-child(2){flex:1;min-width:0}
+.tc-kit-bridge strong{font-size:13px;font-weight:900;line-height:1.4;color:#17483a}
+.tc-kit-bridge p{color:#4f726b;font-size:10px;line-height:1.55;margin:4px 0 0}
+.tc-kit-bridge>a{flex:0 0 auto;color:#fff;background:#0c6c59;border-radius:10px;padding:12px 15px;font-size:11px;font-weight:900;white-space:nowrap}
+.tc-kit-bridge>a:hover{background:#084735}
+.tc-kit-bridge>a:focus-visible,.tc-agenda a:focus-visible,.tc-agenda button:focus-visible,.tc-studio-promo a:focus-visible{outline:3px solid #2079bb;outline-offset:3px}
+.tc-studio-promo{padding:26px 0;background:#0c282e}
+.tc-studio-inner{display:flex;align-items:center;gap:24px;color:#fff}
+.tc-studio-badge{flex:0 0 88px;display:grid;place-items:center;background:linear-gradient(135deg,#c7f1a2,#84d5a0);color:#0c4d3e;width:88px;height:88px;border-radius:22px;font-size:55px;box-shadow:0 15px 25px #00121a22}
+.tc-studio-inner>div:nth-child(2){flex:1;min-width:0}.tc-studio-inner>div:nth-child(2)>span{display:block;font-size:10px;letter-spacing:1.5px;font-weight:900;color:#b9e9a8}
+.tc-studio-inner h2{font:900 clamp(20px,2.3vw,29px)/1.2 var(--display);letter-spacing:-.7px;color:#fff;margin:9px 0}
+.tc-studio-inner h2 em{font-style:normal;color:#b9eaa6}.tc-studio-inner p{font-size:12px;line-height:1.6;color:#c2ddda;margin:0}
+.tc-studio-inner>a{padding:16px 19px;background:#bdf0b0;color:#164838;border-radius:11px;font-weight:900;font-size:12px;white-space:nowrap}
+.tc-studio-inner>a:hover{background:#fff}
+.tc-agenda{padding:82px 0 92px;background:#f3f8f7}
+.tc-agenda-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:26px}.tc-agenda-heading>div{max-width:750px}
+.tc-agenda-heading h2{font:900 clamp(27px,3.5vw,42px)/1.16 var(--display);letter-spacing:-1.2px;color:#152f39;margin:14px 0}
+.tc-agenda-heading h2 em{font-style:normal;color:#097b68}.tc-agenda-heading p{font-size:13px;color:#506c6d;line-height:1.75}
+.tc-agenda-seal{color:#317a64;letter-spacing:2px;line-height:1.5;border:1px solid #b9d9d0;padding:22px;text-align:center;border-radius:50%;font-size:11px;font-weight:900;flex:0 0 auto}
+.tc-agenda-tabs{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:20px}
+.tc-agenda-tabs button{border:1px solid #c3d7d3;color:#426a62;background:#fff;padding:11px 16px;border-radius:100px;font-size:12px;font-weight:900;min-height:42px}
+.tc-agenda-tabs button.active{background:#116a5b;border-color:#116a5b;color:#fff}
+.tc-agenda-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.tc-agenda-card{background:#fff;border:1px solid #dbe6e3;padding:24px;border-radius:18px;box-shadow:0 9px 35px #113e3610;display:flex;flex-direction:column;align-items:flex-start;min-width:0;position:relative;overflow:hidden}
+.tc-agenda-card:before{position:absolute;content:"";top:0;left:0;right:0;height:4px;background:#1b8772}
+.tc-agenda-card.type-evento:before{background:#e8b15c}.tc-agenda-card.type-convocatorias:before{background:#5f8fca}
+.tc-agenda-card-icon{width:48px;height:48px;border-radius:13px;background:#e4f4eb;color:#136751;display:grid;place-items:center;font-size:23px;margin-bottom:16px}
+.tc-agenda-card.type-evento .tc-agenda-card-icon{background:#fff3de;color:#99601d}.tc-agenda-card.type-convocatorias .tc-agenda-card-icon{background:#eaf1ff;color:#2d69a2}
+.tc-agenda-card-head{display:flex;align-items:center;justify-content:space-between;width:100%;gap:9px;margin-bottom:6px}.tc-agenda-card-tag{font-size:10px;font-weight:900;color:#378473;text-transform:uppercase;letter-spacing:.8px}.tc-agenda-card-arrow{color:#6e8e92}
+.tc-agenda-card h3{font:900 20px/1.3 var(--display);letter-spacing:-.6px;color:#122b34;margin:6px 0 9px}
+.tc-agenda-card>p{font-size:12px;line-height:1.74;color:#566e70;margin:0 0 15px;flex:1}
+.tc-agenda-meta{display:flex;flex-wrap:wrap;gap:7px 18px;color:#607979;font-size:11px;margin-top:auto;padding:13px 0 16px;width:100%;border-top:1px solid #edf1ef}
+.tc-agenda-meta strong{font-weight:850;color:#175d53}
+.tc-agenda-open{background:#eaf6ef;color:#08644c;display:inline-flex;padding:12px 15px;border-radius:10px;font-size:11px;font-weight:900;border:1px solid #bde3d0}
+.tc-agenda-open:hover{background:#0d6d57;color:#fff}
+.tc-agenda-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:23px;color:#667a79;font-size:11px;line-height:1.65}
+.tc-agenda-bottom p{margin:0;max-width:590px}
+.tc-agenda-empty,.tc-agenda-loading{grid-column:1/-1;background:#fff;border:1px solid #d6e6dd;border-radius:16px;padding:27px;color:#335d56;font-size:13px}
+.tc-agenda-empty p{color:#688078;font-size:12px}
+@media(max-width:800px){.tc-studio-inner{flex-wrap:wrap}.tc-studio-inner>a{width:100%;text-align:center}.tc-studio-badge{width:64px;height:64px;flex-basis:64px;font-size:37px}.tc-agenda{padding:55px 0}.tc-agenda-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.tc-kit-bridge{gap:9px;padding:12px;flex-wrap:wrap}.tc-kit-bridge>div:nth-child(2){flex:1 1 calc(100% - 60px)}.tc-kit-bridge>a{width:100%;text-align:center}.tc-kit-icon{width:39px;height:39px;flex-basis:39px;font-size:21px}.tc-studio-promo{padding:26px 0}.tc-studio-inner{gap:11px}.tc-studio-inner>div:nth-child(2){flex:1 1 calc(100% - 80px)}.tc-studio-inner h2{font-size:20px}.tc-agenda-heading{display:block}.tc-agenda-seal{display:none}.tc-agenda-tabs{gap:7px}.tc-agenda-tabs button{font-size:11px;padding:9px 12px}.tc-agenda-card{padding:19px}.tc-agenda-card h3{font-size:18px}}
