@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-15",
+  "editorial_note": "Tablón curado de eventos y recursos oficiales. No son vacantes indexadas ni se garantiza inscripción abierta.",
+  "items": [
+    {
+      "id": "inatec-congreso-docente-2026",
+      "kind": "evento",
+      "title": "X Congreso Nacional de Docentes de Educación Técnica",
+      "summary": "Actividad anunciada para el 30 de octubre de 2026 en el portal oficial de INATEC. Consultá el programa, sede e inscripción directamente en la institución; no representa una feria de empleo.",
+      "url": "https://www.tecnacional.edu.ni/",
+      "publisher": "INATEC · Tecnológico Nacional",
+      "starts_at": "2026-10-30",
+      "expires_at": "2026-10-30",
+      "reviewed_on": "2026-10-15",
+      "status": "actividad_anunciada"
+    },
+    {
+      "id": "inatec-cursos",
+      "kind": "formacion",
+      "title": "Encontrá cursos técnicos según tus intereses",
+      "summary": "Consultá el buscador de cursos y oportunidades de formación del Tecnológico Nacional. Comprobá cupos, fechas y requisitos con INATEC.",
+      "url": "https://www.tecnacional.edu.ni/cursos/?programa=3",
+      "publisher": "INATEC · Tecnológico Nacional",
+      "reviewed_on": "2026-10-15",
+      "status": "directorio_oficial"
+    },
+    {
+      "id": "uno-nicaragua",
+      "kind": "convocatorias",
+      "title": "Convocatorias directas de UNO Nicaragua",
+      "summary": "Portal empresarial para consultar vacantes y conocer las opciones de postulación publicadas por UNO Nicaragua.",
+      "url": "https://empleos.uno-ca.com/ni/",
+      "publisher": "UNO Nicaragua",
+      "reviewed_on": "2026-10-15",
+      "status": "directorio_oficial"
+    },
+    {
+      "id": "unicef-nicaragua",
+      "kind": "convocatorias",
+      "title": "Oportunidades y consultorías en UNICEF Nicaragua",
+      "summary": "Accedé a los canales oficiales de UNICEF para conocer procesos y requisitos; no implica que haya convocatorias activas hoy.",
+      "url": "https://www.unicef.org/nicaragua/trabaja-con-unicef",
+      "publisher": "UNICEF Nicaragua",
+      "reviewed_on": "2026-10-15",
+      "status": "directorio_oficial"
+    }
+  ]
+}
