@@ -2,7 +2,7 @@
 
 Portal web en español (HTML/CSS/JS estático), recolector Python y actualización mediante GitHub Actions. Despliegue preparado para Vercel. **No está desplegado**. Es un proyecto independiente de los portales que enlaza y no almacena CVs ni datos de candidatos.
 
-> **Cobertura y verificabilidad (15/10/2026).** GitHub Actions generó un índice con **76 anuncios**, de los cuales **67 se obtuvieron en la última ejecución** (18 Tecoloco, 46 Bluelight Consulting y 3 FreeBalance); **9 anuncios anteriores fueron conservados temporalmente** y no se consideran revalidados. El directorio de 16 fuentes no implica extracción de todos esos portales. Hay 5 tableros ATS empresariales configurados; los tres incorporados más recientemente requieren comprobar el primer run. Ninguna empresa recibe automáticamente insignia de verificación.
+> **Cobertura y verificabilidad (15/10/2026).** GitHub Actions generó un índice con **172 anuncios**, de los cuales **163 se obtuvieron en la última ejecución** (18 Tecoloco, 46 Bluelight Consulting, 3 FreeBalance, 59 Power Digital, 34 Hire Hangar y 3 Delivery Hero/PedidosYa); **9 anuncios anteriores fueron conservados temporalmente** y no se consideran revalidados. El directorio de 16 fuentes no implica extracción de todos esos portales. Hay 5 tableros ATS empresariales configurados; los cinco tableros empresariales ya devolvieron ofertas durante una ejecución conectada. Ninguna empresa recibe automáticamente insignia de verificación.
 
 ## Nuevas mejoras visuales (5.0)
 
@@ -22,7 +22,7 @@ Portal web en español (HTML/CSS/JS estático), recolector Python y actualizaci�
 - **Comprobación empresarial**: código listo para registrar evidencia editorial con fecha y enlace oficial; ninguna ficha se autoverifica. Las revisiones caducan a los 180 días y requieren coincidencia del tablero autorizado y una prueba en el sitio oficial. Registro vacío por seguridad (`agent/verified_employers.json`).
 - **Google Maps sin clave**: enlace de búsqueda por región si solo se conoce ciudad, por dirección si la vacante declara calle; sin mapa en remoto o cuando falta ubicación. Nunca se presenta una búsqueda como pin confirmado del trabajo.
 - **Places API (New) opcional y de pago**: puede buscar `place_id` únicamente para direcciones declaradas, sin guardar resultados completos. Se desactiva por defecto, limitada a 8 consultas por corrida y 30 máximo, con secreto y revisión de costos. No garantiza sede laboral.
-- **APIs empresariales (Lever, Greenhouse, Ashby y SmartRecruiters)**: cinco tableros explícitos en `agent/ats_boards.json`: Bluelight Consulting, FreeBalance, Power Digital, Hire Hangar y Delivery Hero/PedidosYa. Los dos de Lever ya devolvieron ofertas en GitHub Actions; la extracción de los demás debe verificarse en los registros de cada ejecución. Se restringen host, tablero y territorio. No se inventan enlaces, salarios ni ubicación exacta.
+- **APIs empresariales (Lever, Greenhouse, Ashby y SmartRecruiters)**: cinco tableros explícitos en `agent/ats_boards.json`: Bluelight Consulting, FreeBalance, Power Digital, Hire Hangar y Delivery Hero/PedidosYa. Los cinco tableros han aportado ofertas durante una ejecución de GitHub Actions, pero cada ejecución futura puede presentar restricciones o cero resultados y su estado se publica por separado. Se restringen host, tablero y territorio. No se inventan enlaces, salarios ni ubicación exacta.
 - **Radar por departamento**, comparación local de hasta tres vacantes con salario tal como aparece, favoritos en este navegador, búsqueda compartible por URL, modo lectura clara, navegación con teclado y preferencia `prefers-reduced-motion`.
 - Mantenimiento anterior: deduplicación, frescura, metadata de fuentes, sanitización, directorio sin confusión con ofertas, recordatorio antifraudes y encabezados de seguridad en Vercel.
 
@@ -100,7 +100,7 @@ Archivo `agent/verified_employers.json` = `[]` inicialmente. Una revisión indiv
 
 1. El código **ya está publicado** en `https://github.com/kankwj5-eng/totalchamba` (rama `main`). El nombre visible es TotalChanba.
 2. Autorizar en Vercel la cuenta y el alcance de GitHub que pueden acceder a `kankwj5-eng/totalchamba` y vincular el repositorio en el proyecto **TotalChanba** (Framework Other; Output Directory `public`). Los intentos desde ChatGPT recibieron **403 por alcance Vercel**, por lo que todavía no se ha publicado en Vercel. No introducir claves en el frontend.
-3. El workflow de GitHub Actions ya se ejecutó con éxito y publica el índice tras superar las pruebas. Sigue programado aproximadamente cada seis horas. Revisar permisos `contents: write` y los resultados de ejecución.
+3. El workflow de GitHub Actions ya se ejecutó con éxito e indexó 172 enlaces tras superar las pruebas. Sigue programado aproximadamente cada seis horas. Revisar permisos `contents: write` y los resultados de ejecución.
 4. Verificar en los registros que cada nuevo tablero responde con ofertas antes de presentarlo como conectado, y revisar robots/términos de los portales de directorio.
 
 Pruebas offline de esta entrega: **34 casos de Python aprobados, JavaScript con sintaxis validada, e interacciones en móvil/escritorio comprobadas**. No equivalen a cobertura legal de las fuentes, geocodificación exacta general ni auditoría de accesibilidad WCAG completa.
