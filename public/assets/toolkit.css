@@ -107,3 +107,12 @@ label>textarea::placeholder,label>input::placeholder{color:#91a3a3}
 .cv-upload-label input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;z-index:1}
 @media(max-width:610px){.skill-terms{grid-template-columns:1fr}.skill-actions button{flex:1 1 130px}.cv-upload-label{flex:1 1 170px}}
 @media print{.skill-module,.cv-upload-label{display:none!important}}
+
+/* Contraste reforzado para las vistas del Estudio de Candidatura. */
+.section-head .section-count{color:#07614f}
+.footnote{color:#4b6369!important}
+.preview-label{color:#425b55}
+.plan-progress span{color:#08634f}
+.cv-audit p,.cv-audit-list li{color:#3d5d52}
+.cv-audit-list li.pending{color:#486859}
+.skill-choice small{color:#42645a}
