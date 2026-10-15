@@ -1,4 +1,4 @@
-/* TotalChanba 4.0 · interfaz estática, sin seguimiento de personas ni cuentas. */
+/* TotalChanba 5.1 · interfaz estática, sin seguimiento de personas ni cuentas. */
 (() => {
   'use strict';
   const $ = id => document.getElementById(id);
@@ -8,10 +8,10 @@
     {id:'computrabajo',name:'Computrabajo',url:'https://ni.computrabajo.com/',focus:'Empleo formal',kind:'portal',collection:'directorio'}
   ];
   const savedKey = 'totalchanba-favorites-v1';
-  const searchKeys = ['q','departamento','area','modalidad','fuente','dias','salario','orden','claridad','mapa'];
-  const state = {search:'',department:'',category:'',modality:'',source:'',days:'',salaryOnly:false,favoritesOnly:false,minStars:'',mapPrecision:'',sort:'recent'};
+  const searchKeys = ['q','departamento','area','modalidad','fuente','dias','salario','orden','claridad','mapa','revision'];
+  const state = {search:'',department:'',category:'',modality:'',source:'',days:'',salaryOnly:false,favoritesOnly:false,minStars:'',mapPrecision:'',review:'',sort:'recent'};
   let allJobs=[], allSources=FALLBACK_SOURCES, favorites=new Set(), shown=8;
-  let sourceTerm='', sourceKind='', loadFailed=false, messageTimer=0;
+  let sourceTerm='', sourceKind='', loadFailed=false, messageTimer=0, generatedAt=null;
   const comparison=new Set();
   const sourceById = new Map();
 
@@ -23,6 +23,12 @@
   const when = v => {const d=dateUTC(v);return d?d.toLocaleDateString('es-NI',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}):'Fecha no publicada';};
   const initials = v => {const words=String(v||'').replace(/[^\p{L}\d ]/gu,'').split(/\s+/).filter(Boolean);return (words.length>1?words[0][0]+words[1][0]:(words[0]||'NI').slice(0,2)).toUpperCase();};
   const countFmt = n => new Intl.NumberFormat('es-NI').format(n);
+  // La fecha de publicación puede faltar. La última consulta no demuestra que la plaza siga abierta.
+  function inLastCollection(job){
+    const checked=dateUTC(job.verified_at),run=dateUTC(generatedAt);
+    return Boolean(checked&&run&&Math.abs(checked.getTime()-run.getTime())<=30*60000);
+  }
+  const clipText=(v,length=125)=>String(v||'').trim().slice(0,length);
   function toast(message){const el=$('toast');el.textContent=message;el.classList.add('visible');clearTimeout(messageTimer);messageTimer=setTimeout(()=>el.classList.remove('visible'),2900);}
   function loadFavorites(){try{const data=JSON.parse(localStorage.getItem(savedKey)||'[]');favorites=new Set(Array.isArray(data)?data.filter(x=>typeof x==='string').slice(0,1000):[]);}catch{favorites=new Set();}}
   function persistFavorites(){try{localStorage.setItem(savedKey,JSON.stringify([...favorites]));}catch{toast('No se pudieron guardar favoritos en este navegador');}}
@@ -33,16 +39,17 @@
     state.salaryOnly=p.get('salario')==='1';
     state.minStars=/^[345]$/.test(p.get('claridad')||'')?p.get('claridad'):'';
     state.mapPrecision=['region','address'].includes(p.get('mapa'))?p.get('mapa'):'';
-    if(['recent','relevance','title','source'].includes(p.get('orden')))state.sort=p.get('orden');
+    state.review=['latest','earlier'].includes(p.get('revision'))?p.get('revision'):'';
+    if(['recent','relevance','title','source','clarity'].includes(p.get('orden')))state.sort=p.get('orden');
   }
   function queryUrl(){
     const p=new URLSearchParams(location.search);for(const k of searchKeys)p.delete(k);
-    for(const [key,value] of [['q',state.search],['departamento',state.department],['area',state.category],['modalidad',state.modality],['fuente',state.source],['dias',state.days],['salario',state.salaryOnly?'1':''],['claridad',state.minStars],['mapa',state.mapPrecision],['orden',state.sort==='recent'?'':state.sort]]){if(value)p.set(key,value);}
+    for(const [key,value] of [['q',state.search],['departamento',state.department],['area',state.category],['modalidad',state.modality],['fuente',state.source],['dias',state.days],['salario',state.salaryOnly?'1':''],['claridad',state.minStars],['mapa',state.mapPrecision],['revision',state.review],['orden',state.sort==='recent'?'':state.sort]]){if(value)p.set(key,value);}
     return `${location.origin}${location.pathname}${p.toString()?'?'+p.toString():''}${location.hash||''}`;
   }
   function syncUrl(){history.replaceState(null,'',queryUrl());}
   function syncFilters(){
-    for(const [id,val] of [['search',state.search],['quick-dept',state.department],['filter-dept',state.department],['filter-cat',state.category],['filter-mode',state.modality],['filter-source',state.source],['filter-date',state.days],['filter-clarity',state.minStars],['filter-map',state.mapPrecision],['sort',state.sort]])$(id).value=val;
+    for(const [id,val] of [['search',state.search],['quick-dept',state.department],['filter-dept',state.department],['filter-cat',state.category],['filter-mode',state.modality],['filter-source',state.source],['filter-date',state.days],['filter-clarity',state.minStars],['filter-map',state.mapPrecision],['filter-review',state.review],['sort',state.sort]])$(id).value=val;
     $('salary-only').checked=state.salaryOnly;
     $('favorites-only').checked=state.favoritesOnly;
   }
@@ -64,11 +71,17 @@
   }
   function initData(data){
     allJobs=Array.isArray(data.jobs)?data.jobs.filter(j=>j&&typeof j.id==='string'&&j.title&&safeLink(j.url)):[];
+    generatedAt=data.generated_at||null;
     allSources=Array.isArray(data.sources)&&data.sources.length?data.sources.filter(s=>s&&s.id&&s.name&&safeLink(s.url)):FALLBACK_SOURCES;
     sourceById.clear();for(const source of allSources)sourceById.set(source.id,source);
     $('stat-jobs').textContent=countFmt(allJobs.length);
     $('stat-sources').textContent=countFmt(allSources.length);
     $('stat-date').textContent=data.generated_at?when(data.generated_at):'Sin actualizar';
+    const reviewed=allJobs.filter(inLastCollection).length;
+    $('stat-reviewed').textContent=countFmt(reviewed);
+    $('stat-carried').textContent=countFmt(allJobs.length-reviewed);
+    $('stat-collectors').textContent=countFmt(allSources.filter(s=>s.status==='actualizada'||s.status==='sin_resultados').length);
+    $('health-note').textContent='La última consulta incorpora publicaciones de fuentes externas; una recopilación reciente no garantiza que el puesto continúe abierto.';
     const dataNotice=$('data-notice');
     if(dataNotice){
       const last=dateUTC(data.generated_at);
@@ -94,6 +107,8 @@
     const now=new Date();
     const filtered=allJobs.filter(j=>{
       if(state.favoritesOnly&&!favorites.has(j.id))return false;
+      if(state.review==='latest'&&!inLastCollection(j))return false;
+      if(state.review==='earlier'&&inLastCollection(j))return false;
       if(state.department&&j.department!==state.department)return false;
       if(state.category&&j.category!==state.category)return false;
       if(state.modality&&!fold(j.modality).includes(fold(state.modality)))return false;
@@ -162,6 +177,11 @@
     const image=jobPicture(j);
     const verified=Boolean(j.clarity?.employer_verified&&safeLink(j.clarity.employer_evidence?.proof_url));
     const date=j.published_at?when(j.published_at):'Fecha no publicada';
+    const recentlyChecked=inLastCollection(j);
+    const freshnessText=recentlyChecked?'Recopilada en la última consulta':j.verified_at?'Conservada de otra consulta · última lectura '+when(j.verified_at):'Sin comprobación documentada';
+    const detailChips=[['Experiencia',j.experience],['Formación',j.education],['Beneficios',j.benefits],['Requisitos',j.requirements]]
+      .filter(([,value])=>typeof value==='string'&&value.trim()).slice(0,3);
+    const highlights=detailChips.length?'<div class="tc-highlights" aria-label="Datos disponibles del anuncio">'+detailChips.map(([label,value])=>`<div><b>${html(label)}</b><span>${html(clipText(value,105))}</span></div>`).join('')+'</div>':'';
     const salary=j.salary||'No publicado';
     const modality=j.modality&&j.modality!=='No especificada'?j.modality:'No indicada';
     const type=j.type&&j.type!=='No especificado'?j.type:'No indicado';
@@ -185,7 +205,8 @@
       <div class="tc-card-head">
         <div class="tc-company-avatar" role="img" aria-label="Avatar ilustrativo de animalito, no es el logo de la empresa">${animalFor(company)}</div>
         <div class="tc-company-info"><strong>${html(company)}</strong><div class="tc-company-sub"><span>${html(label)}</span><span class="tc-separator">•</span><span>Publicado: ${html(date)}</span></div>
-        <span class="tc-company-trust ${verified?'is-verified':''}">${verified?'✓ Empresa con identidad revisada':'◌ Identidad empresarial no verificada'}</span></div>
+        <span class="tc-company-trust ${verified?'is-verified':''}">${verified?'✓ Empresa con identidad revisada':'◌ Identidad empresarial no verificada'}</span>
+        <span class="tc-review-status ${recentlyChecked?'is-recent':'is-older'}">${recentlyChecked?'●':'◷'} ${html(freshnessText)}</span></div>
         <button class="save-job tc-save ${saved?'active':''}" data-save="${html(j.id)}" type="button" aria-label="${saved?'Quitar de guardados':'Guardar vacante'}: ${html(j.title)}" aria-pressed="${saved}">${saved?'♥':'♡'}</button>
       </div>
       <div class="tc-job-lead"><div class="tc-job-title"><div class="tc-eyebrow">OFERTA DE TRABAJO <span>·</span> ${html(source?.name||j.source)}</div><h3 id="title-${html(j.id)}">${html(j.title)}</h3><p>${html(j.summary||'La fuente no publicó una descripción resumida. Revisá los detalles en el anuncio original.')}</p><a class="tc-quick-link" href="${html(j.url)}" target="_blank" rel="noopener noreferrer">Leer publicación original ↗</a></div>
@@ -195,10 +216,10 @@
         <div class="tc-fact tc-location"><span class="tc-fact-icon">⌖</span><div><small>Ubicación</small><strong>${html(place)}</strong></div></div>
         <div class="tc-fact tc-mode"><span class="tc-fact-icon">▣</span><div><small>Modalidad</small><strong>${html(modality)}</strong></div></div>
         <div class="tc-fact tc-type"><span class="tc-fact-icon">◷</span><div><small>Jornada o contrato</small><strong>${html(type)}</strong></div></div>
-        <div class="tc-fact tc-salary"><span class="tc-fact-icon">C$</span><div><small>Salario publicado</small><strong>${html(salary)}</strong></div></div>
+        <div class="tc-fact tc-salary"><span class="tc-fact-icon">◈</span><div><small>Salario publicado</small><strong>${html(salary)}</strong></div></div>
       </div>
       <div class="tc-middle"><div class="tc-about"><div class="tc-subheading"><span>◈</span> Qué sabemos de esta vacante</div>
-        <dl class="tc-specs"><div><dt>Área de trabajo</dt><dd>${html(label)}</dd></div><div><dt>Empresa anunciada</dt><dd>${html(company)}</dd></div><div><dt>Salario</dt><dd>${html(j.salary||'No informado; consultar al empleador')}</dd></div><div><dt>Fecha de publicación</dt><dd>${html(date)}</dd></div></dl>
+        ${highlights}<dl class="tc-specs"><div><dt>Área de trabajo</dt><dd>${html(label)}</dd></div><div><dt>Empresa anunciada</dt><dd>${html(company)}</dd></div><div><dt>Salario</dt><dd>${html(j.salary||'No informado; consultar al empleador')}</dd></div><div><dt>Fecha de publicación</dt><dd>${html(date)}</dd></div></dl>
         <details class="tc-requirements"><summary>Ver requisitos, beneficios y datos no publicados <span>⌄</span></summary><div class="tc-requirement-body"><p>La descripción disponible es: ${html(j.summary||'No hay descripción resumida.')}</p>${details||'<p>Esta fuente no facilitó requisitos, experiencia, formación ni beneficios estructurados. Revisá el anuncio original para conocerlos.</p>'}<p>Para información no publicada aquí y para postular, consultá siempre la fuente original.</p>${questionsHtml}</div></details>
       </div><div class="tc-trust-panel"><div class="tc-subheading"><span>✳</span> Transparencia del anuncio</div>${clarityUi(j)}<div class="tc-trust-explain">Las estrellas califican los <b>datos publicados</b>, no la reputación ni la seguridad de la empresa.</div><div class="tc-map-block"><strong>⌖ Ubicación para orientarte</strong><small>${html(precision)}</small>${mapMarkup}</div></div></div>
       ${also}
@@ -228,7 +249,7 @@
     $('results-heading').textContent=state.favoritesOnly?'Empleos guardados':state.search?'Resultados de tu búsqueda':'Oportunidades en el índice';
     $('toggle-saved').setAttribute('aria-pressed',String(state.favoritesOnly));
     $('favorites-only').checked=state.favoritesOnly;
-    const filters=[state.search&&`“${state.search}”`,state.department,state.category,state.modality,state.days&&`últimos ${state.days} días`,state.salaryOnly&&'con salario',state.minStars&&`${state.minStars}+ estrellas de claridad`,state.mapPrecision==='address'&&'dirección declarada',state.source&&sourceById.get(state.source)?.name].filter(Boolean);
+    const filters=[state.review==='latest'&&'recopiladas en la última consulta',state.review==='earlier'&&'conservadas de otras consultas',state.search&&`“${state.search}”`,state.department,state.category,state.modality,state.days&&`últimos ${state.days} días`,state.salaryOnly&&'con salario',state.minStars&&`${state.minStars}+ estrellas de claridad`,state.mapPrecision==='address'&&'dirección declarada',state.source&&sourceById.get(state.source)?.name].filter(Boolean);
     $('search-feedback').textContent=filters.length?`Filtros activos: ${filters.join(' · ')}`:'Mostrando las ofertas indexadas; las fuentes del directorio se encuentran más abajo.';
     if(!jobs.length){
       const title=loadFailed?'No se pudo cargar el índice':state.favoritesOnly?'No hay ofertas guardadas con estos filtros':'No hay ofertas que coincidan';
@@ -254,16 +275,32 @@
     document.querySelectorAll('[data-source-kind]').forEach(btn=>{const selected=btn.dataset.sourceKind===sourceKind;btn.classList.toggle('selected',selected);btn.setAttribute('aria-pressed',String(selected));});
   }
   function changed(){shown=8;syncFilters();syncUrl();renderJobs();}
-  function reset(){Object.assign(state,{search:'',department:'',category:'',modality:'',source:'',days:'',salaryOnly:false,favoritesOnly:false,minStars:'',mapPrecision:'',sort:'recent'});changed();}
+  function reset(){Object.assign(state,{search:'',department:'',category:'',modality:'',source:'',days:'',salaryOnly:false,favoritesOnly:false,minStars:'',mapPrecision:'',review:'',sort:'recent'});changed();}
   function bind(){
     $('search').addEventListener('input',e=>{state.search=e.target.value.slice(0,150);changed();});
     $('search-button').addEventListener('click',()=>{document.querySelector('.results-area').scrollIntoView({behavior:'smooth',block:'start'});$('search').blur();});
-    for(const [id,key] of [['quick-dept','department'],['filter-dept','department'],['filter-cat','category'],['filter-mode','modality'],['filter-source','source'],['filter-date','days'],['filter-clarity','minStars'],['filter-map','mapPrecision'],['sort','sort']])$(id).addEventListener('change',e=>{state[key]=e.target.value;changed();});
+    for(const [id,key] of [['quick-dept','department'],['filter-dept','department'],['filter-cat','category'],['filter-mode','modality'],['filter-source','source'],['filter-date','days'],['filter-clarity','minStars'],['filter-map','mapPrecision'],['filter-review','review'],['sort','sort']])$(id).addEventListener('change',e=>{state[key]=e.target.value;changed();});
     $('salary-only').addEventListener('change',e=>{state.salaryOnly=e.target.checked;changed();});
     $('reset-filters').addEventListener('click',reset);
     $('favorites-only').addEventListener('change',e=>{state.favoritesOnly=e.target.checked;changed();});
     $('toggle-saved').addEventListener('click',()=>{state.favoritesOnly=!state.favoritesOnly;changed();});
     $('load-more').addEventListener('click',()=>{shown+=8;renderJobs();});
+    $('export-saved').addEventListener('click',()=>{
+      const selected=allJobs.filter(j=>favorites.has(j.id));
+      if(!selected.length){toast('Guardá una vacante antes de exportarla');return;}
+      const columns=[['Puesto','title'],['Empresa','company'],['Departamento','department'],['Ubicación','location'],['Modalidad','modality'],['Contrato','type'],['Salario como publicado','salary'],['Última consulta','verified_at'],['Publicada','published_at'],['Origen','source'],['Enlace original','url']];
+      const cell=value=>{
+        let v=String(value??'').replace(/[\r\n]+/g,' ').trim();
+        if(/^[=+\-@\t]/.test(v))v="'"+v; // Evita fórmulas ejecutables al abrir en una hoja de cálculo.
+        return '"'+v.replace(/"/g,'""')+'"';
+      };
+      const csv='\uFEFF'+[columns.map(x=>cell(x[0])).join(','),...selected.map(j=>columns.map(([,key])=>cell(j[key])).join(','))].join('\r\n');
+      const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+      const link=document.createElement('a');link.href=url;link.download='TotalChanba_mis_guardados.csv';
+      document.body.append(link);link.click();link.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),1000);
+      toast('Descargadas '+countFmt(selected.length)+' vacantes guardadas');
+    });
     $('share-search').addEventListener('click',async()=>{
       const url=queryUrl();
       try {await navigator.clipboard.writeText(url);toast('Enlace a esta búsqueda copiado');}
