@@ -25,7 +25,7 @@ def boards(path):
     result = []
     seen = set()
     for x in data:
-        if not isinstance(x, dict) or x.get('provider') not in ('greenhouse', 'lever'):
+        if not isinstance(x, dict) or x.get('provider') not in ('greenhouse', 'lever', 'ashby', 'smartrecruiters'):
             continue
         token = x.get('board', '')
         if not isinstance(token, str) or not TOKEN.fullmatch(token) or '..' in token:
@@ -45,9 +45,13 @@ def boards(path):
 
 def source_for_board(board):
     provider, token = board['provider'], board['board']
-    home = ('https://job-boards.greenhouse.io/' if provider == 'greenhouse' else 'https://jobs.lever.co/') + token
-    hosts = (['boards.greenhouse.io','job-boards.greenhouse.io'] if provider == 'greenhouse'
-             else ['jobs.lever.co'])
+    homes = {'greenhouse':'https://job-boards.greenhouse.io/','lever':'https://jobs.lever.co/',
+             'ashby':'https://jobs.ashbyhq.com/','smartrecruiters':'https://jobs.smartrecruiters.com/'}
+    hostnames = {'greenhouse':['boards.greenhouse.io','job-boards.greenhouse.io'],
+                 'lever':['jobs.lever.co'],'ashby':['jobs.ashbyhq.com'],
+                 'smartrecruiters':['jobs.smartrecruiters.com']}
+    home = homes[provider] + token
+    hosts = hostnames[provider]
     return {'id': board['id'], 'name': board['name'], 'url': home, 'kind': 'empresa',
             'collection': 'ats', 'focus': 'Ofertas publicadas en la web de la empresa',
             'color': '#a8dfd2', 'allowed_hosts': hosts, 'company': board['company'],
@@ -60,7 +64,10 @@ def likely_ni(text):
     Un puesto remoto que dice simplemente `Remote` NO es elegible por defecto.
     """
     t = fold(text)
-    if not t or any(x in t for x in ('spain', 'espana', 'guatemala', 'costa rica', 'mexico', 'colombia')):
+    if not t: return False
+    # Los anuncios multinacionales pueden incluir Nicaragua y otros países.
+    if 'nicaragua' in t: return True
+    if any(x in t for x in ('spain', 'espana', 'guatemala', 'costa rica', 'mexico', 'colombia')):
         return False
     return any(x in t for x in ('nicaragua', 'managua', 'esteli', 'matagalpa', 'jinotega',
                                 'chinandega', 'masaya', 'nueva segovia', 'chontales',
@@ -116,6 +123,9 @@ def parse_lever(payload, source):
 
 def collect_ats(source, now, normalise, fetcher=fetch_json):
     from .quality import valid_and_recent
+    if source['provider'] in ('ashby','smartrecruiters'):
+        from .ats_extra import collect_extra
+        return collect_extra(source, now, normalise)
     if source['provider'] == 'greenhouse':
         url = f"https://boards-api.greenhouse.io/v1/boards/{source['board']}/jobs?" + urlencode({'content':'true'})
         parsed = parse_greenhouse(fetcher(url), source)
