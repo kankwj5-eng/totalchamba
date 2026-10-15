@@ -61,7 +61,8 @@ def source_for_board(board):
 def likely_ni(text):
     """Filtro conservador: solo ubicación NI explícita, no países homónimos.
 
-    Un puesto remoto que dice simplemente `Remote` NO es elegible por defecto.
+    Remote / LATAM / Worldwide no demuestran que admitan Nicaragua.
+    Se requiere Nicaragua o una localidad nicaragüense inequívoca.
     """
     t = fold(text)
     if not t: return False
@@ -71,7 +72,7 @@ def likely_ni(text):
         return False
     return any(x in t for x in ('nicaragua', 'managua', 'esteli', 'matagalpa', 'jinotega',
                                 'chinandega', 'masaya', 'nueva segovia', 'chontales',
-                                'rivas, ni', 'leon, ni', 'granada, ni', 'latin america', 'latam', 'worldwide'))
+                                'rivas, ni', 'leon, ni', 'granada, ni'))
 
 
 def fetch_json(url, opener=urlopen):
