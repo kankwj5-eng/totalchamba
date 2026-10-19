@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-19T04:35:22Z",
+  "generated_at": "2026-10-19T13:05:28Z",
   "jobs": [
     {
       "id": "bff89fa682df29d3",
@@ -25,7 +25,7 @@
       "expires": "2026-12-02",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118525/cobrador.aspx",
-      "verified_at": "2026-10-19T04:35:25Z",
+      "verified_at": "2026-10-19T13:05:31Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -123,7 +123,7 @@
       "expires": "2026-11-12",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118468/jefe-de-recursos-humanos.aspx",
-      "verified_at": "2026-10-19T04:35:39Z",
+      "verified_at": "2026-10-19T13:05:45Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -221,7 +221,7 @@
       "expires": "2026-12-01",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118475/asistente-de-mercadeo.aspx",
-      "verified_at": "2026-10-19T04:35:37Z",
+      "verified_at": "2026-10-19T13:05:43Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -319,7 +319,7 @@
       "expires": "2026-12-01",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118490/regente.aspx",
-      "verified_at": "2026-10-19T04:35:35Z",
+      "verified_at": "2026-10-19T13:05:41Z",
       "clarity": {
         "score": 50,
         "stars": 3,
@@ -417,7 +417,7 @@
       "expires": "2026-12-01",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118491/electricista.aspx",
-      "verified_at": "2026-10-19T04:35:33Z",
+      "verified_at": "2026-10-19T13:05:39Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -515,7 +515,7 @@
       "expires": "2026-12-01",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118501/supervisor-de-mantenimiento.aspx",
-      "verified_at": "2026-10-19T04:35:31Z",
+      "verified_at": "2026-10-19T13:05:37Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -613,7 +613,7 @@
       "expires": "2026-12-01",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118505/jefe-de-produccion.aspx",
-      "verified_at": "2026-10-19T04:35:29Z",
+      "verified_at": "2026-10-19T13:05:35Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -711,7 +711,7 @@
       "expires": "2026-12-01",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118509/gestor-de-cobros.aspx",
-      "verified_at": "2026-10-19T04:35:27Z",
+      "verified_at": "2026-10-19T13:05:33Z",
       "clarity": {
         "score": 70,
         "stars": 4,
@@ -809,7 +809,7 @@
       "expires": "2026-11-30",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118359/asistente-de-recursos-humanos.aspx",
-      "verified_at": "2026-10-19T04:35:59Z",
+      "verified_at": "2026-10-19T13:06:05Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -907,7 +907,7 @@
       "expires": "2026-11-30",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118355/analista-de-recursos-humanos.aspx",
-      "verified_at": "2026-10-19T04:35:57Z",
+      "verified_at": "2026-10-19T13:06:03Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -1005,7 +1005,7 @@
       "expires": "2026-11-30",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118364/recepcionista.aspx",
-      "verified_at": "2026-10-19T04:35:55Z",
+      "verified_at": "2026-10-19T13:06:01Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1103,7 +1103,7 @@
       "expires": "2026-11-26",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118375/mensajero.aspx",
-      "verified_at": "2026-10-19T04:35:53Z",
+      "verified_at": "2026-10-19T13:05:59Z",
       "clarity": {
         "score": 70,
         "stars": 4,
@@ -1201,7 +1201,7 @@
       "expires": "2026-11-30",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118309/administrador.aspx",
-      "verified_at": "2026-10-19T04:35:51Z",
+      "verified_at": "2026-10-19T13:05:57Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1299,7 +1299,7 @@
       "expires": "2026-11-30",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118392/vendedor.aspx",
-      "verified_at": "2026-10-19T04:35:49Z",
+      "verified_at": "2026-10-19T13:05:55Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1397,7 +1397,7 @@
       "expires": "2026-11-30",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118393/analista-de-credito.aspx",
-      "verified_at": "2026-10-19T04:35:47Z",
+      "verified_at": "2026-10-19T13:05:53Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1495,7 +1495,7 @@
       "expires": "2026-11-29",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118401/jefe-o-encargado-de-exportaciones-importaciones.aspx",
-      "verified_at": "2026-10-19T04:35:45Z",
+      "verified_at": "2026-10-19T13:05:51Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -1593,7 +1593,7 @@
       "expires": "2026-11-30",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118419/analista-de-riesgo.aspx",
-      "verified_at": "2026-10-19T04:35:43Z",
+      "verified_at": "2026-10-19T13:05:49Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1691,7 +1691,7 @@
       "expires": "2026-11-30",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1118293/asistente-de-cumplimiento-auxiliar-de-cumplimiento.aspx",
-      "verified_at": "2026-10-19T04:35:41Z",
+      "verified_at": "2026-10-19T13:05:47Z",
       "clarity": {
         "score": 70,
         "stars": 4,
@@ -1787,7 +1787,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7ea16abb-68bb-4b67-aabe-52156d6db514",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -1880,7 +1880,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/83dc7a2b-12f7-4416-a570-c52eeeeded1b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -1973,7 +1973,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/afc6ca37-48c2-45b8-a18e-d9fc4d64eb3d",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2066,7 +2066,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/d969e238-e4c9-4e49-a81c-5f57d6f27248",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2161,7 +2161,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000155589247-shopper-store-management-supervisor",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "requirements": "Experiencia en puestos similares liderando equipos de trabajo. Conocimientos de herramientas paquete Office (Excel, Word, Powerpoint) y Google. Orientación a la acción y capacidad para resolver problemas. Fuertes habilidades interpersonales, autonomía, capacidad para construir relaciones positivas y generar confianza. Compromiso, proactividad y buenas formas de comunicación.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -3026,7 +3026,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/8d8321a8-4ecb-4d63-a399-aacff45813dd",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3119,7 +3119,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/87c749b0-502c-481d-a38a-8a57a8d063e7",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3212,7 +3212,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c291550a-05f1-4ceb-bd4d-24da37a71132",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3305,7 +3305,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/1c7d21e4-f85b-4f3c-99bb-050c6ac5cc9b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3495,7 +3495,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000151478839-sales-executive-senior",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "requirements": "Experiencia previa de 4-5 años en ventas B2B de ciclo corto o medio en compañías de Consumo Masivo, Fintech, Software (SaaS) o rubro gastronómico/proveedores. Historial comprobable superando metas de adquisición de cuentas nuevas. Capacidad para trabajar de manera autónoma, capacidad de organización, planificación y orientación a resultados. Sólidas habilidades de comunicación y negociación. Proactividad, flexibilidad y orientación al trabajo en equipo. Dominio de G-Suit y MS Office. Vehículo propio y disponibilidad para viajar dentro de la ciudad o región según sea necesario.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -3599,7 +3599,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/41d7c17e-eb36-41d6-9f41-f6beea9e8ac9",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3692,7 +3692,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/23ad2c58-c94e-4bc4-ab93-869e9f9903d6",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3785,7 +3785,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/1b602c36-02df-4b25-9856-17988d4eeddf",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3880,7 +3880,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000149952749-account-executive",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "requirements": "Experiencia comercial en generación y gestión de carteras de clientes y cuentas. Perfil analítico, que pueda tener un buen entendimiento del negocio, con experiencia en seguimiento de indicadores y orientación a la toma de decisiones basada en datos. Capacidad de planificación, organización, autonomía y orientación a resultados. Excelentes habilidades interpersonales, de comunicación y de trabajo en equipo. Deseable conocimientos en Marketing y manejo de indicadores de Marketing Digital (CPO, CPA, CPC, ratios de conversión). Dominio de G-suit y MS Office. Disponibilidad para viajar dentro de la ciudad o región según sea necesario.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -3984,7 +3984,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/782400ae-7f15-4d80-ae43-87950496849b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4077,7 +4077,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c96d9285-1cda-438d-abe6-5830584c2308",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4170,7 +4170,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c51a0ff7-f51e-4f68-8ce3-417d2eb86172",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4263,7 +4263,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/9f627d98-3699-4f48-9436-b60cfb0ee763",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4358,7 +4358,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/fa226a0c-f4ce-4511-93ee-b16a05a3cb0b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -4456,7 +4456,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/43d6a87c-9cc6-4c89-ba61-d7fea5fff3d2",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -4552,7 +4552,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/3c708fbc-3ef1-437f-b45b-7277ed2e3adf",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4645,7 +4645,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/d7a0137b-aec8-42c0-a154-9ef708da4b37",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4738,7 +4738,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7e5118a2-c9f3-4ce8-bc11-b602a6036ebc",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4831,7 +4831,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/403e36ce-9e36-4c25-9d74-dbee490e725c",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4924,7 +4924,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/0e08b756-0500-4242-a223-063f4eee9e5f",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5017,7 +5017,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/ca517c92-4aaa-4316-9149-32229f24325b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5110,7 +5110,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/5948735a-7865-4eaa-8587-a1f3edd8954c",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5203,7 +5203,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/53079629-f561-4def-9e30-7049545e92be",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5296,7 +5296,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/12c49dfc-d97e-4a14-845c-b1661208b913",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5391,7 +5391,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/19b2e2d5-031f-4b30-8d1d-06f0f5f3338b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -5487,7 +5487,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/8a1cb2be-ee50-4b83-b417-046044227690",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5580,7 +5580,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/216d4f1e-abf4-4cc7-968f-9b2404291adb",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5673,7 +5673,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/fcc1e431-e5de-4490-afc5-0e312bc48d99",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5766,7 +5766,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/dc75b9eb-d486-47a8-97c0-2c00c8c85b19",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5859,7 +5859,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/bfc3aa35-b444-4f09-8f00-7926fc8dbc8b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5952,7 +5952,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/eb444092-3d75-403c-bb48-bbc1a21d22a8",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -6047,7 +6047,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/bf14e7e8-88d2-4433-bbb5-ab174888de55",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -6143,7 +6143,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7021adb6-ce7f-44f0-a677-e646d17e1308",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -6236,7 +6236,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/5cab9b8f-c9d0-4e97-9f29-1ce42565b896",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -6329,7 +6329,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/a722f86e-ceef-470d-a941-de00394fddc3",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -6422,7 +6422,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4aa08bb3-14e5-4bba-9165-64857ba4a2f8",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6515,7 +6515,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4915637d-7324-4080-8630-0dab71d57f54",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6608,7 +6608,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/5c88f66d-c7ba-4e80-81ab-cd0e04287510",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6701,7 +6701,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b37c98e8-152d-4918-a0c9-3337381d0b2e",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6794,7 +6794,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/bf4ebb5b-e483-41b3-95a7-36795634a5cb",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6887,7 +6887,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/06d0fc17-d709-4cf6-86d7-8dccd700ea4d",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6980,7 +6980,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/0f1697ba-73c3-4278-80f0-8291ba771a9d",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7073,7 +7073,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/3813b562-5d5f-4916-bd8a-5bdf3038bcb9",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7166,7 +7166,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a14a3a40-7c48-4565-9b2f-2c11e6fc3c1f",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7259,7 +7259,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/11ea4859-0d28-4adb-9fe1-3a88534c52e7",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7352,7 +7352,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/1fe279c8-83d1-4205-b5f0-4921a9eda2b5",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7445,7 +7445,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/690a00a0-c726-4336-8f44-f21d2bd63c46",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7538,7 +7538,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/f5468431-8e45-4ebb-9aa6-61b4a57c85de",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7631,7 +7631,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/74bade4c-f42d-4662-8620-fb4eaf76e38f",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7724,7 +7724,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/77defa00-4d89-44c9-9a56-1e86581e9ea4",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7817,7 +7817,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a706f672-7c30-4551-83b7-d07ef5058e82",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7910,7 +7910,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/bd8f4ae1-4b17-48ff-8342-1c68c2ac0d64",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8003,7 +8003,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/476d787d-2b7a-455e-9d5a-562279e11e0a",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8096,7 +8096,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/9ab4a6e4-5703-4273-8405-7a889723a745",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8189,7 +8189,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b48f4523-d265-483b-89cf-47c8c1018285",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8282,7 +8282,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/ee64f62b-1850-4d5c-b6bc-54c4b8b62968",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8375,7 +8375,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/5dcf33db-e57c-414c-a4f6-ff34a152f29e",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8468,7 +8468,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/7fa425ac-2882-478b-8807-cdadde3eb21b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8561,7 +8561,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a85da7c7-d21a-4ef0-9f42-045e1dce9dd9",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8654,7 +8654,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/c6108dc5-d841-4020-9a7c-7be0976c995e",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8747,7 +8747,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/9db7cfe9-e1af-401f-b4c7-9187b36c7ff4",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8840,7 +8840,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4c13712f-487d-4ad0-b94c-4b6da21d3582",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8933,7 +8933,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/52262460-4228-4d92-9e7a-d29441207605",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9026,7 +9026,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b547a965-7274-42d9-b881-f7d8618dce1e",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9119,7 +9119,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/d901dfb6-3d68-4833-9e7d-4cddacc76dd3",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9212,7 +9212,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a6fef6e5-752a-4528-87cf-b86350d5706b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9305,7 +9305,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e21e780d-0573-4c8d-87d2-fe01cf4f2b83",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9398,7 +9398,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e5b36e06-05d6-48ca-8852-f3b419eaef39",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9491,7 +9491,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/ebe5afa2-e8da-4c47-b4c4-48a82a0bc92d",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9584,7 +9584,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4d98b3f2-dccf-41c4-acea-4198bcf5ce6a",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9677,7 +9677,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a56e4b32-59ee-4672-83e4-344251cb1b12",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9770,7 +9770,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a6100701-ee24-46f9-be8a-3806bb027026",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9863,7 +9863,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/cdd43de1-d6f1-437d-8d68-171bf5d6ac76",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9956,7 +9956,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/94d0e117-0f91-493e-9e22-71f19f0cba85",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -10049,7 +10049,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/c6cd2838-4d84-4116-9b33-92976b159c3b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -10142,7 +10142,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e93b54d0-6183-4bac-a344-5e0c1365b9d8",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -10235,7 +10235,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/eeffd76c-5058-42a4-90d6-68fb7757fd3b",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -10328,7 +10328,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/0f974076-54b1-4c83-b47d-f6e2457fe562",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -10421,7 +10421,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/23ced3f9-4427-4daf-8689-a0b245054896",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -10514,7 +10514,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a3da35cd-c297-43d1-93e0-4b47ea3090bc",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -10607,7 +10607,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b9f7082d-8ba6-42ba-8070-3dc7bcf8f30d",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -10702,7 +10702,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/65d38f9c-aeca-4078-b3ea-304b9b71b0d1",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -10799,7 +10799,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/8b2bfad6-d953-43f2-acdd-dd164f3f66fb",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -10896,7 +10896,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/278fc1d7-94ec-464e-bdc7-5a459ca02e3a",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -10991,7 +10991,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5185164007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11084,7 +11084,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5117716007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11177,7 +11177,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150679007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11270,7 +11270,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258965007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11363,7 +11363,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258993007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11456,7 +11456,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150246007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11549,7 +11549,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259033007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11642,7 +11642,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5118072007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11735,7 +11735,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150759007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11828,7 +11828,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220356007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11921,7 +11921,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259010007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12014,7 +12014,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5225713007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12107,7 +12107,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5225709007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12200,7 +12200,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259052007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12293,7 +12293,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5218864007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12386,7 +12386,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5218868007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12479,7 +12479,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5208655007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12572,7 +12572,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5260821007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12665,7 +12665,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5262550007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12758,7 +12758,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5185175007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12851,7 +12851,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5216475007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12944,7 +12944,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5228923007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13037,7 +13037,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5119495007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13130,7 +13130,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150186007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13223,7 +13223,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5119294007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13316,7 +13316,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259021007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13409,7 +13409,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259468007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13502,7 +13502,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5253193007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13595,7 +13595,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5262679007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13688,7 +13688,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150324007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13781,7 +13781,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220499007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13874,7 +13874,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258976007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13967,7 +13967,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5221803007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14060,7 +14060,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220515007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14153,7 +14153,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220352007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14246,7 +14246,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220391007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14339,7 +14339,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220527007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14432,7 +14432,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258986007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14525,7 +14525,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259002007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14618,7 +14618,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259029007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14711,7 +14711,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259446007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14804,7 +14804,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5005205007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14897,7 +14897,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220392007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14990,7 +14990,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5093540007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15083,7 +15083,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5177557007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15176,7 +15176,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5253252007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15269,7 +15269,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5170368007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15362,7 +15362,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5189944007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15455,7 +15455,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220390007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15548,7 +15548,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5224763007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15641,7 +15641,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220360007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15734,7 +15734,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5136563007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15827,7 +15827,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220617007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -15920,7 +15920,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259031007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -16013,7 +16013,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259057007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -16106,7 +16106,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220676007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -16199,7 +16199,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5219595007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -16292,7 +16292,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5257406007",
-      "verified_at": "2026-10-19T04:35:22Z",
+      "verified_at": "2026-10-19T13:05:28Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -16375,7 +16375,7 @@
       "focus": "Oficios y empleo local",
       "color": "#fbbf7a",
       "last_success": null,
-      "last_attempt": "2026-10-19T04:35:22Z",
+      "last_attempt": "2026-10-19T13:05:28Z",
       "status": "no_disponible",
       "jobs_count": 9
     },
@@ -16387,8 +16387,8 @@
       "collection": "crawler",
       "focus": "Empresas y profesionales",
       "color": "#b8b5ff",
-      "last_success": "2026-10-19T04:35:22Z",
-      "last_attempt": "2026-10-19T04:35:22Z",
+      "last_success": "2026-10-19T13:05:28Z",
+      "last_attempt": "2026-10-19T13:05:28Z",
       "status": "actualizada",
       "jobs_count": 18
     },
@@ -16545,7 +16545,7 @@
       "focus": "ONG y cooperación humanitaria",
       "color": "#f3a7a7",
       "last_success": null,
-      "last_attempt": "2026-10-19T04:35:22Z",
+      "last_attempt": "2026-10-19T13:05:28Z",
       "status": "requiere_configuracion",
       "jobs_count": 0
     },
@@ -16581,8 +16581,8 @@
         "Granada, Nicaragua",
         "Masaya, Nicaragua"
       ],
-      "last_success": "2026-10-19T04:35:22Z",
-      "last_attempt": "2026-10-19T04:35:22Z",
+      "last_success": "2026-10-19T13:05:28Z",
+      "last_attempt": "2026-10-19T13:05:28Z",
       "status": "actualizada",
       "jobs_count": 46
     },
@@ -16603,8 +16603,8 @@
       "locations": [
         "Managua, Nicaragua"
       ],
-      "last_success": "2026-10-19T04:35:22Z",
-      "last_attempt": "2026-10-19T04:35:22Z",
+      "last_success": "2026-10-19T13:05:28Z",
+      "last_attempt": "2026-10-19T13:05:28Z",
       "status": "actualizada",
       "jobs_count": 3
     },
@@ -16626,8 +16626,8 @@
       "locations": [
         "Remote - Nicaragua"
       ],
-      "last_success": "2026-10-19T04:35:22Z",
-      "last_attempt": "2026-10-19T04:35:22Z",
+      "last_success": "2026-10-19T13:05:28Z",
+      "last_attempt": "2026-10-19T13:05:28Z",
       "status": "actualizada",
       "jobs_count": 58
     },
@@ -16648,8 +16648,8 @@
       "locations": [
         "Nicaragua - Managua"
       ],
-      "last_success": "2026-10-19T04:35:22Z",
-      "last_attempt": "2026-10-19T04:35:22Z",
+      "last_success": "2026-10-19T13:05:28Z",
+      "last_attempt": "2026-10-19T13:05:28Z",
       "status": "actualizada",
       "jobs_count": 37
     },
@@ -16670,8 +16670,8 @@
       "locations": [
         "Managua, Nicaragua"
       ],
-      "last_success": "2026-10-19T04:35:22Z",
-      "last_attempt": "2026-10-19T04:35:22Z",
+      "last_success": "2026-10-19T13:05:28Z",
+      "last_attempt": "2026-10-19T13:05:28Z",
       "status": "actualizada",
       "jobs_count": 3
     }
