@@ -1,31 +1,815 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-20T16:59:30Z",
+  "generated_at": "2026-10-20T21:34:35Z",
   "jobs": [
     {
-      "id": "7cdb838bdd401cd1",
-      "title": "Recepcionista de Monitoreo de Cámaras",
-      "company": "Rofaza Consulting",
+      "id": "93c003b4f63c10d1",
+      "title": "EJECUTIVO DE DISTRIBUCION MANAGUA",
+      "company": "Claro",
       "location": "Managua, Nicaragua",
       "department": "Managua",
       "address": null,
       "maps": {
         "precision": "region",
         "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 12000–20000",
+      "summary": "PROPOSITO: Supervisar la fuerza de venta de servicios en un territorio determinado, garantizando el cumplimiento de metas, mediante seguimiento de indicadores y lineamientos comerciales establecidos.? FUNCIONES: Organizar planes de ventas masivas de productos móvil y productos fi",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119291/ejecutivo-de-ventas.aspx",
+      "verified_at": "2026-10-20T21:35:12Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Otros",
+        "focus": "Mostrá logros comprobables y tu disponibilidad real.",
+        "cv": [
+          "Ordená experiencia y formación desde lo más reciente.",
+          "Describí tareas y resultados que realmente puedas demostrar.",
+          "Ajustá las palabras clave al anuncio sin copiar afirmaciones falsas."
+        ],
+        "interview": [
+          "¿Qué te interesa de este puesto y por qué?",
+          "Contame una situación difícil y cómo la resolviste.",
+          "¿Qué necesitás saber de la jornada, el contrato y la sede?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "d74494a842899033",
+      "title": "AUXILIAR DE FARMACIA 9.7 CARRETERA A MASAYA KM8 SANTO DOMINGO COLINAS",
+      "company": "Farmacias Saba",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Salud",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 300–500",
+      "summary": "Nuestros valores son la guía en la organización de todos nuestros procesos: servicio al cliente, confianza, compromiso, honestidad, transparencia y esfuerzo. Forma parte de nuestro equipo FUNCIONES: Cumplir pro activamente políticas y procedimientos operativos. Implementar de man",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119304/dependiente-de-farmacia.aspx",
+      "verified_at": "2026-10-20T21:35:10Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Salud",
+        "focus": "Priorizá formación acreditada, ética y seguridad de las personas.",
+        "cv": [
+          "Escribí el nombre real de tus acreditaciones vigentes.",
+          "Indicá prácticas o servicios realizados sin revelar datos de pacientes.",
+          "Mencioná protocolos que conocés, no competencias sin respaldo."
+        ],
+        "interview": [
+          "¿Cómo protegés la confidencialidad de un paciente?",
+          "¿Qué hacés cuando una situación supera tus competencias?",
+          "¿Cómo coordinás con colegas en un momento urgente?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "ba4452d6518d87cc",
+      "title": "AUXILIAR DE PRODUCCIÓN",
+      "company": "Kola Shaler Industrial S.A.",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Industria",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 1–1",
+      "summary": "Brindar el apoyo necesario en el proceso productivo de manera correcta y segura. FUNCIONES ESPECÍFICAS: 1 Prepara soluciones de sanitación para limpieza y saneamiento en general 2 Realizar actividades varias en línea de producción 3 Informar al supervisor, cuando ingrese a planta",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119310/operario-de-produccion.aspx",
+      "verified_at": "2026-10-20T21:35:08Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Industria",
+        "focus": "Presentá experiencia práctica y respeto a protocolos de seguridad.",
+        "cv": [
+          "Enumerá máquinas o herramientas que conocés de verdad.",
+          "Mostrá tareas técnicas y resultados demostrables.",
+          "Incluí certificaciones reales de seguridad o mantenimiento si tenés."
+        ],
+        "interview": [
+          "¿Qué comprobás antes de usar una máquina?",
+          "¿Qué hacés si detectás una falla peligrosa?",
+          "Contá un trabajo técnico que resolviste con precisión."
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "7fe67ae936ff07cf",
+      "title": "AUXILIAR DE FARMACIA MANAGUA",
+      "company": "Farmacias Saba",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Salud",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 300–450",
+      "summary": "Nuestros valores son la guía en la organización de todos nuestros procesos: servicio al cliente, confianza, compromiso, honestidad, transparencia y esfuerzo. Forma parte de nuestro equipo FUNCIONES: Cumplir pro activamente políticas y procedimientos operativos. Implementar de man",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119322/dependiente-de-farmacia.aspx",
+      "verified_at": "2026-10-20T21:35:06Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Salud",
+        "focus": "Priorizá formación acreditada, ética y seguridad de las personas.",
+        "cv": [
+          "Escribí el nombre real de tus acreditaciones vigentes.",
+          "Indicá prácticas o servicios realizados sin revelar datos de pacientes.",
+          "Mencioná protocolos que conocés, no competencias sin respaldo."
+        ],
+        "interview": [
+          "¿Cómo protegés la confidencialidad de un paciente?",
+          "¿Qué hacés cuando una situación supera tus competencias?",
+          "¿Cómo coordinás con colegas en un momento urgente?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "07e2440ff1c72be4",
+      "title": "OFICIAL DE CREDITO RIVAS",
+      "company": "Financiera Fondo de Desarrollo Local",
+      "location": "Rivas, Nicaragua",
+      "department": "Rivas",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Rivas, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Ventas",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 500–800",
+      "summary": "REQUISITOS: Graduado o estudiante de último año de carreras administrativas o afines. Moto propia. Manejo de computadora. Experiencia mínima de 1 año como Oficial o Analista de Crédito. Orientación al cumplimiento de metas y resultados. Disponibilidad para realizar trabajo de cam",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119373/analista-de-credito.aspx",
+      "verified_at": "2026-10-20T21:35:04Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Ventas",
+        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
+        "cv": [
+          "Describí tu experiencia real atendiendo clientes.",
+          "Indicá resultados medibles si contás con registros.",
+          "Señalá el manejo de caja o inventario solo cuando aplique."
+        ],
+        "interview": [
+          "¿Qué hacés ante un cliente molesto?",
+          "¿Cómo explicás un producto que no conocés?",
+          "¿Cómo mantenés una atención respetuosa bajo presión?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "07caff10b682532b",
+      "title": "KAM Gerente de Cuenta Jr Nicaragua",
+      "company": "Tecnoquimicas",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 2000–2199",
+      "summary": "Descripción de la oferta: Profesional graduado en Administración de Empresas, Ingeniería Industrial o carrera afín (indispensable). Con experiencia mínima de tres años en áreas comerciales, en negociación y establecimiento de relaciones comerciales con clientes en rubros de consu",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119383/gerente-de-ventas.aspx",
+      "verified_at": "2026-10-20T21:35:02Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Otros",
+        "focus": "Mostrá logros comprobables y tu disponibilidad real.",
+        "cv": [
+          "Ordená experiencia y formación desde lo más reciente.",
+          "Describí tareas y resultados que realmente puedas demostrar.",
+          "Ajustá las palabras clave al anuncio sin copiar afirmaciones falsas."
+        ],
+        "interview": [
+          "¿Qué te interesa de este puesto y por qué?",
+          "Contame una situación difícil y cómo la resolviste.",
+          "¿Qué necesitás saber de la jornada, el contrato y la sede?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "1ea1ae4f8458446b",
+      "title": "AUXILIAR DE TESORERIA",
+      "company": "OCAL, S.A",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 1–1",
+      "summary": "Auxiliar de Tesorería Licenciatura en Contabilidad Pública, Administración de Empresas o similar. Experiencia como Auxiliar de Tesorería Dominio de Excel Conocimiento de Sistema Microsoft Dynamics BC Planificado, Organizado Habilidad numérica y analítica",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119386/asistente-o-encargado-de-tesoreria.aspx",
+      "verified_at": "2026-10-20T21:35:00Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Administración",
+        "focus": "Orden, confidencialidad y precisión son habilidades clave que podés demostrar con ejemplos.",
+        "cv": [
+          "Mencioná herramientas ofimáticas que realmente utilizás.",
+          "Describí procesos que organizaste o errores que ayudaste a evitar.",
+          "Resaltá manejo responsable de registros y atención."
+        ],
+        "interview": [
+          "¿Cómo priorizarías documentos urgentes?",
+          "¿Qué harías si encontrás una cifra incorrecta?",
+          "¿Cómo protegés información confidencial?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "47a7deaf5514efec",
+      "title": "Display Managua supermercados",
+      "company": "Confidencial",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 309–309",
+      "summary": "¡Estamos buscando Display en Managua para supermercados de la capital! Responsabilidades: Organizar y reponer productos en el área de exhibición. Asegurar que los productos se vean bien y cumplan con las normas. Mantener el área limpia y ordenada. Revisar el stock y avisar si fal",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119391/display.aspx",
+      "verified_at": "2026-10-20T21:34:58Z",
+      "clarity": {
+        "score": 65,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Otros",
+        "focus": "Mostrá logros comprobables y tu disponibilidad real.",
+        "cv": [
+          "Ordená experiencia y formación desde lo más reciente.",
+          "Describí tareas y resultados que realmente puedas demostrar.",
+          "Ajustá las palabras clave al anuncio sin copiar afirmaciones falsas."
+        ],
+        "interview": [
+          "¿Qué te interesa de este puesto y por qué?",
+          "Contame una situación difícil y cómo la resolviste.",
+          "¿Qué necesitás saber de la jornada, el contrato y la sede?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "51045656b1b83e37",
+      "title": "Asistente Administrativo de Tienda Granada",
+      "company": "PINTURAS SUR",
+      "location": "Granada, Nicaragua",
+      "department": "Granada",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Granada, Nicaragua",
         "label": "Zona aproximada, no sede de trabajo",
         "evidence": "anuncio_original"
       },
       "category": "Administración",
       "modality": "No especificada",
       "type": "No especificado",
-      "salary": "USD 380–400",
-      "summary": "Funciones: Atender llamadas telefónicas Gestionar mensajes, correos y correspondencia en general para tramite a las áreas indicadas Registrar llamadas telefónicas : incidentes/solicitudes Realizar otras tareas administrativas de apoyo según se requiera. Requisitos Experiencia pre",
+      "salary": "USD 123–123",
+      "summary": "Tu misión: Apoyar la gestión administrativa de tiendas, garantizando procedimientos operativos, documentación y atención al cliente, cumpliendo con las normativas de la empresa. Principales responsabilidades: Brindar atención personalizada al cliente, garantizando una experiencia",
       "published_at": "2026-10-20",
       "last_modified_at": null,
       "expires": "2026-12-04",
       "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119076/recepcionista.aspx",
-      "verified_at": "2026-10-20T17:00:07Z",
+      "url": "https://www.tecoloco.com.ni/1119385/asistente-administrativo.aspx",
+      "verified_at": "2026-10-20T21:34:56Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -101,695 +885,9 @@
       }
     },
     {
-      "id": "d5765f8df92ec20d",
-      "title": "Conductor Estelí",
-      "company": "PINTURAS SUR",
-      "location": "Estelí, Nicaragua",
-      "department": "Estelí",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Estelí, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Logística",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 1–2",
-      "summary": "Objetivo: Transporta mercadería, realiza traslados entre tiendas, entrega de productos a los clientes según ruta previamente definida y de acuerdo con la capacidad de carga establecida en la normativa de la empresa y según el tipo de vehículo que utilice. Requisitos: Bachiller en",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119080/chofer.aspx",
-      "verified_at": "2026-10-20T17:00:05Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Logística",
-        "focus": "Puntualidad, seguridad y control de existencias importan en operaciones.",
-        "cv": [
-          "Detallá tipos de inventario o despacho que manejaste.",
-          "Indicá licencias vigentes solo si el puesto las exige y las tenés.",
-          "Describí prácticas reales de seguridad y orden."
-        ],
-        "interview": [
-          "¿Qué harías ante una diferencia de inventario?",
-          "¿Cómo priorizás entregas con plazos distintos?",
-          "¿Cómo prevenís accidentes durante la jornada?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "20bd73b8f957c276",
-      "title": "Impulsadora . Zona de Masaya y Granada",
-      "company": "Confidencial",
-      "location": "Masaya, Nicaragua",
-      "department": "Masaya",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Masaya, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Otros",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 1–1",
-      "summary": "Buscamos personal femenino que tenga experiencia en el área de ventas, como impulsadora en super mercados. Habitar en zonas aledañas a Masatepe Experiencia Mínima de 1 año Buena atención al cliente",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119096/impulsador-de-ventas.aspx",
-      "verified_at": "2026-10-20T17:00:03Z",
-      "clarity": {
-        "score": 65,
-        "stars": 4,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Otros",
-        "focus": "Mostrá logros comprobables y tu disponibilidad real.",
-        "cv": [
-          "Ordená experiencia y formación desde lo más reciente.",
-          "Describí tareas y resultados que realmente puedas demostrar.",
-          "Ajustá las palabras clave al anuncio sin copiar afirmaciones falsas."
-        ],
-        "interview": [
-          "¿Qué te interesa de este puesto y por qué?",
-          "Contame una situación difícil y cómo la resolviste.",
-          "¿Qué necesitás saber de la jornada, el contrato y la sede?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "e269933014feaff2",
-      "title": "Analista de Crédito para Rivas",
-      "company": "FAMA S.A.",
-      "location": "Rivas, Nicaragua",
-      "department": "Rivas",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Rivas, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Ventas",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 300–600",
-      "summary": "Funciones: Colocar y recuperar créditos en el segmento micro empresarial dentro de la zona de influencia asignada por el Gerente de Sucursal, garantizado el correcto análisis de crédito basado en elementos cualitativos y cuantitativos del cliente de acuerdo con los tiempos de rep",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119103/analista-de-credito.aspx",
-      "verified_at": "2026-10-20T17:00:01Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Ventas",
-        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
-        "cv": [
-          "Describí tu experiencia real atendiendo clientes.",
-          "Indicá resultados medibles si contás con registros.",
-          "Señalá el manejo de caja o inventario solo cuando aplique."
-        ],
-        "interview": [
-          "¿Qué hacés ante un cliente molesto?",
-          "¿Cómo explicás un producto que no conocés?",
-          "¿Cómo mantenés una atención respetuosa bajo presión?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "a34a8d1cf3a375ff",
-      "title": "EJECUTIVO DE VENTAS Y OPERACIONES (CON EXPERIENCIA EN TELEVENTAS)",
-      "company": "AC Talentos S.A.",
-      "location": "Managua, Nicaragua",
-      "department": "Managua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Ventas",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 330–420",
-      "summary": "Buscamos a un profesional dinámico, mayor de 25 años, que disfrute el trato directo con el cliente en mostrador y tenga un fuerte enfoque comercial. En este rol serás responsable de incrementar las ventas de la sucursal, gestionar la recepción, entrega y seguimiento de paquetes i",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119106/ejecutivo-de-ventas.aspx",
-      "verified_at": "2026-10-20T16:59:59Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Ventas",
-        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
-        "cv": [
-          "Describí tu experiencia real atendiendo clientes.",
-          "Indicá resultados medibles si contás con registros.",
-          "Señalá el manejo de caja o inventario solo cuando aplique."
-        ],
-        "interview": [
-          "¿Qué hacés ante un cliente molesto?",
-          "¿Cómo explicás un producto que no conocés?",
-          "¿Cómo mantenés una atención respetuosa bajo presión?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "b98a05f9d72ccb61",
-      "title": "Agente de Servicio de Atención al Cliente. Siuna",
-      "company": "AC Talentos S.A.",
-      "location": "RAAS, Nicaragua",
-      "department": "RAAS",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "RAAS, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Servicios",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 300–400",
-      "summary": "Asegurar una atención de excelencia a los clientes de la tienda de conveniencia, realizando los procesos de cobro, atención directa, reposición de productos y mantenimiento del área de trabajo, garantizando un servicio ágil, seguro y amigable durante cada turno. Funciones Princip",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119110/ejecutivo-de-servicio-al-cliente.aspx",
-      "verified_at": "2026-10-20T16:59:57Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Ventas",
-        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
-        "cv": [
-          "Describí tu experiencia real atendiendo clientes.",
-          "Indicá resultados medibles si contás con registros.",
-          "Señalá el manejo de caja o inventario solo cuando aplique."
-        ],
-        "interview": [
-          "¿Qué hacés ante un cliente molesto?",
-          "¿Cómo explicás un producto que no conocés?",
-          "¿Cómo mantenés una atención respetuosa bajo presión?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "5af9ca9fd04bbeee",
-      "title": "Asesor de Soporte Comercial Tiendas. Ciudad Sandino",
-      "company": "AC Talentos S.A.",
-      "location": "Managua, Nicaragua",
-      "department": "Managua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Otros",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 280–400",
-      "summary": "Es un rol mixto donde el 70% de tus funciones serán en bodega, encargándote del control físico, orden y auditoría de inventarios (equipos y componentes). El 30% restante será soporte comercial, enfocado en la facturación en sistemas, gestión de televentas con bases asignadas y el",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119113/auxiliar-de-bodega.aspx",
-      "verified_at": "2026-10-20T16:59:55Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Ventas",
-        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
-        "cv": [
-          "Describí tu experiencia real atendiendo clientes.",
-          "Indicá resultados medibles si contás con registros.",
-          "Señalá el manejo de caja o inventario solo cuando aplique."
-        ],
-        "interview": [
-          "¿Qué hacés ante un cliente molesto?",
-          "¿Cómo explicás un producto que no conocés?",
-          "¿Cómo mantenés una atención respetuosa bajo presión?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "0cf62be42b577a80",
-      "title": "Asistente de mercadeo y publicidad",
-      "company": "Confidencial",
-      "location": "Cualquier Departamento, Nicaragua",
-      "department": "Nicaragua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Cualquier Departamento, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Ventas",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 1–1",
-      "summary": "Ayuda en la planificación, organización y coordinación de las actividades relacionadas con el mercadeo de los productos o servicios de la compañía Realiza investigaciones de mercado Elabora propuestas para campañas de promoción y publicidad basadas en su investigación de mercado ",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119122/asistente-de-mercadeo.aspx",
-      "verified_at": "2026-10-20T16:59:53Z",
-      "clarity": {
-        "score": 50,
-        "stars": 3,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Ventas",
-        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
-        "cv": [
-          "Describí tu experiencia real atendiendo clientes.",
-          "Indicá resultados medibles si contás con registros.",
-          "Señalá el manejo de caja o inventario solo cuando aplique."
-        ],
-        "interview": [
-          "¿Qué hacés ante un cliente molesto?",
-          "¿Cómo explicás un producto que no conocés?",
-          "¿Cómo mantenés una atención respetuosa bajo presión?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "db52274ba6262c14",
-      "title": "Agente de Servicio al Cliente Nindiri",
-      "company": "AMPM Nicaragua",
+      "id": "85c8ffe1cb9979d8",
+      "title": "DESPACHADOR DE PEDIDOS",
+      "company": "OCAL, S.A",
       "location": "Managua, Nicaragua",
       "department": "Managua",
       "address": null,
@@ -803,503 +901,13 @@
       "modality": "No especificada",
       "type": "No especificado",
       "salary": "USD 1–1",
-      "summary": "Si eres del Sector de Masaya, Esquipulas, Nindirí este anuncio es para ti. Atención al cliente. Arqueo de caja. Realizar rotación de productos. Realizar limpieza de la tienda. Garantizar que los precios de los productos estén actualizados. Cuidar el funcionamiento de las cajas y ",
+      "summary": "Descripción del puesto Ocal está en búsqueda de un Despachador de Pedidos responsable de asegurar la correcta preparación, revisión y entrega de los pedidos, garantizando exactitud, rapidez y cumplimiento de los procedimientos internos. Funciones: • Preparar y despachar pedidos c",
       "published_at": "2026-10-20",
       "last_modified_at": null,
       "expires": "2026-12-04",
       "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119129/ejecutivo-de-servicio-al-cliente.aspx",
-      "verified_at": "2026-10-20T16:59:51Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Ventas",
-        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
-        "cv": [
-          "Describí tu experiencia real atendiendo clientes.",
-          "Indicá resultados medibles si contás con registros.",
-          "Señalá el manejo de caja o inventario solo cuando aplique."
-        ],
-        "interview": [
-          "¿Qué hacés ante un cliente molesto?",
-          "¿Cómo explicás un producto que no conocés?",
-          "¿Cómo mantenés una atención respetuosa bajo presión?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "cfc96107a3efabeb",
-      "title": "AUXILIAR DE ENTREGA MANAGUA",
-      "company": "Confidencial",
-      "location": "Managua, Nicaragua",
-      "department": "Managua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Otros",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 300–310",
-      "summary": "¿Qué harás? Realizar las actividades de carga y entrega correcta de los pedidos junto con el conductor de vehículo para facilitar el cumplimiento de los estándares de tiempo y calidad en el servicio de entrega a los clientes. ¿Quién eres? Bachillerato General. Experiencia Previa:",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-11-27",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119135/asistente-de-ventas.aspx",
-      "verified_at": "2026-10-20T16:59:49Z",
-      "clarity": {
-        "score": 65,
-        "stars": 4,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Otros",
-        "focus": "Mostrá logros comprobables y tu disponibilidad real.",
-        "cv": [
-          "Ordená experiencia y formación desde lo más reciente.",
-          "Describí tareas y resultados que realmente puedas demostrar.",
-          "Ajustá las palabras clave al anuncio sin copiar afirmaciones falsas."
-        ],
-        "interview": [
-          "¿Qué te interesa de este puesto y por qué?",
-          "Contame una situación difícil y cómo la resolviste.",
-          "¿Qué necesitás saber de la jornada, el contrato y la sede?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "c2cd2671b8d53462",
-      "title": "Coordinador de Confiabilidad Mantenimiento Industrial",
-      "company": "AJENICARAGUA, S.A",
-      "location": "Managua, Nicaragua",
-      "department": "Managua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Industria",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 500–540",
-      "summary": "Garantizar la máxima disponibilidad, confiabilidad y eficiencia de los activos productivos de la planta mediante el diseño, implementación y seguimiento de estrategias de mantenimiento preventivo, predictivo y de mejora continua, minimizando fallas, reduciendo costos de mantenimi",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119137/supervisor-de-mantenimiento.aspx",
-      "verified_at": "2026-10-20T16:59:47Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Industria",
-        "focus": "Presentá experiencia práctica y respeto a protocolos de seguridad.",
-        "cv": [
-          "Enumerá máquinas o herramientas que conocés de verdad.",
-          "Mostrá tareas técnicas y resultados demostrables.",
-          "Incluí certificaciones reales de seguridad o mantenimiento si tenés."
-        ],
-        "interview": [
-          "¿Qué comprobás antes de usar una máquina?",
-          "¿Qué hacés si detectás una falla peligrosa?",
-          "Contá un trabajo técnico que resolviste con precisión."
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "005c5ff890a71831",
-      "title": "Facturador y Liquidador - Rivas",
-      "company": "AJENICARAGUA, S.A",
-      "location": "Rivas, Nicaragua",
-      "department": "Rivas",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Rivas, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Otros",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 300–450",
-      "summary": "Realizar el proceso de Liquidación y Facturación en el sistema Magic, así como la detección de errores o faltantes en los pedidos, con la finalidad de tener una orientación hacia el Servicio y Satisfacción del Cliente; emisión de órdenes de carga, guías de remisión y facturas. *R",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119140/facturador.aspx",
-      "verified_at": "2026-10-20T16:59:45Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Administración",
-        "focus": "Orden, confidencialidad y precisión son habilidades clave que podés demostrar con ejemplos.",
-        "cv": [
-          "Mencioná herramientas ofimáticas que realmente utilizás.",
-          "Describí procesos que organizaste o errores que ayudaste a evitar.",
-          "Resaltá manejo responsable de registros y atención."
-        ],
-        "interview": [
-          "¿Cómo priorizarías documentos urgentes?",
-          "¿Qué harías si encontrás una cifra incorrecta?",
-          "¿Cómo protegés información confidencial?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "a28ef0775c8145c8",
-      "title": "SUPERVISOR ALMACEN MEI",
-      "company": "SuKarne",
-      "location": "Managua, Nicaragua",
-      "department": "Managua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Logística",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 650–650",
-      "summary": "OBJETIVO DEL PUESTO Asegurar que las entradas, salidas y movimientos de materiales en el Almacén MEI se ejecuten conforme a los procedimientos y controles establecidos, garantizando la integridad de los productos y los niveles óptimos de inventario. REQUISITOS DEL PERFIL Escolari",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119112/supervisor-de-bodega.aspx",
-      "verified_at": "2026-10-20T16:59:43Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Logística",
-        "focus": "Puntualidad, seguridad y control de existencias importan en operaciones.",
-        "cv": [
-          "Detallá tipos de inventario o despacho que manejaste.",
-          "Indicá licencias vigentes solo si el puesto las exige y las tenés.",
-          "Describí prácticas reales de seguridad y orden."
-        ],
-        "interview": [
-          "¿Qué harías ante una diferencia de inventario?",
-          "¿Cómo priorizás entregas con plazos distintos?",
-          "¿Cómo prevenís accidentes durante la jornada?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "d00adad94ccd93b8",
-      "title": "Supervisora de Impulsadora Multimarca Managua",
-      "company": "MERCONICA",
-      "location": "Managua, Nicaragua",
-      "department": "Managua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Otros",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 400–410",
-      "summary": "Requisitos: Residente de Managua Deseable: Licenciatura de la carrera de Administración de Empresas, Ingeniera Industrial, Mercadeo, Marketing o carreras a fines. Experiencia comprobable mínimo de 1 a 3 años en manejo y supervisión de personal. Orientado en ventas y servicio al c",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119170/jefe-de-impulsadoras-display.aspx",
-      "verified_at": "2026-10-20T16:59:41Z",
+      "url": "https://www.tecoloco.com.ni/1119396/despachador.aspx",
+      "verified_at": "2026-10-20T21:34:54Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1375,9 +983,9 @@
       }
     },
     {
-      "id": "3e5e139ee41a1555",
-      "title": "EJECUTIVO DE NEGOCIOS",
-      "company": "AIRPAK NICARAGUA",
+      "id": "3da50f480cdf6515",
+      "title": "OPERADOR DE MONTACARGA (PISO)",
+      "company": "OCAL, S.A",
       "location": "Managua, Nicaragua",
       "department": "Managua",
       "address": null,
@@ -1390,14 +998,14 @@
       "category": "Otros",
       "modality": "No especificada",
       "type": "No especificado",
-      "salary": "USD 600–800",
-      "summary": "Rol del puesto: Ejecutar y liderar la estrategias de negocios de alto impacto orientada a la expansión sostenible, fortaleciendo la red de sub agencias y aliados estratégicos. Responsable de identificar oportunidades de mercado, desarrollar relaciones de valor e incrementar la pa",
+      "salary": "USD 1–1",
+      "summary": "Descripción del puesto Ocal está en búsqueda de un Operador de Montacarga de Piso responsable de realizar la movilización, carga y descarga de productos dentro del almacén, asegurando operaciones seguras, eficientes y alineadas a los procedimientos internos. Responsabilidades • O",
       "published_at": "2026-10-20",
       "last_modified_at": null,
       "expires": "2026-12-04",
       "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119174/ejecutivo-de-ventas.aspx",
-      "verified_at": "2026-10-20T16:59:39Z",
+      "url": "https://www.tecoloco.com.ni/1119397/montacarguista.aspx",
+      "verified_at": "2026-10-20T21:34:52Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1473,107 +1081,9 @@
       }
     },
     {
-      "id": "cec3eb14ddfc45dc",
-      "title": "SUPERVISOR DE SUCURSAL RIVAS",
-      "company": "Confidencial",
-      "location": "Rivas, Nicaragua",
-      "department": "Rivas",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Rivas, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Otros",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 300–400",
-      "summary": "Objetivo: Garantizar la calidad y cumplimiento de procesos operativos, venta y servicio al cliente de la tienda con base a las normativas, estándares y objetivos determinados por la empresa para alcanzar la rentabilidad de la tienda. Educación: Estudiante de últimos años o profes",
-      "published_at": "2026-10-20",
-      "last_modified_at": null,
-      "expires": "2026-12-04",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119171/supervisor-de-ventas.aspx",
-      "verified_at": "2026-10-20T16:59:37Z",
-      "clarity": {
-        "score": 65,
-        "stars": 4,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Otros",
-        "focus": "Mostrá logros comprobables y tu disponibilidad real.",
-        "cv": [
-          "Ordená experiencia y formación desde lo más reciente.",
-          "Describí tareas y resultados que realmente puedas demostrar.",
-          "Ajustá las palabras clave al anuncio sin copiar afirmaciones falsas."
-        ],
-        "interview": [
-          "¿Qué te interesa de este puesto y por qué?",
-          "Contame una situación difícil y cómo la resolviste.",
-          "¿Qué necesitás saber de la jornada, el contrato y la sede?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "119a9f210e9383a2",
-      "title": "Supervisor de Mantenimiento Industrial",
-      "company": "Lácteos la Montaña",
+      "id": "1730b1798029d316",
+      "title": "RECIBIDOR DE RUTAS (Licencia Cat 3 y 4A)",
+      "company": "OCAL, S.A",
       "location": "Managua, Nicaragua",
       "department": "Managua",
       "address": null,
@@ -1583,17 +1093,17 @@
         "label": "Zona aproximada, no sede de trabajo",
         "evidence": "anuncio_original"
       },
-      "category": "Industria",
+      "category": "Otros",
       "modality": "No especificada",
       "type": "No especificado",
-      "salary": "USD 700–750",
-      "summary": "Empresa se encuentra en la búsqueda de un Supervisor de Mantenimiento Industrial, responsable de coordinar y supervisar el mantenimiento preventivo y correctivo de maquinaria y equipos industriales, garantizando la continuidad operativa de la planta. - Ingeniero Industrial, Mecán",
+      "salary": "USD 1–1",
+      "summary": "Descripción del puesto Ocal está en búsqueda de un Recibidor de Rutas responsable de recibir, verificar y registrar la mercancía proveniente de las diferentes rutas de distribución, asegurando exactitud, orden y cumplimiento de los procedimientos establecidos. Responsabilidades •",
       "published_at": "2026-10-20",
       "last_modified_at": null,
       "expires": "2026-12-04",
       "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119222/supervisor-de-mantenimiento.aspx",
-      "verified_at": "2026-10-20T16:59:35Z",
+      "url": "https://www.tecoloco.com.ni/1119398/despachador.aspx",
+      "verified_at": "2026-10-20T21:34:50Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1644,17 +1154,17 @@
       "career_guide": {
         "version": 1,
         "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Industria",
-        "focus": "Presentá experiencia práctica y respeto a protocolos de seguridad.",
+        "occupation_area": "Otros",
+        "focus": "Mostrá logros comprobables y tu disponibilidad real.",
         "cv": [
-          "Enumerá máquinas o herramientas que conocés de verdad.",
-          "Mostrá tareas técnicas y resultados demostrables.",
-          "Incluí certificaciones reales de seguridad o mantenimiento si tenés."
+          "Ordená experiencia y formación desde lo más reciente.",
+          "Describí tareas y resultados que realmente puedas demostrar.",
+          "Ajustá las palabras clave al anuncio sin copiar afirmaciones falsas."
         ],
         "interview": [
-          "¿Qué comprobás antes de usar una máquina?",
-          "¿Qué hacés si detectás una falla peligrosa?",
-          "Contá un trabajo técnico que resolviste con precisión."
+          "¿Qué te interesa de este puesto y por qué?",
+          "Contame una situación difícil y cómo la resolviste.",
+          "¿Qué necesitás saber de la jornada, el contrato y la sede?"
         ],
         "ask_employer": [
           "¿La modalidad es presencial, híbrida o remota?",
@@ -1669,8 +1179,8 @@
       }
     },
     {
-      "id": "0f89ccc53bd6ac13",
-      "title": "COCINERO (A)",
+      "id": "7dce7bbf0e47b818",
+      "title": "OPERADOR DE INGRESOS ALMACEN DE MATERIALES",
       "company": "Nuevo Carnic",
       "location": "Managua, Nicaragua",
       "department": "Managua",
@@ -1681,17 +1191,17 @@
         "label": "Zona aproximada, no sede de trabajo",
         "evidence": "anuncio_original"
       },
-      "category": "Servicios",
+      "category": "Logística",
       "modality": "No especificada",
       "type": "No especificado",
-      "salary": "USD 1–1",
-      "summary": "Elaborar alimentos con calidad, sabor y presentación adecuados, coordinando al personal de cocina y cumpliendo los estándares de inocuidad e higiene, asegurando una alimentación adecuada a los trabajadores y visitantes de la empresa. Preparar los alimentos conforme a las medidas ",
+      "salary": "USD 1–2",
+      "summary": "FUNCIONES: Planificar y calendarizar las entregas al almacen conforme a las órdenes de compra para garantizar la recepción ordenada y oportuna de los materiales. Verificar la cantidad, calidad y condición de los articulos recibidos para asegurar su conformidad con las especificac",
       "published_at": "2026-10-20",
       "last_modified_at": null,
       "expires": "2026-12-04",
       "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1119238/cocinero.aspx",
-      "verified_at": "2026-10-20T16:59:33Z",
+      "url": "https://www.tecoloco.com.ni/1119400/ingeniero-industrial.aspx",
+      "verified_at": "2026-10-20T21:34:48Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1742,17 +1252,507 @@
       "career_guide": {
         "version": 1,
         "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Servicios",
-        "focus": "Un trato respetuoso y la confiabilidad cuentan mucho en servicios.",
+        "occupation_area": "Logística",
+        "focus": "Puntualidad, seguridad y control de existencias importan en operaciones.",
         "cv": [
-          "Describí tareas y turnos en los que tenés experiencia.",
-          "Incluí procesos de higiene o servicio que conozcas.",
-          "Mencioná referencias laborales solo con autorización."
+          "Detallá tipos de inventario o despacho que manejaste.",
+          "Indicá licencias vigentes solo si el puesto las exige y las tenés.",
+          "Describí prácticas reales de seguridad y orden."
         ],
         "interview": [
-          "¿Cómo atenderías un reclamo?",
-          "¿Qué harías si falta un insumo indispensable?",
-          "¿Cómo organizás tus tareas en horas de mayor demanda?"
+          "¿Qué harías ante una diferencia de inventario?",
+          "¿Cómo priorizás entregas con plazos distintos?",
+          "¿Cómo prevenís accidentes durante la jornada?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "0fb347b3f3ccc32d",
+      "title": "Auxiliar de proyectos (Ayudante de albañil)",
+      "company": "Nuevo Carnic",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 1–1",
+      "summary": "-Manejar y cuidar los diferentes equipos y herramientas de trabajo. -Realizar las diferentes tareas que conseguirán el alcance plateado de proyectos. -Contribuir al mejor funcionamiento de las tareas a realizar, para lograr los alcances planteados. -Realizar trabajos de obras civ",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119401/albaniil.aspx",
+      "verified_at": "2026-10-20T21:34:46Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Industria",
+        "focus": "Presentá experiencia práctica y respeto a protocolos de seguridad.",
+        "cv": [
+          "Enumerá máquinas o herramientas que conocés de verdad.",
+          "Mostrá tareas técnicas y resultados demostrables.",
+          "Incluí certificaciones reales de seguridad o mantenimiento si tenés."
+        ],
+        "interview": [
+          "¿Qué comprobás antes de usar una máquina?",
+          "¿Qué hacés si detectás una falla peligrosa?",
+          "Contá un trabajo técnico que resolviste con precisión."
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "290167cf86b23aa0",
+      "title": "AGENTE DE TELECOBRANZA. CALL CENTER ESPAÑOL",
+      "company": "CONFIANZA SOLUTION SA",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Ventas",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 298–330",
+      "summary": "Agentes de Telecobranza – Call Center en Español ¿Tienes facilidad de comunicación, eres una persona dinámica y te gustan los retos? ¡Esta oportunidad es para ti! Estamos en búsqueda de Agentes de Telecobranza con habilidades de comunicación y persuasión, responsabilidad y compro",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119364/asistente-de-credito-y-cobro.aspx",
+      "verified_at": "2026-10-20T21:34:44Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Ventas",
+        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
+        "cv": [
+          "Describí tu experiencia real atendiendo clientes.",
+          "Indicá resultados medibles si contás con registros.",
+          "Señalá el manejo de caja o inventario solo cuando aplique."
+        ],
+        "interview": [
+          "¿Qué hacés ante un cliente molesto?",
+          "¿Cómo explicás un producto que no conocés?",
+          "¿Cómo mantenés una atención respetuosa bajo presión?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "6ee36f490518050c",
+      "title": "PROMOTOR DE EVENTOS",
+      "company": "OCAL, S.A",
+      "location": "Otro, Nicaragua",
+      "department": "Nicaragua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Otro, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Ventas",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 1–1",
+      "summary": "Promotor de Eventos Perfil del puesto: Estudiante Universitario Experiencia como Promotor o animador Excelente comunicación verbal Proactividad Con Iniciativa Capacidad de Trabajo en equipo. Licencia de Conducir Categoría 3",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-12-04",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119414/promotora-de-ventas.aspx",
+      "verified_at": "2026-10-20T21:34:42Z",
+      "clarity": {
+        "score": 70,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Ventas",
+        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
+        "cv": [
+          "Describí tu experiencia real atendiendo clientes.",
+          "Indicá resultados medibles si contás con registros.",
+          "Señalá el manejo de caja o inventario solo cuando aplique."
+        ],
+        "interview": [
+          "¿Qué hacés ante un cliente molesto?",
+          "¿Cómo explicás un producto que no conocés?",
+          "¿Cómo mantenés una atención respetuosa bajo presión?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "9cc1572f4c22a09f",
+      "title": "Instructor de idiomas",
+      "company": "Confidencial",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Otros",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 200–400",
+      "summary": "Empresa líder en la enseñanza de idiomas, con 55 años de experiencia, busca Instructores de idiomas apasionados por la enseñanza. ¡No necesitas experiencia previa como instructor! Nosotros te brindamos la formación necesaria para que puedas desarrollar tu potencial y convertirte ",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-11-26",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1117154/maestro.aspx",
+      "verified_at": "2026-10-20T21:34:40Z",
+      "clarity": {
+        "score": 65,
+        "stars": 4,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Otros",
+        "focus": "Mostrá logros comprobables y tu disponibilidad real.",
+        "cv": [
+          "Ordená experiencia y formación desde lo más reciente.",
+          "Describí tareas y resultados que realmente puedas demostrar.",
+          "Ajustá las palabras clave al anuncio sin copiar afirmaciones falsas."
+        ],
+        "interview": [
+          "¿Qué te interesa de este puesto y por qué?",
+          "Contame una situación difícil y cómo la resolviste.",
+          "¿Qué necesitás saber de la jornada, el contrato y la sede?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "4e7858d50ad45ef6",
+      "title": "Vendedor",
+      "company": "NEW CENTURY BUILDERS",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Ventas",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 300–600",
+      "summary": "Objetivo del puesto Buscamos un vendedor dinámico, proactivo y orientado a resultados, con habilidades de negociación y atención al cliente, para comercializar repuestos de vehículos y artículos importados de Estados Unidos, brindando asesoría personalizada y garantizando una exc",
+      "published_at": "2026-10-20",
+      "last_modified_at": null,
+      "expires": "2026-11-20",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1119392/vendedor.aspx",
+      "verified_at": "2026-10-20T21:34:38Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Ventas",
+        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
+        "cv": [
+          "Describí tu experiencia real atendiendo clientes.",
+          "Indicá resultados medibles si contás con registros.",
+          "Señalá el manejo de caja o inventario solo cuando aplique."
+        ],
+        "interview": [
+          "¿Qué hacés ante un cliente molesto?",
+          "¿Cómo explicás un producto que no conocés?",
+          "¿Cómo mantenés una atención respetuosa bajo presión?"
         ],
         "ask_employer": [
           "¿La modalidad es presencial, híbrida o remota?",
@@ -1787,7 +1787,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7ea16abb-68bb-4b67-aabe-52156d6db514",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -1880,7 +1880,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/83dc7a2b-12f7-4416-a570-c52eeeeded1b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -1973,7 +1973,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/afc6ca37-48c2-45b8-a18e-d9fc4d64eb3d",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2066,7 +2066,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/d969e238-e4c9-4e49-a81c-5f57d6f27248",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -2161,7 +2161,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000155589247-shopper-store-management-supervisor",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "requirements": "Experiencia en puestos similares liderando equipos de trabajo. Conocimientos de herramientas paquete Office (Excel, Word, Powerpoint) y Google. Orientación a la acción y capacidad para resolver problemas. Fuertes habilidades interpersonales, autonomía, capacidad para construir relaciones positivas y generar confianza. Compromiso, proactividad y buenas formas de comunicación.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -3026,7 +3026,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/8d8321a8-4ecb-4d63-a399-aacff45813dd",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3119,7 +3119,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/87c749b0-502c-481d-a38a-8a57a8d063e7",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3212,7 +3212,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c291550a-05f1-4ceb-bd4d-24da37a71132",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3305,7 +3305,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/1c7d21e4-f85b-4f3c-99bb-050c6ac5cc9b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3495,7 +3495,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000151478839-sales-executive-senior",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "requirements": "Experiencia previa de 4-5 años en ventas B2B de ciclo corto o medio en compañías de Consumo Masivo, Fintech, Software (SaaS) o rubro gastronómico/proveedores. Historial comprobable superando metas de adquisición de cuentas nuevas. Capacidad para trabajar de manera autónoma, capacidad de organización, planificación y orientación a resultados. Sólidas habilidades de comunicación y negociación. Proactividad, flexibilidad y orientación al trabajo en equipo. Dominio de G-Suit y MS Office. Vehículo propio y disponibilidad para viajar dentro de la ciudad o región según sea necesario.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -3599,7 +3599,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/41d7c17e-eb36-41d6-9f41-f6beea9e8ac9",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3692,7 +3692,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/23ad2c58-c94e-4bc4-ab93-869e9f9903d6",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3785,7 +3785,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/1b602c36-02df-4b25-9856-17988d4eeddf",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -3880,7 +3880,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000149952749-account-executive",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "requirements": "Experiencia comercial en generación y gestión de carteras de clientes y cuentas. Perfil analítico, que pueda tener un buen entendimiento del negocio, con experiencia en seguimiento de indicadores y orientación a la toma de decisiones basada en datos. Capacidad de planificación, organización, autonomía y orientación a resultados. Excelentes habilidades interpersonales, de comunicación y de trabajo en equipo. Deseable conocimientos en Marketing y manejo de indicadores de Marketing Digital (CPO, CPA, CPC, ratios de conversión). Dominio de G-suit y MS Office. Disponibilidad para viajar dentro de la ciudad o región según sea necesario.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -3984,7 +3984,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/782400ae-7f15-4d80-ae43-87950496849b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4077,7 +4077,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c96d9285-1cda-438d-abe6-5830584c2308",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4170,7 +4170,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c51a0ff7-f51e-4f68-8ce3-417d2eb86172",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4263,7 +4263,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/9f627d98-3699-4f48-9436-b60cfb0ee763",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4358,7 +4358,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/fa226a0c-f4ce-4511-93ee-b16a05a3cb0b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -4456,7 +4456,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/43d6a87c-9cc6-4c89-ba61-d7fea5fff3d2",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -4552,7 +4552,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/3c708fbc-3ef1-437f-b45b-7277ed2e3adf",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4645,7 +4645,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/d7a0137b-aec8-42c0-a154-9ef708da4b37",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4738,7 +4738,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7e5118a2-c9f3-4ce8-bc11-b602a6036ebc",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4831,7 +4831,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/403e36ce-9e36-4c25-9d74-dbee490e725c",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -4924,7 +4924,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/0e08b756-0500-4242-a223-063f4eee9e5f",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5017,7 +5017,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/ca517c92-4aaa-4316-9149-32229f24325b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5110,7 +5110,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/5948735a-7865-4eaa-8587-a1f3edd8954c",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5203,7 +5203,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/53079629-f561-4def-9e30-7049545e92be",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5296,7 +5296,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/12c49dfc-d97e-4a14-845c-b1661208b913",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5391,7 +5391,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/19b2e2d5-031f-4b30-8d1d-06f0f5f3338b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -5487,7 +5487,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/8a1cb2be-ee50-4b83-b417-046044227690",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5580,7 +5580,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/216d4f1e-abf4-4cc7-968f-9b2404291adb",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5673,7 +5673,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/fcc1e431-e5de-4490-afc5-0e312bc48d99",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5766,7 +5766,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/dc75b9eb-d486-47a8-97c0-2c00c8c85b19",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5859,7 +5859,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/bfc3aa35-b444-4f09-8f00-7926fc8dbc8b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -5952,7 +5952,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/eb444092-3d75-403c-bb48-bbc1a21d22a8",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -6047,7 +6047,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/bf14e7e8-88d2-4433-bbb5-ab174888de55",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 90,
         "stars": 5,
@@ -6143,7 +6143,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7021adb6-ce7f-44f0-a677-e646d17e1308",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -6236,7 +6236,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/5cab9b8f-c9d0-4e97-9f29-1ce42565b896",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -6329,7 +6329,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/a722f86e-ceef-470d-a941-de00394fddc3",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 100,
         "stars": 5,
@@ -6422,7 +6422,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4aa08bb3-14e5-4bba-9165-64857ba4a2f8",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6515,7 +6515,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/476d787d-2b7a-455e-9d5a-562279e11e0a",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6608,7 +6608,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/9ab4a6e4-5703-4273-8405-7a889723a745",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6701,7 +6701,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b48f4523-d265-483b-89cf-47c8c1018285",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6794,7 +6794,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/ee64f62b-1850-4d5c-b6bc-54c4b8b62968",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6887,7 +6887,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/5dcf33db-e57c-414c-a4f6-ff34a152f29e",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -6980,7 +6980,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/7fa425ac-2882-478b-8807-cdadde3eb21b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7073,7 +7073,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a85da7c7-d21a-4ef0-9f42-045e1dce9dd9",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7166,7 +7166,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/c6108dc5-d841-4020-9a7c-7be0976c995e",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7259,7 +7259,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/9db7cfe9-e1af-401f-b4c7-9187b36c7ff4",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7352,7 +7352,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4c13712f-487d-4ad0-b94c-4b6da21d3582",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7445,7 +7445,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/52262460-4228-4d92-9e7a-d29441207605",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7538,7 +7538,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b547a965-7274-42d9-b881-f7d8618dce1e",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7631,7 +7631,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/d901dfb6-3d68-4833-9e7d-4cddacc76dd3",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7724,7 +7724,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a6fef6e5-752a-4528-87cf-b86350d5706b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7817,7 +7817,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e21e780d-0573-4c8d-87d2-fe01cf4f2b83",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -7910,7 +7910,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e5b36e06-05d6-48ca-8852-f3b419eaef39",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8003,7 +8003,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/ebe5afa2-e8da-4c47-b4c4-48a82a0bc92d",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8096,7 +8096,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4d98b3f2-dccf-41c4-acea-4198bcf5ce6a",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8189,7 +8189,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a56e4b32-59ee-4672-83e4-344251cb1b12",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8282,7 +8282,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a6100701-ee24-46f9-be8a-3806bb027026",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8375,7 +8375,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/cdd43de1-d6f1-437d-8d68-171bf5d6ac76",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8468,7 +8468,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/94d0e117-0f91-493e-9e22-71f19f0cba85",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8561,7 +8561,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/c6cd2838-4d84-4116-9b33-92976b159c3b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8654,7 +8654,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e93b54d0-6183-4bac-a344-5e0c1365b9d8",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8747,7 +8747,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/eeffd76c-5058-42a4-90d6-68fb7757fd3b",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8840,7 +8840,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/0f974076-54b1-4c83-b47d-f6e2457fe562",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -8933,7 +8933,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/23ced3f9-4427-4daf-8689-a0b245054896",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9026,7 +9026,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a3da35cd-c297-43d1-93e0-4b47ea3090bc",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9119,7 +9119,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b9f7082d-8ba6-42ba-8070-3dc7bcf8f30d",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -9214,7 +9214,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/65d38f9c-aeca-4078-b3ea-304b9b71b0d1",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -9311,7 +9311,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/8b2bfad6-d953-43f2-acdd-dd164f3f66fb",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -9408,7 +9408,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/278fc1d7-94ec-464e-bdc7-5a459ca02e3a",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -9503,7 +9503,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5185164007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9596,7 +9596,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258965007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9689,7 +9689,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258993007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9782,7 +9782,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150246007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9875,7 +9875,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259033007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9968,7 +9968,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5118072007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10061,7 +10061,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150759007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10154,7 +10154,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220356007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10247,7 +10247,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259010007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10340,7 +10340,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5225713007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10433,7 +10433,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5225709007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10526,7 +10526,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259052007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10619,7 +10619,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5218864007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10712,7 +10712,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5218868007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10805,7 +10805,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5260821007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10898,7 +10898,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5262550007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10991,7 +10991,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5185175007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11084,7 +11084,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5216475007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11177,7 +11177,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5228923007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11270,7 +11270,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5119495007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11363,7 +11363,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150186007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11456,7 +11456,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5119294007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11549,7 +11549,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259021007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11642,7 +11642,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259468007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11735,7 +11735,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5253193007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11828,7 +11828,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5262679007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -11921,7 +11921,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150324007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12014,7 +12014,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220499007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12107,7 +12107,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258976007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12200,7 +12200,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5221803007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12293,7 +12293,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220515007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12386,7 +12386,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220352007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12479,7 +12479,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220391007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12572,7 +12572,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220527007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12665,7 +12665,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258986007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12758,7 +12758,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259002007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12851,7 +12851,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259029007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -12944,7 +12944,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259446007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13037,7 +13037,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5005205007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13130,7 +13130,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220392007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13223,7 +13223,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5093540007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13316,7 +13316,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5177557007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13409,7 +13409,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5253252007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13502,7 +13502,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5170368007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13595,7 +13595,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5189944007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13688,7 +13688,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220390007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13781,7 +13781,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5224763007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13874,7 +13874,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220360007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -13967,7 +13967,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5136563007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14060,7 +14060,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220617007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14153,7 +14153,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259031007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14246,7 +14246,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259057007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14339,7 +14339,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220676007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14432,7 +14432,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5219595007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14525,7 +14525,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5257406007",
-      "verified_at": "2026-10-20T16:59:30Z",
+      "verified_at": "2026-10-20T21:34:35Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -14608,7 +14608,7 @@
       "focus": "Oficios y empleo local",
       "color": "#fbbf7a",
       "last_success": null,
-      "last_attempt": "2026-10-20T16:59:30Z",
+      "last_attempt": "2026-10-20T21:34:35Z",
       "status": "no_disponible",
       "jobs_count": 9
     },
@@ -14620,8 +14620,8 @@
       "collection": "crawler",
       "focus": "Empresas y profesionales",
       "color": "#b8b5ff",
-      "last_success": "2026-10-20T16:59:30Z",
-      "last_attempt": "2026-10-20T16:59:30Z",
+      "last_success": "2026-10-20T21:34:35Z",
+      "last_attempt": "2026-10-20T21:34:35Z",
       "status": "actualizada",
       "jobs_count": 18
     },
@@ -14778,7 +14778,7 @@
       "focus": "ONG y cooperación humanitaria",
       "color": "#f3a7a7",
       "last_success": null,
-      "last_attempt": "2026-10-20T16:59:30Z",
+      "last_attempt": "2026-10-20T21:34:35Z",
       "status": "requiere_configuracion",
       "jobs_count": 0
     },
@@ -14814,8 +14814,8 @@
         "Granada, Nicaragua",
         "Masaya, Nicaragua"
       ],
-      "last_success": "2026-10-20T16:59:30Z",
-      "last_attempt": "2026-10-20T16:59:30Z",
+      "last_success": "2026-10-20T21:34:35Z",
+      "last_attempt": "2026-10-20T21:34:35Z",
       "status": "actualizada",
       "jobs_count": 30
     },
@@ -14836,8 +14836,8 @@
       "locations": [
         "Managua, Nicaragua"
       ],
-      "last_success": "2026-10-20T16:59:30Z",
-      "last_attempt": "2026-10-20T16:59:30Z",
+      "last_success": "2026-10-20T21:34:35Z",
+      "last_attempt": "2026-10-20T21:34:35Z",
       "status": "actualizada",
       "jobs_count": 3
     },
@@ -14859,8 +14859,8 @@
       "locations": [
         "Remote - Nicaragua"
       ],
-      "last_success": "2026-10-20T16:59:30Z",
-      "last_attempt": "2026-10-20T16:59:30Z",
+      "last_success": "2026-10-20T21:34:35Z",
+      "last_attempt": "2026-10-20T21:34:35Z",
       "status": "actualizada",
       "jobs_count": 55
     },
@@ -14881,8 +14881,8 @@
       "locations": [
         "Nicaragua - Managua"
       ],
-      "last_success": "2026-10-20T16:59:30Z",
-      "last_attempt": "2026-10-20T16:59:30Z",
+      "last_success": "2026-10-20T21:34:35Z",
+      "last_attempt": "2026-10-20T21:34:35Z",
       "status": "actualizada",
       "jobs_count": 37
     },
@@ -14903,31 +14903,30 @@
       "locations": [
         "Managua, Nicaragua"
       ],
-      "last_success": "2026-10-20T16:59:30Z",
-      "last_attempt": "2026-10-20T16:59:30Z",
+      "last_success": "2026-10-20T21:34:35Z",
+      "last_attempt": "2026-10-20T21:34:35Z",
       "status": "actualizada",
       "jobs_count": 3
     }
   ],
   "facets": {
     "department": {
-      "Managua": 70,
+      "Managua": 74,
       "Nicaragua": 56,
-      "Masaya": 9,
+      "Granada": 8,
       "León": 8,
-      "Granada": 7,
-      "Rivas": 3,
-      "Estelí": 1,
-      "RAAS": 1
+      "Masaya": 8,
+      "Rivas": 1
     },
     "category": {
-      "Otros": 108,
-      "Ventas": 18,
+      "Otros": 109,
+      "Ventas": 19,
       "Tecnología": 15,
-      "Servicios": 7,
-      "Industria": 3,
+      "Servicios": 5,
       "Administración": 2,
-      "Logística": 2
+      "Industria": 2,
+      "Salud": 2,
+      "Logística": 1
     },
     "modality": {
       "Remoto": 119,
