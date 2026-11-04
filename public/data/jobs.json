@@ -1,11 +1,11 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-04T06:10:41Z",
+  "generated_at": "2026-11-04T14:26:21Z",
   "jobs": [
     {
-      "id": "f9d547cd8d31a94f",
-      "title": "AUXILIAR CONTABLE",
-      "company": "Confidencial",
+      "id": "410b5e9121379be1",
+      "title": "AUXILIARES DE BODEGA WALMART CARRETERA MASAYA",
+      "company": "WAL-MART",
       "location": "Managua, Nicaragua",
       "department": "Managua",
       "address": null,
@@ -15,115 +15,17 @@
         "label": "Zona aproximada, no sede de trabajo",
         "evidence": "anuncio_original"
       },
-      "category": "Administración",
+      "category": "Logística",
       "modality": "No especificada",
       "type": "No especificado",
-      "salary": "USD 300–310",
-      "summary": "Funciones: Registro de operaciones contables. Control de cuentas por pagar y por cobrar Conciliaciones bancarias Archivo y control documental Apoyo en la elaboración de reportes financieros Manejo de sistemas contables Apoyo en procesos fiscales Apoyo en auditorías Elaboración de",
-      "published_at": "2026-11-03",
+      "salary": "USD 350–350",
+      "summary": "Disponibilidad de horarios. Disponibilidad de hacer esfuerzo físico, levantar peso, estar de pie, mover mercaderías. Enfoque a cumplir políticas y lineamientos establecidos por la empresa. Proactivo y enfocados a la productividad (brindamos la alimentación y recorrido turnos noct",
+      "published_at": "2026-11-04",
       "last_modified_at": null,
-      "expires": "2026-11-27",
+      "expires": "2026-12-19",
       "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1123323/auxiliar-de-cuentas-por-pagar-cobrar.aspx",
-      "verified_at": "2026-11-04T06:11:17Z",
-      "clarity": {
-        "score": 65,
-        "stars": 4,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Administración",
-        "focus": "Orden, confidencialidad y precisión son habilidades clave que podés demostrar con ejemplos.",
-        "cv": [
-          "Mencioná herramientas ofimáticas que realmente utilizás.",
-          "Describí procesos que organizaste o errores que ayudaste a evitar.",
-          "Resaltá manejo responsable de registros y atención."
-        ],
-        "interview": [
-          "¿Cómo priorizarías documentos urgentes?",
-          "¿Qué harías si encontrás una cifra incorrecta?",
-          "¿Cómo protegés información confidencial?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "a7f92343cf9189a3",
-      "title": "AUXILIAR DE FARMACIA",
-      "company": "Los Paisas",
-      "location": "Managua, Nicaragua",
-      "department": "Managua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Salud",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 300–350",
-      "summary": "¡Tu Talento nos Fortalece! En Paisa estamos en busca de un nuevo talento para integrarse a nuestro equipo de Operaciones como: Auxiliar de Farmacia Si Tenes experiencia y esta oportunidad es para vos Requisitos: -Bachiller en ciencias y letras o técnico Lic en química y farmacia ",
-      "published_at": "2026-11-03",
-      "last_modified_at": null,
-      "expires": "2026-12-18",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1123274/dependiente-de-farmacia.aspx",
-      "verified_at": "2026-11-04T06:11:15Z",
+      "url": "https://www.tecoloco.com.ni/1123442/auxiliar-de-bodega.aspx",
+      "verified_at": "2026-11-04T14:26:31Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -174,17 +76,17 @@
       "career_guide": {
         "version": 1,
         "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Salud",
-        "focus": "Priorizá formación acreditada, ética y seguridad de las personas.",
+        "occupation_area": "Logística",
+        "focus": "Puntualidad, seguridad y control de existencias importan en operaciones.",
         "cv": [
-          "Escribí el nombre real de tus acreditaciones vigentes.",
-          "Indicá prácticas o servicios realizados sin revelar datos de pacientes.",
-          "Mencioná protocolos que conocés, no competencias sin respaldo."
+          "Detallá tipos de inventario o despacho que manejaste.",
+          "Indicá licencias vigentes solo si el puesto las exige y las tenés.",
+          "Describí prácticas reales de seguridad y orden."
         ],
         "interview": [
-          "¿Cómo protegés la confidencialidad de un paciente?",
-          "¿Qué hacés cuando una situación supera tus competencias?",
-          "¿Cómo coordinás con colegas en un momento urgente?"
+          "¿Qué harías ante una diferencia de inventario?",
+          "¿Cómo priorizás entregas con plazos distintos?",
+          "¿Cómo prevenís accidentes durante la jornada?"
         ],
         "ask_employer": [
           "¿La modalidad es presencial, híbrida o remota?",
@@ -199,9 +101,9 @@
       }
     },
     {
-      "id": "ec075a8fba737eb2",
-      "title": "Vendedor de repuestos y Equipos de Climatización",
-      "company": "Confidencial",
+      "id": "4f4d053827c3a528",
+      "title": "GERENTE PLANTA ALIMENTOS",
+      "company": "SuKarne",
       "location": "Managua, Nicaragua",
       "department": "Managua",
       "address": null,
@@ -211,115 +113,17 @@
         "label": "Zona aproximada, no sede de trabajo",
         "evidence": "anuncio_original"
       },
-      "category": "Ventas",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 1–1",
-      "summary": "Sobre el puesto Somos distribuidores de aires acondicionados y repuestos para instaladores, ingenieros de proyecto y empresas. Buscamos una persona ordenada, rápida y con interés en lo técnico para atender clientes en sala de ventas, WhatsApp y vía telefónica. Responsabilidades p",
-      "published_at": "2026-11-03",
-      "last_modified_at": null,
-      "expires": "2026-12-17",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1123212/vendedor.aspx",
-      "verified_at": "2026-11-04T06:11:13Z",
-      "clarity": {
-        "score": 65,
-        "stars": 4,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Ventas",
-        "focus": "Destacá atención al público, comunicación y resultados de servicio.",
-        "cv": [
-          "Describí tu experiencia real atendiendo clientes.",
-          "Indicá resultados medibles si contás con registros.",
-          "Señalá el manejo de caja o inventario solo cuando aplique."
-        ],
-        "interview": [
-          "¿Qué hacés ante un cliente molesto?",
-          "¿Cómo explicás un producto que no conocés?",
-          "¿Cómo mantenés una atención respetuosa bajo presión?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
-      "id": "2dba120e659afeb9",
-      "title": "Facilitador(a) de Bienestar MUSÚN",
-      "company": "Vision Mundial",
-      "location": "Matagalpa, Colonia Montecarlo, Blv. Morazán, esquina opuesta a Golds Gym, Tegucigalpa, Honduras. , Tegucigalpa",
-      "department": "Matagalpa",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Matagalpa, Colonia Montecarlo, Blv. Morazán, esquina opuesta a Golds Gym, Tegucigalpa, Honduras. , Tegucigalpa, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
       "category": "Otros",
       "modality": "No especificada",
       "type": "No especificado",
       "salary": "USD 1–1",
-      "summary": "Objetivo del puesto Implementar programas y actividades orientadas al bienestar integral de la niñez y adolescencia, en coordinación con equipos técnicos y actores comunitarios, garantizando el cumplimiento de estándares de patrocinio, protección y desarrollo comunitario. Princip",
-      "published_at": "2026-11-03",
+      "summary": "Objetivo del Puesto Garantizar el cumplimiento del programa de producción de alimento en su Unidad de Negocio, cubriendo los estándares de calidad, volúmenes y tiempos de servicio alineados a las necesidades de los clientes, así como asegurar la correcta planeación, ejecución y f",
+      "published_at": "2026-11-04",
       "last_modified_at": null,
-      "expires": "2026-11-05",
+      "expires": "2026-12-19",
       "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1123347/trabajador-social.aspx",
-      "verified_at": "2026-11-04T06:11:11Z",
+      "url": "https://www.tecoloco.com.ni/1123443/gerente-de-produccion-planta.aspx",
+      "verified_at": "2026-11-04T14:26:29Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -395,6 +199,300 @@
       }
     },
     {
+      "id": "9612e2ae5f75c4a9",
+      "title": "CHOFER DE CAMION MANAGUA",
+      "company": "SINSA",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Logística",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 100–200",
+      "summary": "Objetivo del puesto: Conducir el camión asignado cumpliendo con las normas de seguridad vial y protocolos internos para garantizar entregas puntuales y seguras, así como la integridad de los productos y activos de la empresa. Requisitos: Educación mínima: Primaria o Secundaria co",
+      "published_at": "2026-11-04",
+      "last_modified_at": null,
+      "expires": "2026-12-19",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1123445/chofer.aspx",
+      "verified_at": "2026-11-04T14:26:27Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Logística",
+        "focus": "Puntualidad, seguridad y control de existencias importan en operaciones.",
+        "cv": [
+          "Detallá tipos de inventario o despacho que manejaste.",
+          "Indicá licencias vigentes solo si el puesto las exige y las tenés.",
+          "Describí prácticas reales de seguridad y orden."
+        ],
+        "interview": [
+          "¿Qué harías ante una diferencia de inventario?",
+          "¿Cómo priorizás entregas con plazos distintos?",
+          "¿Cómo prevenís accidentes durante la jornada?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "588c6bb94ca9ba44",
+      "title": "Auxiliar de bodega Tipitapa",
+      "company": "SINSA",
+      "location": "Managua, Nicaragua",
+      "department": "Managua",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Managua, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Logística",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 1–1",
+      "summary": "Funciones -Ejecución de traslado de mercadería. -Descargar y ordenar la mercadería que ingrese en la tienda -Realizar entrega de mercadería a clientes -Realizar limpieza de áreas generales de la tienda -Levantamiento y control de inventarios -Montaje de actividades comerciales Re",
+      "published_at": "2026-11-04",
+      "last_modified_at": null,
+      "expires": "2026-12-19",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1123446/auxiliar-de-bodega.aspx",
+      "verified_at": "2026-11-04T14:26:25Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Logística",
+        "focus": "Puntualidad, seguridad y control de existencias importan en operaciones.",
+        "cv": [
+          "Detallá tipos de inventario o despacho que manejaste.",
+          "Indicá licencias vigentes solo si el puesto las exige y las tenés.",
+          "Describí prácticas reales de seguridad y orden."
+        ],
+        "interview": [
+          "¿Qué harías ante una diferencia de inventario?",
+          "¿Cómo priorizás entregas con plazos distintos?",
+          "¿Cómo prevenís accidentes durante la jornada?"
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
+      "id": "f6c14fc2d2c7d04b",
+      "title": "Planificador de Mantenimiento Industrial",
+      "company": "Lácteos la Montaña",
+      "location": "Chontales, Nicaragua",
+      "department": "Chontales",
+      "address": null,
+      "maps": {
+        "precision": "region",
+        "query": "Chontales, Nicaragua",
+        "label": "Zona aproximada, no sede de trabajo",
+        "evidence": "anuncio_original"
+      },
+      "category": "Industria",
+      "modality": "No especificada",
+      "type": "No especificado",
+      "salary": "USD 550–600",
+      "summary": "Planificar, programar y controlar las actividades de mantenimiento preventivo, correctivo y predictivo de los equipos e instalaciones de la planta, garantizando la disponibilidad operativa de los equipos, el cumplimiento de las normativas de calidad e inocuidad (FSSC 22000) y la ",
+      "published_at": "2026-11-04",
+      "last_modified_at": null,
+      "expires": "2026-12-19",
+      "source": "tecoloco",
+      "url": "https://www.tecoloco.com.ni/1123447/supervisor-de-mantenimiento.aspx",
+      "verified_at": "2026-11-04T14:26:23Z",
+      "clarity": {
+        "score": 85,
+        "stars": 5,
+        "basis": "claridad_del_anuncio",
+        "present": [
+          {
+            "key": "puesto",
+            "label": "Puesto definido",
+            "points": 25
+          },
+          {
+            "key": "empresa",
+            "label": "Nombre del empleador",
+            "points": 20
+          },
+          {
+            "key": "zona",
+            "label": "Departamento identificado",
+            "points": 15
+          },
+          {
+            "key": "salario",
+            "label": "Remuneración publicada",
+            "points": 15
+          },
+          {
+            "key": "fecha",
+            "label": "Fecha de publicación",
+            "points": 10
+          }
+        ],
+        "missing": [
+          {
+            "key": "modalidad",
+            "label": "Modalidad publicada",
+            "points": 10
+          },
+          {
+            "key": "contrato",
+            "label": "Tipo de contrato",
+            "points": 5
+          }
+        ],
+        "employer_verified": false,
+        "employer_evidence": null,
+        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
+      },
+      "career_guide": {
+        "version": 1,
+        "basis": "recomendaciones_generales_por_oficio",
+        "occupation_area": "Industria",
+        "focus": "Presentá experiencia práctica y respeto a protocolos de seguridad.",
+        "cv": [
+          "Enumerá máquinas o herramientas que conocés de verdad.",
+          "Mostrá tareas técnicas y resultados demostrables.",
+          "Incluí certificaciones reales de seguridad o mantenimiento si tenés."
+        ],
+        "interview": [
+          "¿Qué comprobás antes de usar una máquina?",
+          "¿Qué hacés si detectás una falla peligrosa?",
+          "Contá un trabajo técnico que resolviste con precisión."
+        ],
+        "ask_employer": [
+          "¿La modalidad es presencial, híbrida o remota?",
+          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
+          "¿Cuáles son las habilidades indispensables para postular?"
+        ],
+        "published_fields": [
+          "Salario publicado"
+        ],
+        "documented_terms": [],
+        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
+      }
+    },
+    {
       "id": "9a3d088a83f7d759",
       "title": "Agente de Call Center",
       "company": "VERSATEC",
@@ -417,7 +515,7 @@
       "expires": "2026-12-14",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123351/ejecutivo-de-call-center.aspx",
-      "verified_at": "2026-11-04T06:11:09Z",
+      "verified_at": "2026-11-04T14:26:57Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -515,7 +613,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123356/asistente-de-recursos-humanos.aspx",
-      "verified_at": "2026-11-04T06:11:07Z",
+      "verified_at": "2026-11-04T14:26:55Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -613,7 +711,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123162/ingeniero-industrial.aspx",
-      "verified_at": "2026-11-04T06:11:05Z",
+      "verified_at": "2026-11-04T14:26:53Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -711,7 +809,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123368/oficial-de-seguridad.aspx",
-      "verified_at": "2026-11-04T06:11:03Z",
+      "verified_at": "2026-11-04T14:26:51Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -809,7 +907,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123371/jefe-o-encargado-tecnico-proyecto.aspx",
-      "verified_at": "2026-11-04T06:11:01Z",
+      "verified_at": "2026-11-04T14:26:49Z",
       "clarity": {
         "score": 70,
         "stars": 4,
@@ -907,7 +1005,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123163/ingeniero-industrial.aspx",
-      "verified_at": "2026-11-04T06:10:59Z",
+      "verified_at": "2026-11-04T14:26:47Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1005,7 +1103,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123382/cajero-bancario.aspx",
-      "verified_at": "2026-11-04T06:10:57Z",
+      "verified_at": "2026-11-04T14:26:45Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1081,104 +1179,6 @@
       }
     },
     {
-      "id": "d8ee4a0c1b617526",
-      "title": "Conductor de reparto temporal categorías 3 y 4",
-      "company": "LIBRERIA Y DISTRIBUIDORA JARDIN",
-      "location": "Managua, Nicaragua",
-      "department": "Managua",
-      "address": null,
-      "maps": {
-        "precision": "region",
-        "query": "Managua, Nicaragua",
-        "label": "Zona aproximada, no sede de trabajo",
-        "evidence": "anuncio_original"
-      },
-      "category": "Logística",
-      "modality": "No especificada",
-      "type": "No especificado",
-      "salary": "USD 12500–12500",
-      "summary": "Se requieren conductores para realizar entregas respecto a facturas a distintos clientes a nivel de Managua y foráneo. Indispensable poseer como mínimo licencia categoría 4a. Experiencia como conductor de 1 año mínimo. Nivel académico mínimo aprobado: 3er año secundaria Disponibi",
-      "published_at": "2026-11-03",
-      "last_modified_at": null,
-      "expires": "2026-12-10",
-      "source": "tecoloco",
-      "url": "https://www.tecoloco.com.ni/1123389/chofer.aspx",
-      "verified_at": "2026-11-04T06:10:55Z",
-      "clarity": {
-        "score": 85,
-        "stars": 5,
-        "basis": "claridad_del_anuncio",
-        "present": [
-          {
-            "key": "puesto",
-            "label": "Puesto definido",
-            "points": 25
-          },
-          {
-            "key": "empresa",
-            "label": "Nombre del empleador",
-            "points": 20
-          },
-          {
-            "key": "zona",
-            "label": "Departamento identificado",
-            "points": 15
-          },
-          {
-            "key": "salario",
-            "label": "Remuneración publicada",
-            "points": 15
-          },
-          {
-            "key": "fecha",
-            "label": "Fecha de publicación",
-            "points": 10
-          }
-        ],
-        "missing": [
-          {
-            "key": "modalidad",
-            "label": "Modalidad publicada",
-            "points": 10
-          },
-          {
-            "key": "contrato",
-            "label": "Tipo de contrato",
-            "points": 5
-          }
-        ],
-        "employer_verified": false,
-        "employer_evidence": null,
-        "warning": "No representa opiniones, seguridad ni reputación de la empresa"
-      },
-      "career_guide": {
-        "version": 1,
-        "basis": "recomendaciones_generales_por_oficio",
-        "occupation_area": "Logística",
-        "focus": "Puntualidad, seguridad y control de existencias importan en operaciones.",
-        "cv": [
-          "Detallá tipos de inventario o despacho que manejaste.",
-          "Indicá licencias vigentes solo si el puesto las exige y las tenés.",
-          "Describí prácticas reales de seguridad y orden."
-        ],
-        "interview": [
-          "¿Qué harías ante una diferencia de inventario?",
-          "¿Cómo priorizás entregas con plazos distintos?",
-          "¿Cómo prevenís accidentes durante la jornada?"
-        ],
-        "ask_employer": [
-          "¿La modalidad es presencial, híbrida o remota?",
-          "¿Cuál es la dirección exacta donde se realizaría el trabajo?",
-          "¿Cuáles son las habilidades indispensables para postular?"
-        ],
-        "published_fields": [
-          "Salario publicado"
-        ],
-        "documented_terms": [],
-        "notice": "Consejos orientativos. No son requisitos oficiales; solo el anuncio original puede confirmarlos."
-      }
-    },
-    {
       "id": "4caf2dbed999f1a9",
       "title": "FISCAL DE SEGURIDAD Y CONTROL PATRIMONIAL",
       "company": "Confidencial",
@@ -1201,7 +1201,7 @@
       "expires": "2026-11-29",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123393/oficial-de-seguridad.aspx",
-      "verified_at": "2026-11-04T06:10:53Z",
+      "verified_at": "2026-11-04T14:26:43Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -1299,7 +1299,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123394/supervisor-de-bodega.aspx",
-      "verified_at": "2026-11-04T06:10:51Z",
+      "verified_at": "2026-11-04T14:26:41Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1397,7 +1397,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123395/mecanico-automotriz.aspx",
-      "verified_at": "2026-11-04T06:10:49Z",
+      "verified_at": "2026-11-04T14:26:39Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1495,7 +1495,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123403/coordinador-de-operaciones.aspx",
-      "verified_at": "2026-11-04T06:10:47Z",
+      "verified_at": "2026-11-04T14:26:37Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -1593,7 +1593,7 @@
       "expires": "2026-12-18",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123408/jefe-o-encargado-de-despacho-y-o-recepcion.aspx",
-      "verified_at": "2026-11-04T06:10:45Z",
+      "verified_at": "2026-11-04T14:26:35Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -1691,7 +1691,7 @@
       "expires": "2026-12-12",
       "source": "tecoloco",
       "url": "https://www.tecoloco.com.ni/1123411/auxiliar-de-bodega.aspx",
-      "verified_at": "2026-11-04T06:10:43Z",
+      "verified_at": "2026-11-04T14:26:33Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -1789,7 +1789,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000159456468-logistics-manager",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "requirements": "Profesionales graduados/as de carreras como Administración de Empresas, Economía, Ingeniería Industrial o áreas afines (excluyente). Experiencia laboral comprobable de al menos tres años en roles de gestión o coordinación operativa (excluyente). Dominio avanzado de Excel y conocimiento sólido de SQL para el análisis y toma de decisiones basadas en datos (excluyente). Experiencia previa liderando y desarrollando equipos de trabajo. Se valorará positivamente el conocimiento en herramientas de Office, IA y tableros de analisis de datos.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -1897,7 +1897,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/886f2cd0-2782-483b-9308-9f885f60165c",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 70,
         "stars": 4,
@@ -1990,7 +1990,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/e4619e61-dd97-4f86-9e9f-909694d85f90",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -2086,7 +2086,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000156809569-operations-team-leader",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "requirements": "Se valorarán conocimientos de Ingeniería, Administración de empresas, Economía o similares. Experiencia laboral en roles de performance, operaciones o project management trabajando con KPIs operativos y análisis, idealmente en entornos de alto volumen de datos. Manejo de Office avanzado, con especial conocimiento de Excel/Google sheet. Idealmente conocimientos en herramientas de análisis como Looker/Tableau. Flexibilidad para adaptarse a desafíos y contextos dinámicos. Mentalidad de mejora continua y desarrollo ágil de proyectos y procesos. Excelentes habilidades interpersonales y de trabajo en equipo. Enfoque a resultados. Vehículo",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -2194,7 +2194,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/eccfc14f-cf15-4dc9-8e93-7fec06a0c7b8",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -2288,7 +2288,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/7ea16abb-68bb-4b67-aabe-52156d6db514",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -2382,7 +2382,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/83dc7a2b-12f7-4416-a570-c52eeeeded1b",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -2476,7 +2476,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/afc6ca37-48c2-45b8-a18e-d9fc4d64eb3d",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -2570,7 +2570,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/d969e238-e4c9-4e49-a81c-5f57d6f27248",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -2666,7 +2666,7 @@
       "expires": null,
       "source": "ats-smartrecruiters-deliveryhero",
       "url": "https://jobs.smartrecruiters.com/DeliveryHero/744000155589247-shopper-store-management-supervisor",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "requirements": "Experiencia en puestos similares liderando equipos de trabajo. Conocimientos de herramientas paquete Office (Excel, Word, Powerpoint) y Google. Orientación a la acción y capacidad para resolver problemas. Fuertes habilidades interpersonales, autonomía, capacidad para construir relaciones positivas y generar confianza. Compromiso, proactividad y buenas formas de comunicación.",
       "benefits": "En PedidosYa, el impacto no se mide solo en resultados sino en cómo los alcanzamos. Buscamos al mejor talento: personas que vibren con nuestros valores, la forma en la que pensamos, decidimos y colaboramos todos los días. Lo que lográs es clave, pero el “cómo” lo hacés es lo que nos define. Jugando en equipo, hacemos que el negocio y nuestro ecosistema sigan creciendo, mientras le simplificamos el día a día a millones de personas. 👉 Conocé nuestros valores aquí . La diversida",
       "clarity": {
@@ -2774,7 +2774,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/8d8321a8-4ecb-4d63-a399-aacff45813dd",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -2868,7 +2868,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/87c749b0-502c-481d-a38a-8a57a8d063e7",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -2962,7 +2962,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/c291550a-05f1-4ceb-bd4d-24da37a71132",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -3056,7 +3056,7 @@
       "expires": null,
       "source": "ats-ashby-hirehangar",
       "url": "https://jobs.ashbyhq.com/hirehangar/1c7d21e4-f85b-4f3c-99bb-050c6ac5cc9b",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 85,
         "stars": 5,
@@ -3150,7 +3150,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4aa08bb3-14e5-4bba-9165-64857ba4a2f8",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3243,7 +3243,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/11ea4859-0d28-4adb-9fe1-3a88534c52e7",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3336,7 +3336,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/1fe279c8-83d1-4205-b5f0-4921a9eda2b5",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3429,7 +3429,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/690a00a0-c726-4336-8f44-f21d2bd63c46",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3522,7 +3522,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/f5468431-8e45-4ebb-9aa6-61b4a57c85de",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3615,7 +3615,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/74bade4c-f42d-4662-8620-fb4eaf76e38f",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3708,7 +3708,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/77defa00-4d89-44c9-9a56-1e86581e9ea4",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3801,7 +3801,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a706f672-7c30-4551-83b7-d07ef5058e82",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3894,7 +3894,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/bd8f4ae1-4b17-48ff-8342-1c68c2ac0d64",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -3987,7 +3987,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/5dcf33db-e57c-414c-a4f6-ff34a152f29e",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4080,7 +4080,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/7fa425ac-2882-478b-8807-cdadde3eb21b",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4173,7 +4173,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a85da7c7-d21a-4ef0-9f42-045e1dce9dd9",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4266,7 +4266,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/c6108dc5-d841-4020-9a7c-7be0976c995e",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4359,7 +4359,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/9db7cfe9-e1af-401f-b4c7-9187b36c7ff4",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4452,7 +4452,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/4c13712f-487d-4ad0-b94c-4b6da21d3582",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4545,7 +4545,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/52262460-4228-4d92-9e7a-d29441207605",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4638,7 +4638,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b547a965-7274-42d9-b881-f7d8618dce1e",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4731,7 +4731,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/d901dfb6-3d68-4833-9e7d-4cddacc76dd3",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4824,7 +4824,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/94d0e117-0f91-493e-9e22-71f19f0cba85",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -4917,7 +4917,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/c6cd2838-4d84-4116-9b33-92976b159c3b",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5010,7 +5010,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/e93b54d0-6183-4bac-a344-5e0c1365b9d8",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5103,7 +5103,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/eeffd76c-5058-42a4-90d6-68fb7757fd3b",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5196,7 +5196,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/0f974076-54b1-4c83-b47d-f6e2457fe562",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5289,7 +5289,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/23ced3f9-4427-4daf-8689-a0b245054896",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5382,7 +5382,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/a3da35cd-c297-43d1-93e0-4b47ea3090bc",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5475,7 +5475,7 @@
       "expires": null,
       "source": "ats-lever-bluelightconsulting",
       "url": "https://jobs.lever.co/bluelightconsulting/b9f7082d-8ba6-42ba-8070-3dc7bcf8f30d",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 75,
         "stars": 4,
@@ -5570,7 +5570,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/65d38f9c-aeca-4078-b3ea-304b9b71b0d1",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -5667,7 +5667,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/8b2bfad6-d953-43f2-acdd-dd164f3f66fb",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -5764,7 +5764,7 @@
       "expires": null,
       "source": "ats-lever-freebalance.com",
       "url": "https://jobs.lever.co/freebalance.com/278fc1d7-94ec-464e-bdc7-5a459ca02e3a",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 65,
         "stars": 4,
@@ -5859,7 +5859,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5185164007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -5952,7 +5952,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150246007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6045,7 +6045,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5118072007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6138,7 +6138,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150759007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6231,7 +6231,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220356007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6324,7 +6324,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259010007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6417,7 +6417,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5225713007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6510,7 +6510,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5225709007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6603,7 +6603,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5260821007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6696,7 +6696,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5262550007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6789,7 +6789,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5185175007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6882,7 +6882,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5216475007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -6975,7 +6975,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5228923007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7068,7 +7068,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5119495007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7161,7 +7161,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150186007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7254,7 +7254,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5119294007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7347,7 +7347,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259021007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7440,7 +7440,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259468007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7533,7 +7533,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5262679007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7626,7 +7626,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5150324007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7719,7 +7719,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258976007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7812,7 +7812,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5221803007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7905,7 +7905,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220527007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -7998,7 +7998,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5258986007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8091,7 +8091,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259002007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8184,7 +8184,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259029007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8277,7 +8277,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220262007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8370,7 +8370,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259446007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8463,7 +8463,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5005205007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8556,7 +8556,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5224376007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8649,7 +8649,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5224383007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8742,7 +8742,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220392007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8835,7 +8835,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5093540007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -8928,7 +8928,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5177557007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9021,7 +9021,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5170368007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9114,7 +9114,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5189944007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9207,7 +9207,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5224763007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9300,7 +9300,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220360007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9393,7 +9393,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5136563007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9486,7 +9486,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220617007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9579,7 +9579,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5259057007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9672,7 +9672,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5220676007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9765,7 +9765,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5219595007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9858,7 +9858,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5279133007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -9951,7 +9951,7 @@
       "expires": null,
       "source": "ats-greenhouse-powerdigitalmarketing",
       "url": "https://job-boards.greenhouse.io/powerdigitalmarketing/jobs/5257406007",
-      "verified_at": "2026-11-04T06:10:41Z",
+      "verified_at": "2026-11-04T14:26:21Z",
       "clarity": {
         "score": 55,
         "stars": 3,
@@ -10034,7 +10034,7 @@
       "focus": "Oficios y empleo local",
       "color": "#fbbf7a",
       "last_success": null,
-      "last_attempt": "2026-11-04T06:10:41Z",
+      "last_attempt": "2026-11-04T14:26:21Z",
       "status": "no_disponible",
       "jobs_count": 0
     },
@@ -10046,8 +10046,8 @@
       "collection": "crawler",
       "focus": "Empresas y profesionales",
       "color": "#b8b5ff",
-      "last_success": "2026-11-04T06:10:41Z",
-      "last_attempt": "2026-11-04T06:10:41Z",
+      "last_success": "2026-11-04T14:26:21Z",
+      "last_attempt": "2026-11-04T14:26:21Z",
       "status": "actualizada",
       "jobs_count": 18
     },
@@ -10204,7 +10204,7 @@
       "focus": "ONG y cooperación humanitaria",
       "color": "#f3a7a7",
       "last_success": null,
-      "last_attempt": "2026-11-04T06:10:41Z",
+      "last_attempt": "2026-11-04T14:26:21Z",
       "status": "requiere_configuracion",
       "jobs_count": 0
     },
@@ -10240,8 +10240,8 @@
         "Granada, Nicaragua",
         "Masaya, Nicaragua"
       ],
-      "last_success": "2026-11-04T06:10:41Z",
-      "last_attempt": "2026-11-04T06:10:41Z",
+      "last_success": "2026-11-04T14:26:21Z",
+      "last_attempt": "2026-11-04T14:26:21Z",
       "status": "actualizada",
       "jobs_count": 26
     },
@@ -10262,8 +10262,8 @@
       "locations": [
         "Managua, Nicaragua"
       ],
-      "last_success": "2026-11-04T06:10:41Z",
-      "last_attempt": "2026-11-04T06:10:41Z",
+      "last_success": "2026-11-04T14:26:21Z",
+      "last_attempt": "2026-11-04T14:26:21Z",
       "status": "actualizada",
       "jobs_count": 3
     },
@@ -10285,8 +10285,8 @@
       "locations": [
         "Remote - Nicaragua"
       ],
-      "last_success": "2026-11-04T06:10:41Z",
-      "last_attempt": "2026-11-04T06:10:41Z",
+      "last_success": "2026-11-04T14:26:21Z",
+      "last_attempt": "2026-11-04T14:26:21Z",
       "status": "actualizada",
       "jobs_count": 45
     },
@@ -10307,8 +10307,8 @@
       "locations": [
         "Nicaragua - Managua"
       ],
-      "last_success": "2026-11-04T06:10:41Z",
-      "last_attempt": "2026-11-04T06:10:41Z",
+      "last_success": "2026-11-04T14:26:21Z",
+      "last_attempt": "2026-11-04T14:26:21Z",
       "status": "actualizada",
       "jobs_count": 11
     },
@@ -10329,8 +10329,8 @@
       "locations": [
         "Managua, Nicaragua"
       ],
-      "last_success": "2026-11-04T06:10:41Z",
-      "last_attempt": "2026-11-04T06:10:41Z",
+      "last_success": "2026-11-04T14:26:21Z",
+      "last_attempt": "2026-11-04T14:26:21Z",
       "status": "actualizada",
       "jobs_count": 3
     }
@@ -10342,20 +10342,18 @@
       "Masaya": 7,
       "Granada": 6,
       "León": 6,
+      "Chontales": 2,
       "Rivas": 2,
-      "Chinandega": 1,
-      "Chontales": 1,
-      "Matagalpa": 1
+      "Chinandega": 1
     },
     "category": {
       "Otros": 59,
       "Tecnología": 19,
-      "Ventas": 14,
+      "Ventas": 13,
+      "Logística": 6,
       "Servicios": 5,
-      "Logística": 4,
-      "Administración": 3,
-      "Industria": 1,
-      "Salud": 1
+      "Administración": 2,
+      "Industria": 2
     },
     "modality": {
       "Remoto": 82,
